@@ -1,0 +1,67 @@
+###################Pipeline commands#################
+##generate blastp output
+for i in *.fas; do name=`echo $i | awk -F "." '{print $1}'`; blastp -query $i -db /home/h/Documents/SilicoProject/SilicoProjectRerun/longest_orfs.fasta -outfmt 6 -evalue 1e-20 -num_threads 6 > ${name}_blastp.out; done
+
+##withdrawing ids from blastp out
+for i in *.out; do name=`echo $i | awk -F "." '{print $1}'`; awk '{print  $2}' ${name}.out | sort | uniq > ${name}_withdrawnId.idout; done
+
+##move command to move all _blastp.out files outside into a new directory so that all other steps can be run without interference with other .fas extensions used later
+mv *.fas <folder you want to use>
+
+##withdrawing fasta before alignment (withdraws all FASTA for each sequence)
+for i in *.idout; do name=`echo $i | awk -F ".idout" '{print $1}'`;  grep -f ${name}.idout -A1 "/home/h/Documents/SilicoProject/SilicoProjectRerun/longest_orfs.fasta" > ${name}_fasta.fasta; done
+
+##for loop for concatenating everything in your folder ending with .fasta
+for i in *.fasta;    
+do       
+	name=`echo $i | awk -F ".fasta" '{print $1}'`;          
+	base_name=`echo "${name%%_*}"`;         
+	cat /home/h/Documents/SilicoProject/SilicoProjectRerun/orthologs/${base_name}.fas ${name}_fasta.fasta > ${base_name}_concat.cfas;       
+done
+
+##coverage analysis command to run on everything inside SamplesDataFqC
+align_and_estimate_abundance.pl --transcripts CP1transcriptome --seqType fq --samples_file SamplesDataFqC --est_method RSEM --prep_reference --aln_method bowtie2 --trinity_mode --output_dir rsemCP1
+
+##above command uses RSEM prep reference and trinity tools align_and_estimate_abundance, installing pre-requisites is essential. 
+##rather than using --samples_file you can instead use --left (reads 1) --right (reads 2) for paired end.
+
+
+##Issues with commands may be due to file extensions used, modify file extensions to fit your pipeline, if necessary, move files to other folders.
+
+##for loop to run muscle on all files in directory containing the characters "_concat.fas (currently doesnt work, issues with options)
+for i in *.fas; do   name=`echo $i | awk -F ".fas" '{print $1}'`;    muscle -align ${name}.fas -output ${name}_concatMuscle.afa
+done
+
+##for loop for mafft search, change command (look online at manual, MAFFT-linsi, MAFFT and fftns (FFT-NS-2)
+for i in *.cfas; do      name=`echo $i | awk -F ".cfas" '{print $1}'`;    linsi ${name}.cfas > ${name}_Aligned.afa; done
+
+##fuse all .idout files into 1 file to be read in for R processing
+cat *.idout > AllIds.allids
+
+######################(specific for _g folder)#######################
+##changing ids to allow for removal of duplicates (cuts off everything after :)
+for i in *.idout; do name=`echo $i | awk -F ".idout" '{print $1}'`; sed -i 's/:.*//' $name.idout | sort | uniq; done
+
+##sorts for only unique DN id's this will sort all IDs in the file to be unique.
+for i in *.idout; do name=`echo $i | awk -F ".idout" '{print $1}'`; sort -u -o $name.idout $name.idout ; done
+
+
+
+##################irrelevant individual commands R###########################
+##for loop to withdraw the useful columns of RSEM data in a provided RSEM results file from a provided withdrawn ID file
+##can be replaced with R program.
+grep -f <id file absolute path> <RSEM.genes.results> | awk '{print $1,$2,$3,$4,$5,$6,$7}' > "saved file name"
+
+##individual MUSCLE run -align not -super5 
+muscle -align DIMT1L_concat.fas -output DIMT1L_concatMuscle.afa
+
+##concatonating manually due to selectivity and ease of sorting, look lower in file for for loop equivilent
+cat /home/h/Documents/SilicoProject/SilicoProjectRerun/orthologs/${base_name}.fas ${name}.fasta > ${name}_concat.fasta
+
+##removing excess information to streamline treename
+sed -i 's/:.*//' ADK2concat.fasta
+sed -i 's/@/_/' ADK2concat.fasta
+sed -i 's/@/-/' ADK2concat.fasta
+
+
+
