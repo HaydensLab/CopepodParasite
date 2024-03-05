@@ -1,6 +1,6 @@
 ###################Pipeline commands#################
 ##generate blastp output
-for i in *.fas; do name=`echo $i | awk -F "." '{print $1}'`; blastp -query $i -db /home/h/Documents/SilicoProject/SilicoProjectRerun/longest_orfs.fasta -outfmt 6 -evalue 1e-20 -num_threads 6 > ${name}_blastp.out; done
+for i in *.fas; do name=`echo $i | awk -F "." '{print $1}'`; blastp -query $i -db /home/h/Documents/SilicoProject/SilicoProjectRerun/longest_orfs.fasta -outfmt 6 -evalue 1e-40 -num_threads 6 > ${name}_blastp.out; done
 
 ##withdrawing ids from blastp out
 for i in *.out; do name=`echo $i | awk -F "." '{print $1}'`; awk '{print  $2}' ${name}.out | sort | uniq > ${name}_withdrawnId.idout; done
@@ -28,15 +28,23 @@ align_and_estimate_abundance.pl --transcripts CP1transcriptome --seqType fq --sa
 
 ##Issues with commands may be due to file extensions used, modify file extensions to fit your pipeline, if necessary, move files to other folders.
 
-##for loop to run muscle on all files in directory containing the characters "_concat.fas (currently doesnt work, issues with options)
-for i in *.fas; do   name=`echo $i | awk -F ".fas" '{print $1}'`;    muscle -align ${name}.fas -output ${name}_concatMuscle.afa
-done
-
 ##for loop for mafft search, change command (look online at manual, MAFFT-linsi, MAFFT and fftns (FFT-NS-2)
 for i in *.cfas; do      name=`echo $i | awk -F ".cfas" '{print $1}'`;    linsi ${name}.cfas > ${name}_Aligned.afa; done
 
 ##fuse all .idout files into 1 file to be read in for R processing
 cat *.idout > AllIds.allids
+
+#######################preparing for R listing#########################
+##fuse all .idout files into 1 file to be read in for R processing
+cat *.idout > AllIds.allids
+sed -i 's/*:://; s/::g..*//' AllIds.allids; sed -i 's/.*://' AllIds.allids
+#this removes unnecessary information which confuses the search algorithms in R.
+sed -i 's![^_]*$!!' AllIds.allIds ; sed -i 's/.$//' AllIds.allIds; sort -u AllIds.allIds -o AllIds.allIds 
+#sorts and cuts off isotype tag in order to just specify gene. this is to be able to specifically gene search rather than isotype search.
+
+
+
+
 
 ######################(specific for _g folder)#######################
 ##changing ids to allow for removal of duplicates (cuts off everything after :)
@@ -59,9 +67,13 @@ muscle -align DIMT1L_concat.fas -output DIMT1L_concatMuscle.afa
 cat /home/h/Documents/SilicoProject/SilicoProjectRerun/orthologs/${base_name}.fas ${name}.fasta > ${name}_concat.fasta
 
 ##removing excess information to streamline treename
-sed -i 's/:.*//' ADK2concat.fasta
-sed -i 's/@/_/' ADK2concat.fasta
-sed -i 's/@/-/' ADK2concat.fasta
+sed -i 's/.*://' 
+sed -i 's/@/_/' 
+sed -i 's/@/-/' 
+
+
+
+
 
 
 
