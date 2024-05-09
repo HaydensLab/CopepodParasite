@@ -1,0 +1,14 @@
+Task\ label=Multigene opsithokont phylogeny, shAL...
+Task\ ID=3079457
+Tool=IQTREE_XSEDE
+created\ on=2024-04-23 06:24:01.0
+JobHandle=NGBW-JOB-IQTREE_XSEDE-3C93A646C058498FB72DB418E6FC700C
+RunNumber=1
+resource=expanse
+User\ ID=165819
+User\ Name=hl2024silico
+email=hl8n21@soton.ac.uk
+Output=(results,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=48
+JOBID=30071156

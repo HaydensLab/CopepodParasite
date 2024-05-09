@@ -1,0 +1,365 @@
+IQ-TREE 2.1.2 COVID-edition built Oct 22 2020
+
+Input file name: infile.txt
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 358290
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 44 sequences with 13091 amino-acid sites
+Number of constant sites: 2475 (= 18.9061% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2475 (= 18.9061% of all sites)
+Number of parsimony informative sites: 8917
+Number of distinct site patterns: 11912
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+F+R6
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+F+R6         -460079.483  920386.966 +        1  920388.986 +        1  921239.649 +        1
+LG+R6           -460563.215  921316.430 - 1.48e-202  921317.833 - 2.01e-202  922026.999 - 1.07e-171
+LG+R7           -460562.622  921319.245 - 3.62e-203  921320.708 - 4.78e-203  922044.774 - 1.48e-175
+LG+R5           -460614.480  921414.960 - 5.94e-224  921416.305 - 8.33e-224  922110.570 - 7.62e-190
+LG+R4           -460830.758  921843.516 - 5.18e-317  921844.804 - 7.47e-317  922524.167 - 1.18e-279
+LG+I+G4         -461065.945  922305.890 -        0  922307.068 -        0  922956.623 -        0
+LG+G4           -461529.616  923231.232 -        0  923232.383 -        0  923874.485 -        0
+LG+R3           -461711.276  923600.552 -        0  923601.784 -        0  924266.243 -        0
+rtREV+F+R6      -461950.865  924129.729 -        0  924131.750 -        0  924982.413 -        0
+WAG+F+R6        -465432.340  931092.681 -        0  931094.702 -        0  931945.365 -        0
+rtREV+R6        -465694.346  931578.692 -        0  931580.096 -        0  932289.262 -        0
+LG+R2           -466160.734  932495.468 -        0  932496.646 -        0  933146.200 -        0
+mtZOA+F+R6      -466041.146  932310.292 -        0  932312.313 -        0  933162.976 -        0
+WAG+R6          -466345.054  932880.107 -        0  932881.511 -        0  933590.677 -        0
+VT+F+R6         -467497.294  935222.588 -        0  935224.608 -        0  936075.271 -        0
+mtInv+F+R6      -467918.597  936065.193 -        0  936067.214 -        0  936917.877 -        0
+VT+R6           -468259.555  936709.110 -        0  936710.513 -        0  937419.679 -        0
+JTTDCMut+F+R6   -468353.489  936934.978 -        0  936936.998 -        0  937787.661 -        0
+JTT+F+R6        -468580.410  937388.819 -        0  937390.840 -        0  938241.503 -        0
+cpREV+F+R6      -468617.204  937462.407 -        0  937464.428 -        0  938315.091 -        0
+JTTDCMut+R6     -469167.006  938524.013 -        0  938525.416 -        0  939234.582 -        0
+Blosum62+R6     -469224.532  938639.064 -        0  938640.467 -        0  939349.633 -        0
+Dayhoff+F+R6    -469257.857  938743.714 -        0  938745.735 -        0  939596.398 -        0
+JTT+R6          -469354.563  938899.126 -        0  938900.529 -        0  939609.695 -        0
+DCMut+F+R6      -469295.747  938819.493 -        0  938821.514 -        0  939672.177 -        0
+cpREV+R6        -469401.628  938993.256 -        0  938994.660 -        0  939703.826 -        0
+Blosum62+F+R6   -469657.559  939543.117 -        0  939545.138 -        0  940395.801 -        0
+PMB+R6          -470305.594  940801.189 -        0  940802.592 -        0  941511.758 -        0
+mtART+F+R6      -470219.736  940667.472 -        0  940669.492 -        0  941520.155 -        0
+PMB+F+R6        -470790.375  941808.750 -        0  941810.770 -        0  942661.433 -        0
+Dayhoff+R6      -471513.007  943216.015 -        0  943217.418 -        0  943926.584 -        0
+DCMut+R6        -471559.967  943309.935 -        0  943311.338 -        0  944020.504 -        0
+mtZOA+R6        -473311.313  946812.627 -        0  946814.031 -        0  947523.197 -        0
+mtMet+F+R6      -473295.701  946819.403 -        0  946821.423 -        0  947672.086 -        0
+mtREV+F+R6      -473915.936  948059.871 -        0  948061.892 -        0  948912.555 -        0
+LG+I            -478654.727  957481.454 -        0  957482.605 -        0  958124.707 -        0
+FLU+F+R6        -479160.248  958548.496 -        0  958550.517 -        0  959401.180 -        0
+FLU+R6          -481012.830  962215.661 -        0  962217.065 -        0  962926.231 -        0
+mtART+R6        -482183.738  964557.476 -        0  964558.880 -        0  965268.046 -        0
+HIVb+F+R6       -483440.945  967109.891 -        0  967111.911 -        0  967962.574 -        0
+mtVer+F+R6      -484130.770  968489.539 -        0  968491.560 -        0  969342.223 -        0
+mtInv+R6        -484525.383  969240.767 -        0  969242.170 -        0  969951.336 -        0
+HIVb+R6         -485312.884  970815.767 -        0  970817.171 -        0  971526.337 -        0
+mtMet+R6        -485649.704  971489.408 -        0  971490.811 -        0  972199.977 -        0
+mtMAM+F+R6      -487502.939  975233.879 -        0  975235.900 -        0  976086.563 -        0
+mtREV+R6        -487983.880  976157.761 -        0  976159.164 -        0  976868.330 -        0
+LG              -491044.730  982259.459 -        0  982260.584 -        0  982895.232 -        0
+mtVer+R6        -495486.081  991162.161 -        0  991163.565 -        0  991872.731 -        0
+mtMAM+R6        -500055.509 1000301.017 -        0 1000302.421 -        0 1001011.587 -        0
+HIVw+F+R6       -504085.691 1008399.382 -        0 1008401.402 -        0 1009252.065 -        0
+HIVw+R6         -512005.976 1024201.953 -        0 1024203.357 -        0 1024912.523 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+R6
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0758
+  pi(R) = 0.0615
+  pi(N) = 0.0365
+  pi(D) = 0.0490
+  pi(C) = 0.0167
+  pi(Q) = 0.0321
+  pi(E) = 0.0566
+  pi(G) = 0.0663
+  pi(H) = 0.0236
+  pi(I) = 0.0695
+  pi(L) = 0.1087
+  pi(K) = 0.0601
+  pi(M) = 0.0275
+  pi(F) = 0.0463
+  pi(P) = 0.0376
+  pi(S) = 0.0562
+  pi(T) = 0.0514
+  pi(W) = 0.0099
+  pi(Y) = 0.0353
+  pi(V) = 0.0793
+
+Model of rate heterogeneity: FreeRate with 6 categories
+Site proportion and rates:  (0.1952,0.0288) (0.2089,0.2424) (0.2546,0.7415) (0.2037,1.5263) (0.1087,2.7431) (0.0289,5.0429)
+
+ Category  Relative_rate  Proportion
+  1         0.0288         0.1952
+  2         0.2424         0.2089
+  3         0.7415         0.2546
+  4         1.5263         0.2037
+  5         2.7431         0.1087
+  6         5.0429         0.0289
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -460079.4768 (s.e. 3003.7397)
+Unconstrained log-likelihood (without tree): -121841.0800
+Number of free parameters (#branches + #model parameters): 114
+Akaike information criterion (AIC) score: 920386.9535
+Corrected Akaike information criterion (AICc) score: 920388.9742
+Bayesian information criterion (BIC) score: 921239.6371
+
+Total tree length (sum of branch lengths): 10.2425
+Sum of internal branch lengths: 2.3749 (23.1865% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Blasemer' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / aBayes support / ultrafast bootstrap support (%)
+
++--Blasemer
+|
+|                                     +---------Sacccere
+|                           +---------| (100/1/100)
+|                           |         +--------Debahans
+|                        +--| (100/1/100)
+|                        |  |      +-------Aspefumi
+|                        |  +------| (100/1/100)
+|                        |         +-------Neurcras
+|                     +--| (100/1/100)
+|                     |  +---------------Schizpom
+|                  +--| (100/1/100)
+|                  |  |    +-----------Ustimayd
+|                  |  +----| (100/1/100)
+|                  |       +----------Coprcine
+|               +--| (100/1/100)
+|               |  +----------Rhizdele
+|            +--| (88.9/1/88)
+|            |  |        +-----------------Parasacc
+|            |  |     +--| (100/1/100)
+|            |  |     |  +---------------------------Mitodaph
+|            |  |  +--| (100/1/100)
+|            |  |  |  +----------------Rozeallo
+|            |  +--| (100/1/100)
+|            |     |             +------------------Coralima
+|            |     |          +--| (100/1/100)
+|            |     |          |  +--------Syssmult
+|            |     |       +--| (94.6/1/63)
+|            |     |       |  |     +---------Pigoviet
+|            |     |       |  |  +--| (100/1/100)
+|            |     |       |  |  |  |  +-----------Capsowcz
+|            |     |       |  |  |  +--| (96.9/1/95)
+|            |     |       |  |  |     +-----------------Minivibr
+|            |     |       |  +--| (54.8/1/53)
+|            |     |       |     |  +------------Sphadest
+|            |     |       |     +--| (100/1/100)
+|            |     |       |        |              +--Creofrag
+|            |     |       |        |    +---------| (100/1/100)
+|            |     |       |        |    |         +---Sphaarct
+|            |     |       |        +----| (100/1/100)
+|            |     |       |             +-------Amoepara
+|            |     |  +----| (100/1/100)
+|            |     |  |    |           +-------Nemavect
+|            |     |  |    |        +--| (99.5/1/75)
+|            |     |  |    |        |  +------------Tricadha
+|            |     |  |    |     +--| (84.7/1/52)
+|            |     |  |    |     |  |           +--Homosapi
+|            |     |  |    |     |  |     +-----| (100/1/100)
+|            |     |  |    |     |  |     |     +--Gallgall
+|            |     |  |    |     |  |  +--| (100/1/100)
+|            |     |  |    |     |  |  |  +-------Branflor
+|            |     |  |    |     |  +--| (100/1/100)
+|            |     |  |    |     |     |     +--------Aplycali
+|            |     |  |    |     |     |  +--| (96.8/1/56)
+|            |     |  |    |     |     |  |  |  +--------------------Caeneleg
+|            |     |  |    |     |     |  |  +--| (76.6/1/59)
+|            |     |  |    |     |     |  |     |          +-------Schimans
+|            |     |  |    |     |     |  |     +----------| (100/1/100)
+|            |     |  |    |     |     |  |                +----------Taensoli
+|            |     |  |    |     |     +--| (100/1/99)
+|            |     |  |    |     |        |     +-----Apismell
+|            |     |  |    |     |        |  +--| (100/1/100)
+|            |     |  |    |     |        |  |  +-------Drosmela
+|            |     |  |    |     |        +--| (100/1/100)
+|            |     |  |    |     |           +-----------ProbableCopepod
+|            |     |  |    |  +--| (100/1/100)
+|            |     |  |    |  |  |  +-----------Amphquee
+|            |     |  |    |  |  +--| (66.4/1/51)
+|            |     |  |    |  |     +------------------Mnemleid
+|            |     |  |    +--| (100/1/100)
+|            |     |  |       |         +----------Monobrev
+|            |     |  |       +---------| (100/1/100)
+|            |     |  |                 +-----------Salprose
+|            |     +--| (100/1/100)
+|            |        |   +-----------Parvatla
+|            |        +---| (100/1/100)
+|            |            +------------------------Fontalba
+|         +--| (100/1/100)
+|         |  |   +---------Batrdend
+|         |  +---| (100/1/100)
+|         |      +-----Spizpunc
+|  +------| (100/1/100)
+|  |      +-------------------ProbableParasite
++--| (100/1/100)
+|  +----Allomacr
+|
++-----Blasbrit
+
+Tree in newick format:
+
+(Blasemer:0.0598517306,(((((((((Sacccere:0.1678154433,Debahans:0.1507380601)100/1/100:0.1596874781,(Aspefumi:0.1248719962,Neurcras:0.1335837709)100/1/100:0.1120776290)100/1/100:0.0432020041,Schizpom:0.2526083007)100/1/100:0.0573715545,(Ustimayd:0.1938046928,Coprcine:0.1818354586)100/1/100:0.0787068625)100/1/100:0.0399441344,Rhizdele:0.1818638775)100/1/100:0.0325065694,(((Parasacc:0.2890193753,Mitodaph:0.4330162098)100/1/100:0.0581376187,Rozeallo:0.2660459859)100/1/100:0.0570457204,((((Coralima:0.2986052139,Syssmult:0.1524273011)100/1/100:0.0416617878,((Pigoviet:0.1536540417,(Capsowcz:0.1852985836,Minivibr:0.2769573731)96.9/1/95:0.0285104965)100/1/100:0.0321044286,(Sphadest:0.2136903524,((Creofrag:0.0436415692,Sphaarct:0.0666389403)100/1/100:0.1594251501,Amoepara:0.1258055094)100/1/100:0.0872709736)100/1/100:0.0325957538)54.8/1/53:0.0140726722)94.6/1/63:0.0140501155,((((Nemavect:0.1265498125,Tricadha:0.2042152919)99.5/1/75:0.0234058224,(((Homosapi:0.0294562581,Gallgall:0.0263229690)100/1/100:0.1059715485,Branflor:0.1247528860)100/1/100:0.0244204640,((Aplycali:0.1463568266,(Caeneleg:0.3293389922,(Schimans:0.1351048848,Taensoli:0.1737983000)100/1/100:0.1789816278)76.6/1/59:0.0331891151)96.8/1/56:0.0176357278,((Apismell:0.1019639972,Drosmela:0.1235091984)100/1/100:0.0393728303,ProbableCopepod:0.1991661396)100/1/100:0.0529115362)100/1/99:0.0181953964)100/1/100:0.0322394739)84.7/1/52:0.0182251071,(Amphquee:0.1992929268,Mnemleid:0.2981334434)66.4/1/51:0.0280025964)100/1/100:0.0555475618,(Monobrev:0.1711659061,Salprose:0.1971198298)100/1/100:0.1596923157)100/1/100:0.0349763587)100/1/100:0.0793052393,(Parvatla:0.1841711418,Fontalba:0.3936750639)100/1/100:0.0745884751)100/1/100:0.0384301467)100/1/100:0.0320745345)88.9/1/88:0.0180798548,(Batrdend:0.1563931724,Spizpunc:0.1004463081)100/1/100:0.0718111400)100/1/100:0.0337224680,ProbableParasite:0.3156805690)100/1/100:0.1192259132,Allomacr:0.0789122432)100/1/100:0.0364938885,Blasbrit:0.1003121945);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -460079.476835
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Blasemer
+|
+|                                     +---------Sacccere
+|                           +---------| (100)
+|                           |         +--------Debahans
+|                        +--| (100)
+|                        |  |      +-------Aspefumi
+|                        |  +------| (100)
+|                        |         +-------Neurcras
+|                     +--| (100)
+|                     |  +---------------Schizpom
+|                  +--| (100)
+|                  |  |    +-----------Ustimayd
+|                  |  +----| (100)
+|                  |       +----------Coprcine
+|               +--| (100)
+|               |  +----------Rhizdele
+|            +--| (88)
+|            |  |        +-----------------Parasacc
+|            |  |     +--| (100)
+|            |  |     |  +---------------------------Mitodaph
+|            |  |  +--| (100)
+|            |  |  |  +----------------Rozeallo
+|            |  +--| (100)
+|            |     |             +------------------Coralima
+|            |     |          +--| (100)
+|            |     |          |  +--------Syssmult
+|            |     |       +--| (63)
+|            |     |       |  |     +---------Pigoviet
+|            |     |       |  |  +--| (100)
+|            |     |       |  |  |  |  +-----------Capsowcz
+|            |     |       |  |  |  +--| (95)
+|            |     |       |  |  |     +-----------------Minivibr
+|            |     |       |  +--| (53)
+|            |     |       |     |  +------------Sphadest
+|            |     |       |     +--| (100)
+|            |     |       |        |              +--Creofrag
+|            |     |       |        |    +---------| (100)
+|            |     |       |        |    |         +---Sphaarct
+|            |     |       |        +----| (100)
+|            |     |       |             +-------Amoepara
+|            |     |  +----| (100)
+|            |     |  |    |           +-------Nemavect
+|            |     |  |    |        +--| (75)
+|            |     |  |    |        |  +------------Tricadha
+|            |     |  |    |     +--| (52)
+|            |     |  |    |     |  |           +--Homosapi
+|            |     |  |    |     |  |     +-----| (100)
+|            |     |  |    |     |  |     |     +--Gallgall
+|            |     |  |    |     |  |  +--| (100)
+|            |     |  |    |     |  |  |  +-------Branflor
+|            |     |  |    |     |  +--| (100)
+|            |     |  |    |     |     |     +--------Aplycali
+|            |     |  |    |     |     |  +--| (56)
+|            |     |  |    |     |     |  |  |  +--------------------Caeneleg
+|            |     |  |    |     |     |  |  +--| (59)
+|            |     |  |    |     |     |  |     |          +-------Schimans
+|            |     |  |    |     |     |  |     +----------| (100)
+|            |     |  |    |     |     |  |                +----------Taensoli
+|            |     |  |    |     |     +--| (99)
+|            |     |  |    |     |        |     +-----Apismell
+|            |     |  |    |     |        |  +--| (100)
+|            |     |  |    |     |        |  |  +-------Drosmela
+|            |     |  |    |     |        +--| (100)
+|            |     |  |    |     |           +-----------ProbableCopepod
+|            |     |  |    |  +--| (100)
+|            |     |  |    |  |  |  +-----------Amphquee
+|            |     |  |    |  |  +--| (51)
+|            |     |  |    |  |     +------------------Mnemleid
+|            |     |  |    +--| (100)
+|            |     |  |       |         +----------Monobrev
+|            |     |  |       +---------| (100)
+|            |     |  |                 +-----------Salprose
+|            |     +--| (100)
+|            |        |   +-----------Parvatla
+|            |        +---| (100)
+|            |            +------------------------Fontalba
+|         +--| (100)
+|         |  |   +---------Batrdend
+|         |  +---| (100)
+|         |      +-----Spizpunc
+|  +------| (100)
+|  |      +-------------------ProbableParasite
++--| (100)
+|  +----Allomacr
+|
++-----Blasbrit
+
+
+Consensus tree in newick format: 
+
+(Blasemer:0.0598805833,(((((((((Sacccere:0.1678874301,Debahans:0.1508085280)100:0.1597566800,(Aspefumi:0.1249245969,Neurcras:0.1336461733)100:0.1121267775)100:0.0432177526,Schizpom:0.2527288068)100:0.0573940662,(Ustimayd:0.1938982886,Coprcine:0.1819229847)100:0.0787361426)100:0.0399608210,Rhizdele:0.1819532734)100:0.0325188613,(((Parasacc:0.2891898466,Mitodaph:0.4332572855)100:0.0581398463,Rozeallo:0.2661943214)100:0.0570605895,((((Coralima:0.2987785822,Syssmult:0.1525180227)100:0.0416755868,((Pigoviet:0.1537449072,(Capsowcz:0.1854131128,Minivibr:0.2771199229)95:0.0285122326)100:0.0321148549,(Sphadest:0.2138104129,((Creofrag:0.0436614708,Sphaarct:0.0666756699)100:0.1595119073,Amoepara:0.1258713674)100:0.0873160173)100:0.0326088070)53:0.0140789793)63:0.0140562278,((((Nemavect:0.1266268890,Tricadha:0.2043408909)75:0.0234129920,(((Homosapi:0.0294724701,Gallgall:0.0263392062)100:0.1060360080,Branflor:0.1248282214)100:0.0244310729,((Aplycali:0.1464460391,(Caeneleg:0.3295471325,(Schimans:0.1351827490,Taensoli:0.1739101700)100:0.1790955228)59:0.0332090445)56:0.0176461258,((Apismell:0.1020243753,Drosmela:0.1235860887)100:0.0394028424,ProbableCopepod:0.1992915399)100:0.0529294932)99:0.0182057294)100:0.0322576896)52:0.0182336466,(Amphquee:0.1994187976,Mnemleid:0.2983191406)51:0.0280041557)100:0.0555776281,(Monobrev:0.1712622603,Salprose:0.1972363600)100:0.1597769652)100:0.0349959527)100:0.0793452761,(Parvatla:0.1842743008,Fontalba:0.3938917418)100:0.0746120293)100:0.0384488650)100:0.0320905016)88:0.0180854477,(Batrdend:0.1564692001,Spizpunc:0.1004978966)100:0.0718442958)100:0.0337279602,ProbableParasite:0.3158426656)100:0.1192902092,Allomacr:0.0789497008)100:0.0364988798,Blasbrit:0.1003695451);
+
+TIME STAMP
+----------
+
+Date and time: Tue Apr 23 06:33:30 2024
+Total CPU time used: 10967.38634 seconds (3h:2m:47s)
+Total wall-clock time used: 248.0859568 seconds (0h:4m:8s)
+
