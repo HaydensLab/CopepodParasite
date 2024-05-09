@@ -1,0 +1,1194 @@
+IQ-TREE 1.6.11 built Jun  6 2019
+
+Input file name: /tmp/IQTREE/6sAPirj1IA/seqin.fst
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 562912
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 270 sequences with 1541 amino-acid sites
+Number of constant sites: 212 (= 13.7573% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 212 (= 13.7573% of all sites)
+Number of parsimony informative sites: 177
+Number of distinct site patterns: 563
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+FO+R4
+
+State frequencies: (estimated with maximum likelihood)
+
+  pi(A) = 0.0748
+  pi(R) = 0.0616
+  pi(N) = 0.0385
+  pi(D) = 0.0495
+  pi(C) = 0.0129
+  pi(Q) = 0.0454
+  pi(E) = 0.0747
+  pi(G) = 0.0552
+  pi(H) = 0.0234
+  pi(I) = 0.0553
+  pi(L) = 0.0689
+  pi(K) = 0.0855
+  pi(M) = 0.0213
+  pi(F) = 0.0312
+  pi(P) = 0.0632
+  pi(S) = 0.0714
+  pi(T) = 0.0697
+  pi(W) = 0.0084
+  pi(Y) = 0.0192
+  pi(V) = 0.0701
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.5879,0.5322) (0.2726,0.9995) (0.0415,1.5111) (0.0980,3.5929)
+
+ Category  Relative_rate  Proportion
+  1         0.5322         0.5879
+  2         0.9995         0.2726
+  3         1.5111         0.0415
+  4         3.5929         0.0980
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -67533.5920 (s.e. 4913.1644)
+Unconstrained log-likelihood (without tree): -9088.0379
+Number of free parameters (#branches + #model parameters): 560
+Akaike information criterion (AIC) score: 136187.1839
+Corrected Akaike information criterion (AICc) score: 136828.3268
+Bayesian information criterion (BIC) score: 139177.6886
+
+Total tree length (sum of branch lengths): 547.9014
+Sum of internal branch lengths: 337.8102 (61.6553% of tree length)
+
+WARNING: 14 near-zero internal branches (<0.0006) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+WARNING: 12 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon 'Blasemer' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++---Blasemer
+|
+|                                                                                    +--Protlace
+|                                                                                 +--| (54.7/82)
+|                                                                                 |  |            +--Mitodaph
+|                                                                                 |  |         +--| (92.3/96)
+|                                                                                 |  |         |  +--Minivibr
+|                                                                                 |  |      +--| (86.8/31)
+|                                                                                 |  |      |  +--Sapppeda
+|                                                                                 |  |   +--| (5.6/24)
+|                                                                                 |  |   |  +--Pellcata
+|                                                                                 |  +---| (88.7/83)
+|                                                                                 |      +--PlacCLAB
+|                                                                              +--| (94.5/94)
+|                                                                              |  +**Raphhete
+|                                                                           +--| (68.1/71)
+|                                                                           |  |       +**Pyrapark
+|                                                                           |  |  +----| (99.2/98)
+|                                                                           |  |  |    +--Lapoguse
+|                                                                           |  +--| (23.4/78)
+|                                                                           |     |           +------Creofrag
+|                                                                           |     |        +**| (0/77)
+|                                                                           |     |        |  +--Rhodemar
+|                                                                           |     |     +--| (91.4/89)
+|                                                                           |     |     |  +--Schiaggr
+|                                                                           |     |  +--| (81.2/35)
+|                                                                           |     |  |  |  +--Taensoli
+|                                                                           |     |  |  +--| (79.4/38)
+|                                                                           |     |  |     +--Salprose
+|                                                                           |     +--| (82/42)
+|                                                                           |        +--BlasS7SB
+|                                                                        +--| (95.8/82)
+|                                                                        |  |                           +--Hemirufe
+|                                                                        |  |                    +------| (90.8/100)
+|                                                                        |  |                    |      +--Crypparv
+|                                                                        |  |                 +--| (55.4/81)
+|                                                                        |  |                 |  +**Chatsubs
+|                                                                        |  |              +--| (6.6/57)
+|                                                                        |  |              |  +--Parvatla
+|                                                                        |  |           +--| (73.8/88)
+|                                                                        |  |           |  |  +--Eugllong
+|                                                                        |  |           |  +--| (95/89)
+|                                                                        |  |           |     +**Cavoapop
+|                                                                        |  |        +--| (80.6/91)
+|                                                                        |  |        |  |                             +--Styginca
+|                                                                        |  |        |  |                          +--| (91.1/97)
+|                                                                        |  |        |  |                          |  +--Andagodo
+|                                                                        |  |        |  |                       +--| (62.6/83)
+|                                                                        |  |        |  |                       |  +--Ovaldese
+|                                                                        |  |        |  |                    +--| (72.4/65)
+|                                                                        |  |        |  |                    |  +--Fabotrop
+|                                                                        |  |        |  |                 +--| (31.2/63)
+|                                                                        |  |        |  |                 |  +--Auralima
+|                                                                        |  |        |  |              +--| (75.3/79)
+|                                                                        |  |        |  |              |  |  +--Veximinu
+|                                                                        |  |        |  |              |  +--| (88.5/98)
+|                                                                        |  |        |  |              |     +--NolaAFSM
+|                                                                        |  |        |  |           +--| (50.7/45)
+|                                                                        |  |        |  |           |  |     +--Gracchor
+|                                                                        |  |        |  |           |  |  +--| (96.8/100)
+|                                                                        |  |        |  |           |  |  |  +--Choncris
+|                                                                        |  |        |  |           |  +--| (94.2/58)
+|                                                                        |  |        |  |           |     +--Plasbras
+|                                                                        |  |        |  |        +--| (57.7/50)
+|                                                                        |  |        |  |        |  +--Glauincr
+|                                                                        |  |        |  |     +--| (61/63)
+|                                                                        |  |        |  |     |  +--Capsowcz
+|                                                                        |  |        |  |  +--| (78.4/79)
+|                                                                        |  |        |  |  |  |       +**Calclept
+|                                                                        |  |        |  |  |  |    +**| (0/12)
+|                                                                        |  |        |  |  |  |    |  |    +--Octaspec
+|                                                                        |  |        |  |  |  |    |  +----| (100/98)
+|                                                                        |  |        |  |  |  |    |       +--Brevmoto
+|                                                                        |  |        |  |  |  +----| (95.7/91)
+|                                                                        |  |        |  |  |       |  +--Rhodmacu
+|                                                                        |  |        |  |  |       +--| (76.7/89)
+|                                                                        |  |        |  |  |          +--Prymparv
+|                                                                        |  |        |  +--| (35.1/87)
+|                                                                        |  |        |     |        +------Porpumbi
+|                                                                        |  |        |     |     +**| (0/74)
+|                                                                        |  |        |     |     |  +-----PB58411a
+|                                                                        |  |        |     |  +--| (69.1/78)
+|                                                                        |  |        |     |  |  +**Endozona
+|                                                                        |  |        |     +--| (91.3/84)
+|                                                                        |  |        |        |  +--Alexminu
+|                                                                        |  |        |        +--| (17.9/92)
+|                                                                        |  |        |           +--Amoepara
+|                                                                        |  |     +--| (0/45)
+|                                                                        |  |     |  |     +--Gratturu
+|                                                                        |  |     |  |  +--| (53.7/86)
+|                                                                        |  |     |  |  |  +--Amoeprot
+|                                                                        |  |     |  +--| (62.5/82)
+|                                                                        |  |     |     +------MicrA134
+|                                                                        |  |  +--| (81.4/85)
+|                                                                        |  |  |  |  +**Wobbluna
+|                                                                        |  |  |  +--| (96.9/99)
+|                                                                        |  |  |     +--Thecoxon
+|                                                                        |  +--| (0/55)
+|                                                                        |     |     +--Soliirre
+|                                                                        |     |  +**| (0/32)
+|                                                                        |     |  |  +--Allomacr
+|                                                                        |     +--| (92.4/95)
+|                                                                        |        +--Masteilh
+|                                                                     +**| (0/29)
+|                                                                     |  +--Homosapi
+|                                                                  +--| (91.4/39)
+|                                                                  |  +**Gallgall
+|                                                               +--| (26.9/60)
+|                                                               |  +--Chroveli
+|                                                            +--| (69.9/36)
+|                                                            |  +--Nemavect
+|                                                         +--| (72.8/74)
+|                                                         |  |                              +--Telosubt
+|                                                         |  |                           +--| (80.1/35)
+|                                                         |  |                           |  +--Flabcita
+|                                                         |  |                        +--| (88.1/33)
+|                                                         |  |                        |  +--Pigoviet
+|                                                         |  |                     +--| (52.5/33)
+|                                                         |  |                     |  +--Roomtrun
+|                                                         |  |                  +**| (0/24)
+|                                                         |  |                  |  +--Hemikukw
+|                                                         |  |              +---| (72.7/94)
+|                                                         |  |              |   +--Tripeleu
+|                                                         |  |           +--| (84.8/77)
+|                                                         |  |           |  +---Ancysigm
+|                                                         |  |        +--| (52.1/12)
+|                                                         |  |        |  +**Debahans
+|                                                         |  |     +--| (0/6)
+|                                                         |  |     |  +--Monobrev
+|                                                         |  |  +--| (18.5/11)
+|                                                         |  |  |  |                             +**Chlarein
+|                                                         |  |  |  |                          +--| (98.6/100)
+|                                                         |  |  |  |                          |  +--Volvcart
+|                                                         |  |  |  |                       +--| (78.5/51)
+|                                                         |  |  |  |                       |  |  +--Tetrasti
+|                                                         |  |  |  |                       |  +--| (85.7/79)
+|                                                         |  |  |  |                       |     +--Paheparv
+|                                                         |  |  |  |                    +--| (85.9/21)
+|                                                         |  |  |  |                    |  |  +--Prassing
+|                                                         |  |  |  |                    |  +--| (94.7/38)
+|                                                         |  |  |  |                    |     |        +--Dino2267
+|                                                         |  |  |  |                    |     |     +--| (99.7/86)
+|                                                         |  |  |  |                    |     |     |  +--Ochr2298
+|                                                         |  |  |  |                    |     |  +--| (0/30)
+|                                                         |  |  |  |                    |     |  |  |  +--Sapochin
+|                                                         |  |  |  |                    |     |  |  +--| (52.3/58)
+|                                                         |  |  |  |                    |     |  |     |  +--Hetepall
+|                                                         |  |  |  |                    |     |  |     +--| (56.1/79)
+|                                                         |  |  |  |                    |     |  |        +--Fontalba
+|                                                         |  |  |  |                    |     +--| (77.4/37)
+|                                                         |  |  |  |                    |        +--Tisolute
+|                                                         |  |  |  |                 +**| (0/15)
+|                                                         |  |  |  |                 |  |     +--Flecnera
+|                                                         |  |  |  |                 |  |  +--| (91.1/97)
+|                                                         |  |  |  |                 |  |  |  +--Euglgrac
+|                                                         |  |  |  |                 |  +--| (73.7/27)
+|                                                         |  |  |  |                 |     |  +--Ancytwis
+|                                                         |  |  |  |                 |     +--| (89.8/37)
+|                                                         |  |  |  |                 |        +--Physpate
+|                                                         |  |  |  |              +--| (75.6/15)
+|                                                         |  |  |  |              |  |        +--Sacccere
+|                                                         |  |  |  |              |  |     +--| (76.5/40)
+|                                                         |  |  |  |              |  |     |  +--Palpbili
+|                                                         |  |  |  |              |  |  +--| (24.2/30)
+|                                                         |  |  |  |              |  |  |  +--Ustimayd
+|                                                         |  |  |  |              |  +--| (92.9/37)
+|                                                         |  |  |  |              |     |     +--Apismell
+|                                                         |  |  |  |              |     |  +--| (91.6/96)
+|                                                         |  |  |  |              |     |  |  +--Drosmela
+|                                                         |  |  |  |              |     +--| (82.1/45)
+|                                                         |  |  |  |              |        +--Branflor
+|                                                         |  |  |  |           +--| (100/68)
+|                                                         |  |  |  |           |  |  +--Phaetric
+|                                                         |  |  |  |           |  +--| (82.8/92)
+|                                                         |  |  |  |           |     +--Saprdecl
+|                                                         |  |  |  |        +--| (91.1/27)
+|                                                         |  |  |  |        |  |  +------BicoCB20
+|                                                         |  |  |  |        |  +--| (29.4/19)
+|                                                         |  |  |  |        |     +**Sori0191
+|                                                         |  |  |  |     +--| (56.4/30)
+|                                                         |  |  |  |     |  +**Mayocant
+|                                                         |  |  |  |  +--| (20.8/68)
+|                                                         |  |  |  |  |  |         +**MAST004C
+|                                                         |  |  |  |  |  |  +------| (84.3/98)
+|                                                         |  |  |  |  |  |  |      +--Ergocypr
+|                                                         |  |  |  |  |  +--| (69.8/93)
+|                                                         |  |  |  |  |     +--MAST004E
+|                                                         |  |  |  +--| (88.2/90)
+|                                                         |  |  |     +----Toxogond
+|                                                         |  +--| (84.2/35)
+|                                                         |     +--Schizpom
+|                                                      +--| (88.1/74)
+|                                                      |  +--Acancast
+|                                                   +**| (0/51)
+|                                                   |  |              +--Protadhe
+|                                                   |  |           +--| (83.6/64)
+|                                                   |  |           |  +--MAST04A1
+|                                                   |  |        +--| (74.5/64)
+|                                                   |  |        |  +--Nutolong
+|                                                   |  |     +--| (82.2/68)
+|                                                   |  |     |  |  +--Stroincl
+|                                                   |  |     |  +--| (80.2/74)
+|                                                   |  |     |     |  +--Diplambu
+|                                                   |  |     |     +--| (70.1/90)
+|                                                   |  |     |        +--Bodosalt
+|                                                   |  |  +--| (70.8/66)
+|                                                   |  |  |  +--Rhodlimn
+|                                                   |  +--| (62.5/53)
+|                                                   |     |  +--Cyanpara
+|                                                   |     +--| (99.7/92)
+|                                                   |        +--Neurcras
+|                                                +--| (91.8/17)
+|                                                |  |  +--Guilthet
+|                                                |  +--| (92.9/42)
+|                                                |     |     +--Ichtmult
+|                                                |     |  +--| (47.4/85)
+|                                                |     |  |  +--Amphquee
+|                                                |     +--| (100/80)
+|                                                |        +--Aurisoli
+|                                             +--| (50.8/9)
+|                                             |  |            +**Spirsalm
+|                                             |  |     +------| (100/86)
+|                                             |  |     |      +--Cerakond
+|                                             |  |  +**| (0/63)
+|                                             |  |  |  |     +--EctocSP7
+|                                             |  |  |  |  +--| (36/85)
+|                                             |  |  |  |  |  +--Agarclat
+|                                             |  |  |  +--| (77.1/86)
+|                                             |  |  |     +**Fucucera
+|                                             |  +--| (83.8/63)
+|                                             |     +--Psuemult
+|                                          +--| (52.4/9)
+|                                          |  +--Haloseos
+|                                    +-----| (91.8/73)
+|                                    |     +**Pythirre
+|                                 +--| (59.1/91)
+|                                 |  |                                                                                                   +--Thectrah
+|                                 |  |                                                                                                +--| (66.5/95)
+|                                 |  |                                                                                                |  +--Compcoer
+|                                 |  |                                                                                             +--| (71.6/95)
+|                                 |  |                                                                                             |  +--Bafffrig
+|                                 |  |                                                                                          +--| (99.4/1)
+|                                 |  |                                                                                          |  +--Chrycart
+|                                 |  |                                                                                       +--| (0/1)
+|                                 |  |                                                                                       |  +--Tychacut
+|                                 |  |                                                                                +------| (95.9/98)
+|                                 |  |                                                                                |      +**Schivulg
+|                                 |  |                                                                             +--| (51.7/94)
+|                                 |  |                                                                             |  |           +--Porppurp
+|                                 |  |                                                                             |  |        +--| (65.5/74)
+|                                 |  |                                                                             |  |        |  +--Karebrev
+|                                 |  |                                                                             |  |     +--| (76/38)
+|                                 |  |                                                                             |  |     |  +--Nephpyri
+|                                 |  |                                                                             |  |  +**| (0/15)
+|                                 |  |                                                                             |  |  |  |  +--Stichzan
+|                                 |  |                                                                             |  |  |  +--| (86/99)
+|                                 |  |                                                                             |  |  |     +--Vermverm
+|                                 |  |                                                                             |  +--| (84.8/59)
+|                                 |  |                                                                             |     +--Phytpara
+|                                 |  |                                                                          +--| (34.8/28)
+|                                 |  |                                                                          |  |    +--Paralevi
+|                                 |  |                                                                          |  +----| (95.7/73)
+|                                 |  |                                                                          |       +--Adunpalu
+|                                 |  |                                                                       +--| (30.7/49)
+|                                 |  |                                                                       |  +**Tsukglob
+|                                 |  |                                                                    +--| (36.8/50)
+|                                 |  |                                                                    |  +--Aspefumi
+|                                 |  |                                                                 +--| (77/43)
+|                                 |  |                                                                 |  +--Pygsbifo
+|                                 |  |                                                              +--| (80.6/26)
+|                                 |  |                                                              |  |  +--Coralima
+|                                 |  |                                                              |  +--| (19.2/56)
+|                                 |  |                                                              |     +--Caeneleg
+|                                 |  |                                                           +--| (71.4/10)
+|                                 |  |                                                           |  |  +--Neobdesi
+|                                 |  |                                                           |  +--| (72.4/40)
+|                                 |  |                                                           |     +--Cuneruss
+|                                 |  |                                                        +--| (80.6/8)
+|                                 |  |                                                        |  +--CP_TRINITY_DN2017_c1_g1__CP_TRINITY_DN2017_c1_g1_i1__g.50841__m.50841_type_complete_len_120_gc_universal_CP_TRINITY_DN2017_c1_g1_i1_465-106_-_
+|                                 |  |                                                     +--| (42.6/9)
+|                                 |  |                                                     |  |     +--Hyphcate
+|                                 |  |                                                     |  |  +--| (28.8/31)
+|                                 |  |                                                     |  |  |  +---Colltric
+|                                 |  |                                                     |  +--| (83/26)
+|                                 |  |                                                     |     |  +--Fibrjapo
+|                                 |  |                                                     |     +--| (89.9/94)
+|                                 |  |                                                     |        +--Heteakas
+|                                 |  |                                                  +--| (85.6/21)
+|                                 |  |                                                  |  |     +--Eimebrun
+|                                 |  |                                                  |  |  +--| (94.5/74)
+|                                 |  |                                                  |  |  |  |  +**Plasfalc
+|                                 |  |                                                  |  |  |  +--| (65.9/73)
+|                                 |  |                                                  |  |  |     |          +--Picosali
+|                                 |  |                                                  |  |  |     |       +--| (16/86)
+|                                 |  |                                                  |  |  |     |       |  |     +--Chryrota
+|                                 |  |                                                  |  |  |     |       |  |  +--| (71.8/69)
+|                                 |  |                                                  |  |  |     |       |  |  |  |  +--Pavl2436
+|                                 |  |                                                  |  |  |     |       |  |  |  +--| (31.3/90)
+|                                 |  |                                                  |  |  |     |       |  |  |     +--Armalang
+|                                 |  |                                                  |  |  |     |       |  +--| (72.8/72)
+|                                 |  |                                                  |  |  |     |       |     |     +--Aurelagu
+|                                 |  |                                                  |  |  |     |       |     |  +--| (99.9/96)
+|                                 |  |                                                  |  |  |     |       |     |  |  +--Pelacalc
+|                                 |  |                                                  |  |  |     |       |     +--| (49.9/61)
+|                                 |  |                                                  |  |  |     |       |        +--Echibisp
+|                                 |  |                                                  |  |  |     |    +--| (88/99)
+|                                 |  |                                                  |  |  |     |    |  +**Malacali
+|                                 |  |                                                  |  |  |     +----| (84.8/94)
+|                                 |  |                                                  |  |  |          +--Pedi2098
+|                                 |  |                                                  |  +--| (76.1/54)
+|                                 |  |                                                  |     +--HemaVICK
+|                                 |  |                                               +--| (0/3)
+|                                 |  |                                               |  +--Platmacr
+|                                 |  |                                        +------| (100/91)
+|                                 |  |                                        |      +--Chlorept
+|                                 |  |                                     +**| (0/36)
+|                                 |  |                                     |  +--Rhizelon
+|                                 |  |                                  +--| (61.9/61)
+|                                 |  |                                  |  |                                                        +--Bigenata
+|                                 |  |                                  |  |                                                     +--| (85.5/75)
+|                                 |  |                                  |  |                                                     |  +--MatazaD1
+|                                 |  |                                  |  |                                                  +--| (77.7/82)
+|                                 |  |                                  |  |                                                  |  |                    +---TeloneP1
+|                                 |  |                                  |  |                                                  |  |                +---| (92.6/100)
+|                                 |  |                                  |  |                                                  |  |                |   +**Tetrther
+|                                 |  |                                  |  |                                                  |  |             +--| (37.9/61)
+|                                 |  |                                  |  |                                                  |  |             |  |   +--Pelasubv
+|                                 |  |                                  |  |                                                  |  |             |  +---| (85.9/99)
+|                                 |  |                                  |  |                                                  |  |             |      +**Diphrota
+|                                 |  |                                  |  |                                                  |  |          +--| (84.2/87)
+|                                 |  |                                  |  |                                                  |  |          |  +--Oryzsati
+|                                 |  |                                  |  |                                                  |  |     +----| (92.2/77)
+|                                 |  |                                  |  |                                                  |  |     |    +--Goniavon
+|                                 |  |                                  |  |                                                  |  |  +--| (50.2/56)
+|                                 |  |                                  |  |                                                  |  |  |  +**Rigiramo
+|                                 |  |                                  |  |                                                  |  +--| (92.3/66)
+|                                 |  |                                  |  |                                                  |     |        +--Styllemn
+|                                 |  |                                  |  |                                                  |     |     +--| (91/93)
+|                                 |  |                                  |  |                                                  |     |     |  +--Dictdisc
+|                                 |  |                                  |  |                                                  |     |  +--| (73/81)
+|                                 |  |                                  |  |                                                  |     |  |  |  +--Paravest
+|                                 |  |                                  |  |                                                  |     |  |  +--| (88.9/100)
+|                                 |  |                                  |  |                                                  |     |  |     +--Mallmari
+|                                 |  |                                  |  |                                                  |     +--| (67.2/87)
+|                                 |  |                                  |  |                                                  |        +--Rozeallo
+|                                 |  |                                  |  |                                               +--| (86/76)
+|                                 |  |                                  |  |                                               |  +--Mesoviri
+|                                 |  |                                  |  |                                            +--| (76.3/79)
+|                                 |  |                                  |  |                                            |  +--Cochminu
+|                                 |  |                                  |  |                                         +--| (40.2/75)
+|                                 |  |                                  |  |                                         |  +--Arcevulg
+|                                 |  |                                  |  |                                   +-----| (100/98)
+|                                 |  |                                  |  |                                   |     +**Dracjorm
+|                                 |  |                                  |  |                                +--| (55.5/84)
+|                                 |  |                                  |  |                                |  |  +**CP_TRINITY_DN8655_c0_g2__CP_TRINITY_DN8655_c0_g2_i2__g.28185__m.28185_type_complete_len_124_gc_universal_CP_TRINITY_DN8655_c0_g2_i2_3519-3148_-_
+|                                 |  |                                  |  |                                |  +**| (0/99)
+|                                 |  |                                  |  |                                |     +**CP_TRINITY_DN8655_c0_g2__CP_TRINITY_DN8655_c0_g2_i3__g.28186__m.28186_type_complete_len_124_gc_universal_CP_TRINITY_DN8655_c0_g2_i3_595-966___
+|                                 |  |                                  |  |                             +--| (80.1/72)
+|                                 |  |                                  |  |                             |  |  +--Gregniph
+|                                 |  |                                  |  |                             |  +--| (77.7/89)
+|                                 |  |                                  |  |                             |     +--Guttvulg
+|                                 |  |                                  |  |                          +--| (86/57)
+|                                 |  |                                  |  |                          |  |  +--Batrdend
+|                                 |  |                                  |  |                          |  +--| (65.2/87)
+|                                 |  |                                  |  |                          |     +--Rhizdele
+|                                 |  |                                  |  |                       +--| (1.8/40)
+|                                 |  |                                  |  |                       |  |        +--Arabthal
+|                                 |  |                                  |  |                       |  |     +--| (0/50)
+|                                 |  |                                  |  |                       |  |     |  +--Thalpseu
+|                                 |  |                                  |  |                       |  |  +--| (86.9/75)
+|                                 |  |                                  |  |                       |  |  |  +--Ostrtaur
+|                                 |  |                                  |  |                       |  +--| (79.5/53)
+|                                 |  |                                  |  |                       |     |  +--Diacluth
+|                                 |  |                                  |  |                       |     +--| (66.9/52)
+|                                 |  |                                  |  |                       |        |  +--Squajapo
+|                                 |  |                                  |  |                       |        +--| (73.9/52)
+|                                 |  |                                  |  |                       |           +--Brevanat
+|                                 |  |                                  |  |                    +--| (77/65)
+|                                 |  |                                  |  |                    |  +--TeloneP2
+|                                 |  |                                  |  |                 +--| (97.4/96)
+|                                 |  |                                  |  |                 |  +--Pela2097
+|                                 |  |                                  |  |              +--| (99.4/96)
+|                                 |  |                                  |  |              |  +--Naeggrub
+|                                 |  |                                  |  |           +--| (87.8/96)
+|                                 |  |                                  |  |           |  +**Monoexil
+|                                 |  |                                  |  |        +--| (95.9/51)
+|                                 |  |                                  |  |        |  |        +--Gemicryo
+|                                 |  |                                  |  |        |  |     +--| (76.6/39)
+|                                 |  |                                  |  |        |  |     |  |        +--Vitrbras
+|                                 |  |                                  |  |        |  |     |  |     +--| (77.5/98)
+|                                 |  |                                  |  |        |  |     |  |     |  +--Platviva
+|                                 |  |                                  |  |        |  |     |  |  +--| (82.6/62)
+|                                 |  |                                  |  |        |  |     |  |  |  |  +--Pirisoci
+|                                 |  |                                  |  |        |  |     |  |  |  +--| (86.2/95)
+|                                 |  |                                  |  |        |  |     |  |  |     +--Carpmemb
+|                                 |  |                                  |  |        |  |     |  +--| (92.8/37)
+|                                 |  |                                  |  |        |  |     |     |            +--Phaeglob
+|                                 |  |                                  |  |        |  |     |     |     +------| (100/75)
+|                                 |  |                                  |  |        |  |     |     |     |      |  +--Gloewitr
+|                                 |  |                                  |  |        |  |     |     |     |      +--| (29/13)
+|                                 |  |                                  |  |        |  |     |     |     |         +--Idiovort
+|                                 |  |                                  |  |        |  |     |     |  +--| (40.1/7)
+|                                 |  |                                  |  |        |  |     |     |  |  +**Deveeleg
+|                                 |  |                                  |  |        |  |     |     +--| (22.2/5)
+|                                 |  |                                  |  |        |  |     |        |     +--Sphadest
+|                                 |  |                                  |  |        |  |     |        |  +--| (67.9/97)
+|                                 |  |                                  |  |        |  |     |        |  |  +--Filanola
+|                                 |  |                                  |  |        |  |     |        +--| (88.8/93)
+|                                 |  |                                  |  |        |  |     |           +--HeterBB2
+|                                 |  |                                  |  |        |  |  +--| (97.1/43)
+|                                 |  |                                  |  |        |  |  |  +--Cantmars
+|                                 |  |                                  |  |        |  +--| (92.1/43)
+|                                 |  |                                  |  |        |     +--Parapyri
+|                                 |  |                                  |  |     +**| (0/21)
+|                                 |  |                                  |  |     |  +--Spizpunc
+|                                 |  |                                  |  |  +--| (84.3/54)
+|                                 |  |                                  |  |  |  +--Coprcine
+|                                 |  |                                  |  +--| (74.6/49)
+|                                 |  |                                  |     +--Gefiokel
+|                                 |  |                               +--| (53.4/27)
+|                                 |  |                               |  |  +--Dunasali
+|                                 |  |                               |  +--| (77.9/38)
+|                                 |  |                               |     |  +--Galdphle
+|                                 |  |                               |     +--| (16.6/30)
+|                                 |  |                               |        +--Fragcyli
+|                                 |  |                            +--| (92.1/56)
+|                                 |  |                            |  +--Perkmari
+|                                 |  |                         +--| (75.4/68)
+|                                 |  |                         |  +--Stencoer
+|                                 |  |                      +--| (0/13)
+|                                 |  |                      |  |    +--Paulchro
+|                                 |  |                      |  +----| (100/95)
+|                                 |  |                      |       +--Gocefonb
+|                                 |  |                   +--| (78/66)
+|                                 |  |                   |  +--Tricvagi
+|                                 |  |            +------| (76.5/94)
+|                                 |  |            |      +--Stensten
+|                                 |  |         +--| (73.9/5)
+|                                 |  |         |  |  +--Paraconf
+|                                 |  |         |  +--| (47.1/45)
+|                                 |  |         |     |  +--Leptpyrr
+|                                 |  |         |     +--| (77/52)
+|                                 |  |         |        +--Leismajo
+|                                 |  |      +--| (95.2/4)
+|                                 |  |      |  |  +--Oxyrmari
+|                                 |  |      |  +--| (40.1/56)
+|                                 |  |      |     |     +--Physpoly
+|                                 |  |      |     |  +--| (80.1/53)
+|                                 |  |      |     |  |  |             +-----Syssmult
+|                                 |  |      |     |  |  |          +--| (93.3/86)
+|                                 |  |      |     |  |  |          |  +--Pedoelon
+|                                 |  |      |     |  |  |     +----| (100/86)
+|                                 |  |      |     |  |  |     |    +**ThecSK13
+|                                 |  |      |     |  |  |  +--| (45.3/80)
+|                                 |  |      |     |  |  |  |  +--Schimans
+|                                 |  |      |     |  |  +--| (72.3/68)
+|                                 |  |      |     |  |     +--Sphaarct
+|                                 |  |      |     +--| (72/50)
+|                                 |  |      |        |  +--Aplakerg
+|                                 |  |      |        +--| (97.9/97)
+|                                 |  |      |           +--ThraLLF1
+|                                 |  +------| (93.5/65)
+|                                 |         +**Mancberm
+|                              +--| (61.1/54)
+|                              |  +**Chlovari
+|                           +--| (47.8/56)
+|                           |  +--Porpaeru
+|                        +--| (85.9/52)
+|                        |  +--Blasbrit
+|                     +--| (81.4/52)
+|                     |  |        +--Galdsulp
+|                     |  |     +--| (74.7/97)
+|                     |  |     |  +--Pharkirb
+|                     |  |  +--| (52.4/63)
+|                     |  |  |  +--Echiexud
+|                     |  +--| (81.4/59)
+|                     |     +--Phalsoli
+|                  +--| (78.2/50)
+|                  |  |  +--PoterBG1
+|                  |  +--| (76/76)
+|                  |     +--Eutrgymn
+|               +--| (17.8/42)
+|               |  +--Micrpusl
+|            +**| (0/36)
+|            |  +--Prascaps
+|        +---| (93.4/90)
+|        |   |                       +--Charbrau
+|        |   |                    +--| (35.9/99)
+|        |   |                    |  |  +--Mantplas
+|        |   |                    |  +--| (91.7/100)
+|        |   |                    |     +--Aplycali
+|        |   |                 +--| (94.4/78)
+|        |   |                 |  +--Gephhuxl
+|        |   |              +--| (25.7/77)
+|        |   |              |  +--Aureanop
+|        |   |           +--| (75.9/48)
+|        |   |           |  |  +--Pseuelas
+|        |   |           |  +--| (93.3/66)
+|        |   |           |     +--Flor1587
+|        |   |        +--| (72.3/52)
+|        |   |        |  +**Syncpusi
+|        |   |     +--| (83.1/92)
+|        |   |     |  +---Cyanmero
+|        |   |  +--| (18.3/15)
+|        |   |  |  +--Rhiz1243
+|        |   +--| (35/25)
+|        |      +--Paratetr
+|     +--| (31.9/62)
+|     |  |  +**Noctscin
+|     |  +--| (94/91)
+|     |     +--Cryppara
+|  +--| (77/74)
+|  |  +--Mnemleid
++--| (65.4/78)
+|  |          +--SpirCILI
+|  |     +----| (94.5/96)
+|  |     |    |  +--Trimmari
+|  |     |    +--| (25.5/94)
+|  |     |       +--Rhizsaxo
+|  |  +--| (63.7/86)
+|  |  |  +--Reclamer
+|  +--| (0/53)
+|     |                      +------Symbmicr
+|     |                   +--| (52.8/15)
+|     |                   |  +--Malajako
+|     |            +------| (100/96)
+|     |            |      +**Tribgaya
+|     |         +--| (34.3/74)
+|     |         |  +**Protfung
+|     |      +--| (21/76)
+|     |      |  +--Coprprot
+|     |   +--| (54.1/70)
+|     |   |  +--Colpangu
+|     +---| (91.3/74)
+|         +**Prympoly
+|
++--Vannfimi
+
+Tree in newick format:
+
+(Blasemer:5.6802296668,(((((((((((((((((((((((((((Protlace:4.1704693882,((((Mitodaph:0.5261789770,Minivibr:0.5300440106)92.3/96:0.2544610698,Sapppeda:0.3541479487)86.8/31:0.1741617252,Pellcata:0.2268959713)5.6/24:0.1072846745,PlacCLAB:0.4328251474)88.7/83:5.5451438220)54.7/82:1.4807344950,Raphhete:0.0000020871)94.5/94:3.8822969510,((Pyrapark:0.0000021732,Lapoguse:0.9792801716)99.2/98:6.8492630590,((((Creofrag:9.3679580275,Rhodemar:0.2498216548)0/77:0.0000021775,Schiaggr:0.2877580534)91.4/89:0.1779292763,(Taensoli:0.5643358509,Salprose:0.4708495232)79.4/38:0.1298252082)81.2/35:0.3731356908,BlasS7SB:0.0118826639)82/42:2.2621457280)23.4/78:0.7209894749)68.1/71:0.8593813182,((((((((Hemirufe:1.1273805289,Crypparv:0.0949872625)90.8/100:10.0172595000,Chatsubs:0.0000025769)55.4/81:0.6512008012,Parvatla:3.9098969983)6.6/57:0.5247786620,(Eugllong:0.6175750047,Cavoapop:0.0000020418)95/89:4.7809617110)73.8/88:1.1599623380,((((((((((Styginca:0.5479968920,Andagodo:0.2775396880)91.1/97:0.1431245004,Ovaldese:0.3438663451)62.6/83:0.0733847890,Fabotrop:0.1394721503)72.4/65:0.0302175483,Auralima:0.3522425736)31.2/63:0.0286164735,(Veximinu:0.2436001816,NolaAFSM:0.3265125146)88.5/98:0.0918285795)75.3/79:0.0586355297,((Gracchor:0.0274277389,Choncris:0.0644764069)96.8/100:0.1331017816,Plasbras:0.2379236946)94.2/58:0.0835278570)50.7/45:0.0256365164,Glauincr:0.0499263514)57.7/50:0.1058208449,Capsowcz:0.0353179276)61/63:1.3563644570,((Calclept:0.0000026236,(Octaspec:0.1925233883,Brevmoto:0.4858658849)100/98:7.7681247820)0/12:0.0000023065,(Rhodmacu:1.0040428428,Prymparv:0.3469756994)76.7/89:0.1352799004)95.7/91:7.3603243760)78.4/79:1.8355882110,(((Porpumbi:10.0172594875,PB58411a:8.0422943358)0/74:0.0000024491,Endozona:0.0000023585)69.1/78:0.2954398645,(Alexminu:0.5920740923,Amoepara:0.4095986229)17.9/92:0.1289045096)91.3/84:3.6495121760)35.1/87:0.5729215158)80.6/91:2.0111898220,((Gratturu:0.4380546975,Amoeprot:0.6338725150)53.7/86:0.8883593408,MicrA134:10.0172589307)62.5/82:2.4966876170)0/45:0.2377585229,(Wobbluna:0.0000021794,Thecoxon:1.3363781080)96.9/99:4.1512508770)81.4/85:1.8782297480,((Soliirre:0.2374393343,Allomacr:0.4900700657)0/32:0.0000024167,Masteilh:0.6029830139)92.4/95:3.5136759380)0/55:0.1081895007)95.8/82:4.1259657970,Homosapi:0.0159564248)0/29:0.0000022703,Gallgall:0.0000029426)91.4/39:0.0831288410,Chroveli:0.2543969962)26.9/60:0.0483818999,Nemavect:0.0391730137)69.9/36:0.0596126696,((((((((((Telosubt:0.2562470087,Flabcita:0.6919702178)80.1/35:0.1129772475,Pigoviet:0.2511485505)88.1/33:0.1654934724,Roomtrun:0.3530060032)52.5/33:0.0475701043,Hemikukw:0.3381229821)0/24:0.0000023901,Tripeleu:0.4089024601)72.7/94:5.5150170200,Ancysigm:6.2537567239)84.8/77:4.8166295880,Debahans:0.0000023230)52.1/12:0.4312883680,Monobrev:0.1975258774)0/6:0.0287460986,((((((((((Chlarein:0.0000022326,Volvcart:0.0155907874)98.6/100:0.1142514205,(Tetrasti:0.0944528127,Paheparv:0.5015780008)85.7/79:0.0605241850)78.5/51:0.0334324701,(Prassing:0.0970977432,(((Dino2267:0.1682060824,Ochr2298:0.1205456848)99.7/86:0.2589355640,(Sapochin:0.7401483453,(Hetepall:0.3253842867,Fontalba:1.4733343245)56.1/79:0.1851360057)52.3/58:0.1014688144)0/30:0.0063469199,Tisolute:0.2006130644)77.4/37:0.0183224573)94.7/38:0.0857458987)85.9/21:0.0427260779,((Flecnera:0.3865807153,Euglgrac:0.1345714986)91.1/97:0.0905744113,(Ancytwis:0.2427046917,Physpate:0.1808930187)89.8/37:0.0560472553)73.7/27:0.0102924275)0/15:0.0000027379,(((Sacccere:0.5529875359,Palpbili:0.2953939471)76.5/40:0.0619706686,Ustimayd:0.2156678767)24.2/30:0.0333843662,((Apismell:0.1565532974,Drosmela:0.1806921794)91.6/96:0.1089645681,Branflor:0.1323871751)82.1/45:0.0563977010)92.9/37:0.0879594984)75.6/15:0.0170744331,(Phaetric:0.1945800766,Saprdecl:0.1424536865)82.8/92:0.0397653531)100/68:0.6861604537,(BicoCB20:10.0172597008,Sori0191:0.0000021799)29.4/19:0.4991563447)91.1/27:0.1462435398,Mayocant:0.0000023680)56.4/30:1.1132945300,((MAST004C:0.0000027013,Ergocypr:1.4867559884)84.3/98:10.0172590100,MAST004E:0.0084019418)69.8/93:4.4147759750)20.8/68:0.5148991346,Toxogond:7.3132092845)88.2/90:1.9466949040)18.5/11:0.0495103705,Schizpom:0.2272429059)84.2/35:0.0577727631)72.8/74:0.0149934226,Acancast:0.2368469906)88.1/74:0.0275331959,(((((Protadhe:0.5345315540,MAST04A1:0.1850202477)83.6/64:0.0581211373,Nutolong:0.2280991482)74.5/64:0.0281467285,(Stroincl:0.6953854744,(Diplambu:0.3484424409,Bodosalt:0.3543770486)70.1/90:0.0756568062)80.2/74:0.0775880799)82.2/68:0.0242645052,Rhodlimn:0.1810750440)70.8/66:0.0201956867,(Cyanpara:0.1521244120,Neurcras:0.5164296982)99.7/92:0.2688677882)62.5/53:0.0141137510)0/51:0.0000022180,(Guilthet:0.2955165284,((Ichtmult:0.8352957286,Amphquee:0.0687665443)47.4/85:0.1055744568,Aurisoli:0.3440812254)100/80:0.5744491401)92.9/42:0.2388407250)91.8/17:0.0508689824,(((Spirsalm:0.0000027984,Cerakond:2.1498664880)100/86:9.5081474300,((EctocSP7:0.0110365021,Agarclat:0.0481248911)36/85:0.0125605606,Fucucera:0.0000027291)77.1/86:0.1117029086)0/63:0.0000023968,Psuemult:0.2585097671)83.8/63:0.0485628332)50.8/9:0.0286228417,Haloseos:0.2596787349)52.4/9:0.1190271931,Pythirre:0.0000029035)91.8/73:8.1244337640,((((((((((((((((((((((((((((Thectrah:0.4752397051,Compcoer:0.3471950946)66.5/95:0.1103675011,Bafffrig:0.6638068426)71.6/95:0.0431851752,Chrycart:0.1828470343)99.4/1:0.2447249411,Tychacut:0.0629017245)0/1:0.0250297573,Schivulg:0.0000024874)95.9/98:10.0172594700,((((Porppurp:0.8377717926,Karebrev:0.2024317880)65.5/74:0.1533791428,Nephpyri:0.4254669513)76/38:0.1400356455,(Stichzan:0.6013008673,Vermverm:0.4808674995)86/99:0.1226689721)0/15:0.0000022801,Phytpara:0.2741216592)84.8/59:4.1128113050)51.7/94:2.9335076350,(Paralevi:1.1312825143,Adunpalu:0.2228541601)95.7/73:7.7517305930)34.8/28:0.8813974981,Tsukglob:0.0000023054)30.7/49:0.2453278309,Aspefumi:0.5935988198)36.8/50:0.0499683394,Pygsbifo:0.3076839977)77/43:0.0544096475,(Coralima:0.2357631651,Caeneleg:0.3121526394)19.2/56:0.0793526997)80.6/26:0.0569098779,(Neobdesi:0.4766030051,Cuneruss:0.3284721150)72.4/40:0.0569500376)71.4/10:0.0450688735,CP_TRINITY_DN2017_c1_g1__CP_TRINITY_DN2017_c1_g1_i1__g.50841__m.50841_type_complete_len_120_gc_universal_CP_TRINITY_DN2017_c1_g1_i1_465-106_-_:0.1830601661)80.6/8:0.0497976787,((Hyphcate:0.0082638830,Colltric:6.4966791366)28.8/31:0.0701723759,(Fibrjapo:0.1031117362,Heteakas:0.1455709105)89.9/94:0.0650369897)83/26:0.0401108860)42.6/9:0.0521416600,((Eimebrun:0.1937587352,(Plasfalc:0.0000023323,(((Picosali:0.2012816180,((Chryrota:0.1719236949,(Pavl2436:0.1209840867,Armalang:0.2808826095)31.3/90:0.0487154451)71.8/69:0.0503113667,((Aurelagu:0.2150943876,Pelacalc:0.1562378145)99.9/96:0.2232934500,Echibisp:0.2046324012)49.9/61:0.0401634368)72.8/72:0.0467686505)16/86:0.4091508558,Malacali:0.0000020997)88/99:4.7086260370,Pedi2098:3.3762637247)84.8/94:7.1019178800)65.9/73:0.2799820405)94.5/74:0.1458354037,HemaVICK:0.1279670237)76.1/54:0.0705976725)85.6/21:0.1943003412,Platmacr:1.5023662552)0/3:0.1098138724,Chlorept:0.1620633002)100/91:10.0172598300,Rhizelon:0.4465619423)0/36:0.0000026190,((((((((((((((((((Bigenata:0.3270238586,MatazaD1:0.2266111702)85.5/75:0.0640173262,((((((TeloneP1:5.2978042821,Tetrther:0.0000029383)92.6/100:5.3221022380,(Pelasubv:0.8869423326,Diphrota:0.0000024676)85.9/99:6.3247251940)37.9/61:2.0206315310,Oryzsati:2.0482588562)84.2/87:4.1158735740,Goniavon:2.2593163927)92.2/77:6.7205636440,Rigiramo:0.0000021117)50.2/56:0.2141071375,(((Styllemn:0.7555797331,Dictdisc:0.3852086792)91/93:0.1952443345,(Paravest:0.1514087402,Mallmari:0.2122805097)88.9/100:0.1402042022)73/81:0.0412542939,Rozeallo:0.3895383462)67.2/87:0.0246509611)92.3/66:0.1210020651)77.7/82:0.0614502013,Mesoviri:0.2098365919)86/76:0.0678818865,Cochminu:0.2735765864)76.3/79:0.0614078852,Arcevulg:0.3954254231)40.2/75:0.0701303277,Dracjorm:0.0000020700)100/98:8.1408595350,(CP_TRINITY_DN8655_c0_g2__CP_TRINITY_DN8655_c0_g2_i2__g.28185__m.28185_type_complete_len_124_gc_universal_CP_TRINITY_DN8655_c0_g2_i2_3519-3148_-_:0.0000028253,CP_TRINITY_DN8655_c0_g2__CP_TRINITY_DN8655_c0_g2_i3__g.28186__m.28186_type_complete_len_124_gc_universal_CP_TRINITY_DN8655_c0_g2_i3_595-966___:0.0000010017)0/99:0.0000024889)55.5/84:0.5526280004,(Gregniph:1.1256765055,Guttvulg:1.0282806383)77.7/89:0.1803629566)80.1/72:0.1067832959,(Batrdend:0.2314135349,Rhizdele:0.1349843789)65.2/87:0.0741347814)86/57:0.0776225328,(((Arabthal:0.2764565741,Thalpseu:0.2617514206)0/50:0.0008488097,Ostrtaur:0.1299574560)86.9/75:0.0601891420,(Diacluth:0.2370168227,(Squajapo:0.2007813735,Brevanat:0.3539206488)73.9/52:0.0342801181)66.9/52:0.0336024573)79.5/53:0.0684238446)1.8/40:0.0425913441,TeloneP2:0.4061904864)77/65:0.0998028639,Pela2097:0.1738963531)97.4/96:0.4837993630,Naeggrub:0.7977586105)99.4/96:1.1476291180,Monoexil:0.0000023407)87.8/96:1.8733162500,(((Gemicryo:0.7434571867,(((Vitrbras:0.0302902354,Platviva:0.8070980307)77.5/98:0.1078340069,(Pirisoci:0.2656502842,Carpmemb:0.6857047381)86.2/95:0.0989415210)82.6/62:0.0698433674,(((Phaeglob:0.0672844591,(Gloewitr:0.3473673089,Idiovort:0.3771123854)29/13:0.1233009230)100/75:10.0172594600,Deveeleg:0.0000024147)40.1/7:0.3703082461,((Sphadest:0.2896685931,Filanola:0.1135574731)67.9/97:0.0328885884,HeterBB2:0.3113979516)88.8/93:0.0857193637)22.2/5:0.0431971052)92.8/37:0.3906454674)76.6/39:0.4055678581,Cantmars:1.2351097960)97.1/43:0.8493476609,Parapyri:0.0260925473)92.1/43:1.6421612260)95.9/51:2.5425401330,Spizpunc:0.0217084933)0/21:0.0000020171,Coprcine:0.3078516463)84.3/54:0.0611132520,Gefiokel:0.3766661133)74.6/49:0.0478018992)61.9/61:0.0983847066,(Dunasali:0.1582090132,(Galdphle:0.7602218584,Fragcyli:0.2839780011)16.6/30:0.0545504537)77.9/38:0.0464371791)53.4/27:0.0283169488,Perkmari:0.3558087236)92.1/56:0.2933734620,Stencoer:0.6168379766)75.4/68:0.5746071878,(Paulchro:0.3792551507,Gocefonb:0.7546688265)100/95:6.9843111800)0/13:0.0290211385,Tricvagi:0.1685822499)78/66:4.7966059170,Stensten:1.5278378313)76.5/94:10.0172590900,(Paraconf:0.1741628632,(Leptpyrr:0.0222273762,Leismajo:0.0095107778)77/52:0.2023968398)47.1/45:0.2144041365)73.9/5:0.3201348923,(Oxyrmari:0.2717131409,((Physpoly:0.3127864163,((((Syssmult:8.7974815305,Pedoelon:0.3546638086)93.3/86:0.6457390462,ThecSK13:0.0000020562)100/86:6.7999146790,Schimans:0.3974258617)45.3/80:0.2597185587,Sphaarct:0.0882277373)72.3/68:0.0269173810)80.1/53:0.0350179499,(Aplakerg:0.1524658332,ThraLLF1:0.1620767454)97.9/97:0.1358610727)72/50:0.0412960338)40.1/56:0.0709467458)95.2/4:0.1291396364,Mancberm:0.0000021451)93.5/65:9.9619603440)59.1/91:1.9113569330,Chlovari:0.0000028097)61.1/54:0.1807680688,Porpaeru:0.3192546394)47.8/56:0.0538087339,Blasbrit:0.2735327305)85.9/52:0.0583363024,(((Galdsulp:0.6406161855,Pharkirb:0.3500547491)74.7/97:0.1699090210,Echiexud:0.1944918473)52.4/63:0.0872515412,Phalsoli:0.3080024449)81.4/59:0.0456826186)81.4/52:0.0347870048,(PoterBG1:0.3988507313,Eutrgymn:0.1981011679)76/76:0.0840533580)78.2/50:0.0449701582,Micrpusl:0.2298169280)17.8/42:0.0273351022,Prascaps:0.1277990982)0/36:0.0000022105,((((((((Charbrau:0.1360992388,(Mantplas:0.5937261563,Aplycali:0.1881248466)91.7/100:0.1269217360)35.9/99:0.0578831713,Gephhuxl:0.1279743662)94.4/78:0.0764297624,Aureanop:0.1908702661)25.7/77:0.0160136061,(Pseuelas:0.3080547306,Flor1587:0.1196421567)93.3/66:0.1134929336)75.9/48:0.5586316243,Syncpusi:0.0000028951)72.3/52:3.4177222540,Cyanmero:5.3619439943)83.1/92:5.0695916270,Rhiz1243:0.5662939908)18.3/15:0.2646955993,Paratetr:1.2937560073)35/25:0.3674295561)93.4/90:6.2478345120,(Noctscin:0.0000027679,Cryppara:1.1242429290)94/91:3.5850485630)31.9/62:1.1128095890,Mnemleid:4.4116925633)77/74:2.3055678780,(((SpirCILI:0.2975430236,(Trimmari:1.0540379240,Rhizsaxo:1.1026488772)25.5/94:0.3486636371)94.5/96:7.0692353770,Reclamer:1.2294249308)63.7/86:2.1707210330,((((((Symbmicr:9.9146037900,Malajako:0.4657867088)52.8/15:0.3164527643,Tribgaya:0.0000021662)100/96:10.0172596200,Protfung:0.0000023834)34.3/74:0.2154765559,Coprprot:1.1436485251)21/76:0.0782550207,Colpangu:1.7755881450)54.1/70:0.1409805202,Prympoly:0.0000022166)91.3/74:6.3350464140)0/53:0.2141441993)65.4/78:1.8458201400,Vannfimi:2.9905546849);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -67536.948360
+Robinson-Foulds distance between ML tree and consensus tree: 110
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---Blasemer
+|
+|                                                                           +--Protlace
+|                                                                        +--| (82)
+|                                                                        |  |        +--Mitodaph
+|                                                                        |  |     +--| (96)
+|                                                                        |  |     |  +--Minivibr
+|                                                                        |  |  +--| (59)
+|                                                                        |  |  |  |  +--PlacCLAB
+|                                                                        |  |  |  +--| (63)
+|                                                                        |  |  |     +--Pellcata
+|                                                                        |  +--| (83)
+|                                                                        |     +--Sapppeda
+|                                                                     +--| (94)
+|                                                                     |  +--Raphhete
+|                                                                  +--| (71)
+|                                                                  |  |                +--Pyrapark
+|                                                                  |  |           +----| (98)
+|                                                                  |  |           |    +--Lapoguse
+|                                                                  |  |        +--| (50)
+|                                                                  |  |        |  +--Taensoli
+|                                                                  |  |     +--| (50)
+|                                                                  |  |     |  +--Salprose
+|                                                                  |  |  +--| (50)
+|                                                                  |  |  |  |     +-----Creofrag
+|                                                                  |  |  |  |  +--| (77)
+|                                                                  |  |  |  |  |  +--Rhodemar
+|                                                                  |  |  |  +--| (89)
+|                                                                  |  |  |     +--Schiaggr
+|                                                                  |  +--| (78)
+|                                                                  |     +--BlasS7SB
+|                                                               +--| (82)
+|                                                               |  |                           +--Hemirufe
+|                                                               |  |                    +------| (100)
+|                                                               |  |                    |      +--Crypparv
+|                                                               |  |                 +--| (81)
+|                                                               |  |                 |  +--Chatsubs
+|                                                               |  |              +--| (57)
+|                                                               |  |              |  +--Parvatla
+|                                                               |  |           +--| (88)
+|                                                               |  |           |  |  +--Eugllong
+|                                                               |  |           |  +--| (89)
+|                                                               |  |           |     +--Cavoapop
+|                                                               |  |        +--| (91)
+|                                                               |  |        |  |                             +--Styginca
+|                                                               |  |        |  |                          +--| (97)
+|                                                               |  |        |  |                          |  +--Andagodo
+|                                                               |  |        |  |                       +--| (83)
+|                                                               |  |        |  |                       |  +--Ovaldese
+|                                                               |  |        |  |                    +--| (65)
+|                                                               |  |        |  |                    |  +--Fabotrop
+|                                                               |  |        |  |                 +--| (63)
+|                                                               |  |        |  |                 |  +--Auralima
+|                                                               |  |        |  |              +--| (79)
+|                                                               |  |        |  |              |  |  +--Veximinu
+|                                                               |  |        |  |              |  +--| (98)
+|                                                               |  |        |  |              |     +--NolaAFSM
+|                                                               |  |        |  |           +--| (45)
+|                                                               |  |        |  |           |  |     +--Gracchor
+|                                                               |  |        |  |           |  |  +--| (100)
+|                                                               |  |        |  |           |  |  |  +--Choncris
+|                                                               |  |        |  |           |  +--| (58)
+|                                                               |  |        |  |           |     +--Plasbras
+|                                                               |  |        |  |        +--| (50)
+|                                                               |  |        |  |        |  +--Glauincr
+|                                                               |  |        |  |     +--| (63)
+|                                                               |  |        |  |     |  +--Capsowcz
+|                                                               |  |        |  |  +--| (79)
+|                                                               |  |        |  |  |  |     +--Calclept
+|                                                               |  |        |  |  |  |  +--| (81)
+|                                                               |  |        |  |  |  |  |  |  +--Rhodmacu
+|                                                               |  |        |  |  |  |  |  +--| (89)
+|                                                               |  |        |  |  |  |  |     +--Prymparv
+|                                                               |  |        |  |  |  +--| (91)
+|                                                               |  |        |  |  |     |  +--Octaspec
+|                                                               |  |        |  |  |     +--| (98)
+|                                                               |  |        |  |  |        +--Brevmoto
+|                                                               |  |        |  +--| (87)
+|                                                               |  |        |     |        +------Porpumbi
+|                                                               |  |        |     |     +--| (74)
+|                                                               |  |        |     |     |  +----PB58411a
+|                                                               |  |        |     |  +--| (78)
+|                                                               |  |        |     |  |  +--Endozona
+|                                                               |  |        |     +--| (84)
+|                                                               |  |        |        |  +--Alexminu
+|                                                               |  |        |        +--| (92)
+|                                                               |  |        |           +--Amoepara
+|                                                               |  |     +--| (45)
+|                                                               |  |     |  |     +--Gratturu
+|                                                               |  |     |  |  +--| (86)
+|                                                               |  |     |  |  |  +--Amoeprot
+|                                                               |  |     |  +--| (82)
+|                                                               |  |     |     +------MicrA134
+|                                                               |  |  +--| (85)
+|                                                               |  |  |  |  +--Wobbluna
+|                                                               |  |  |  +--| (99)
+|                                                               |  |  |     +--Thecoxon
+|                                                               |  +--| (55)
+|                                                               |     |  +--Soliirre
+|                                                               |     +--| (95)
+|                                                               |        |  +--Masteilh
+|                                                               |        +--| (54)
+|                                                               |           +--Allomacr
+|                                                            +--| (39)
+|                                                            |  |  +--Homosapi
+|                                                            |  +--| (59)
+|                                                            |     +--Gallgall
+|                                                         +--| (60)
+|                                                         |  +--Chroveli
+|                                                      +--| (36)
+|                                                      |  +--Nemavect
+|                                                   +--| (74)
+|                                                   |  |         +--Telosubt
+|                                                   |  |      +--| (94)
+|                                                   |  |      |  |           +--Hemikukw
+|                                                   |  |      |  |        +--| (55)
+|                                                   |  |      |  |        |  +--Tripeleu
+|                                                   |  |      |  |     +--| (46)
+|                                                   |  |      |  |     |  +--Roomtrun
+|                                                   |  |      |  |  +--| (44)
+|                                                   |  |      |  |  |  +--Pigoviet
+|                                                   |  |      |  +--| (42)
+|                                                   |  |      |     +--Flabcita
+|                                                   |  |  +---| (77)
+|                                                   |  |  |   +---Ancysigm
+|                                                   |  +--| (35)
+|                                                   |     |                                +--Chlarein
+|                                                   |     |                             +--| (100)
+|                                                   |     |                             |  +--Volvcart
+|                                                   |     |                          +--| (51)
+|                                                   |     |                          |  |  +--Tetrasti
+|                                                   |     |                          |  +--| (79)
+|                                                   |     |                          |     +--Paheparv
+|                                                   |     |                       +--| (51)
+|                                                   |     |                       |  |     +--Sacccere
+|                                                   |     |                       |  |  +--| (28)
+|                                                   |     |                       |  |  |  |     +--Apismell
+|                                                   |     |                       |  |  |  |  +--| (96)
+|                                                   |     |                       |  |  |  |  |  +--Drosmela
+|                                                   |     |                       |  |  |  +--| (45)
+|                                                   |     |                       |  |  |     +--Branflor
+|                                                   |     |                       |  +--| (16)
+|                                                   |     |                       |     |        +--Flecnera
+|                                                   |     |                       |     |     +--| (97)
+|                                                   |     |                       |     |     |  +--Euglgrac
+|                                                   |     |                       |     |  +--| (17)
+|                                                   |     |                       |     |  |  |        +--Palpbili
+|                                                   |     |                       |     |  |  |     +--| (53)
+|                                                   |     |                       |     |  |  |     |  +--Ustimayd
+|                                                   |     |                       |     |  |  |  +--| (50)
+|                                                   |     |                       |     |  |  |  |  +--Ancytwis
+|                                                   |     |                       |     |  |  +--| (49)
+|                                                   |     |                       |     |  |     +--Physpate
+|                                                   |     |                       |     +--| (18)
+|                                                   |     |                       |        |  +--Phaetric
+|                                                   |     |                       |        +--| (92)
+|                                                   |     |                       |           +--Saprdecl
+|                                                   |     |                    +--| (68)
+|                                                   |     |                    |  |  +--Prassing
+|                                                   |     |                    |  +--| (38)
+|                                                   |     |                    |     |        +--Dino2267
+|                                                   |     |                    |     |     +--| (86)
+|                                                   |     |                    |     |     |  +--Ochr2298
+|                                                   |     |                    |     |  +--| (30)
+|                                                   |     |                    |     |  |  |  +--Sapochin
+|                                                   |     |                    |     |  |  +--| (58)
+|                                                   |     |                    |     |  |     |  +--Hetepall
+|                                                   |     |                    |     |  |     +--| (79)
+|                                                   |     |                    |     |  |        +--Fontalba
+|                                                   |     |                    |     +--| (37)
+|                                                   |     |                    |        +--Tisolute
+|                                                   |     |                 +--| (40)
+|                                                   |     |                 |  +--Sori0191
+|                                                   |     |              +--| (40)
+|                                                   |     |              |  +--Mayocant
+|                                                   |     |           +--| (30)
+|                                                   |     |           |  +------BicoCB20
+|                                                   |     |        +--| (68)
+|                                                   |     |        |  |         +--MAST004C
+|                                                   |     |        |  |  +------| (98)
+|                                                   |     |        |  |  |      +--Ergocypr
+|                                                   |     |        |  +--| (93)
+|                                                   |     |        |     +--MAST004E
+|                                                   |     |     +--| (90)
+|                                                   |     |     |  +----Toxogond
+|                                                   |     |  +--| (50)
+|                                                   |     |  |  |  +--Monobrev
+|                                                   |     |  |  +--| (64)
+|                                                   |     |  |     +--Debahans
+|                                                   |     +--| (26)
+|                                                   |        +--Schizpom
+|                                                +--| (74)
+|                                                |  +--Acancast
+|                                             +--| (51)
+|                                             |  |              +--Protadhe
+|                                             |  |           +--| (64)
+|                                             |  |           |  +--MAST04A1
+|                                             |  |        +--| (64)
+|                                             |  |        |  +--Nutolong
+|                                             |  |     +--| (68)
+|                                             |  |     |  |  +--Stroincl
+|                                             |  |     |  +--| (74)
+|                                             |  |     |     |  +--Diplambu
+|                                             |  |     |     +--| (90)
+|                                             |  |     |        +--Bodosalt
+|                                             |  |  +--| (66)
+|                                             |  |  |  +--Rhodlimn
+|                                             |  +--| (53)
+|                                             |     |  +--Cyanpara
+|                                             |     +--| (92)
+|                                             |        +--Neurcras
+|                                          +--| (50)
+|                                          |  |              +--Spirsalm
+|                                          |  |        +-----| (86)
+|                                          |  |        |     +--Cerakond
+|                                          |  |     +--| (63)
+|                                          |  |     |  |     +--EctocSP7
+|                                          |  |     |  |  +--| (85)
+|                                          |  |     |  |  |  +--Agarclat
+|                                          |  |     |  +--| (86)
+|                                          |  |     |     +--Fucucera
+|                                          |  |  +--| (63)
+|                                          |  |  |  +--Psuemult
+|                                          |  +--| (56)
+|                                          |     |  +--Haloseos
+|                                          |     +--| (58)
+|                                          |        +--Pythirre
+|                                       +--| (73)
+|                                       |  |  +--Guilthet
+|                                       |  +--| (42)
+|                                       |     |     +--Ichtmult
+|                                       |     |  +--| (85)
+|                                       |     |  |  +--Amphquee
+|                                       |     +--| (80)
+|                                       |        +--Aurisoli
+|                                   +---| (91)
+|                                   |   |                                                                                         +--Thectrah
+|                                   |   |                                                                                      +--| (95)
+|                                   |   |                                                                                      |  +--Compcoer
+|                                   |   |                                                                                   +--| (95)
+|                                   |   |                                                                                   |  +--Bafffrig
+|                                   |   |                                                                                +--| (92)
+|                                   |   |                                                                                |  |  +--Schivulg
+|                                   |   |                                                                                |  +--| (98)
+|                                   |   |                                                                                |     +--Tychacut
+|                                   |   |                                                                         +------| (98)
+|                                   |   |                                                                         |      +--Chrycart
+|                                   |   |                                                                      +--| (94)
+|                                   |   |                                                                      |  |        +--Porppurp
+|                                   |   |                                                                      |  |     +--| (74)
+|                                   |   |                                                                      |  |     |  +--Karebrev
+|                                   |   |                                                                      |  |  +--| (38)
+|                                   |   |                                                                      |  |  |  +--Nephpyri
+|                                   |   |                                                                      |  +--| (59)
+|                                   |   |                                                                      |     |     +--Stichzan
+|                                   |   |                                                                      |     |  +--| (99)
+|                                   |   |                                                                      |     |  |  +--Vermverm
+|                                   |   |                                                                      |     +--| (61)
+|                                   |   |                                                                      |        +--Phytpara
+|                                   |   |                                                                   +--| (35)
+|                                   |   |                                                                   |  +--Tsukglob
+|                                   |   |                                                                +--| (49)
+|                                   |   |                                                                |  |     +--Paralevi
+|                                   |   |                                                                |  +-----| (73)
+|                                   |   |                                                                |        +--Adunpalu
+|                                   |   |                                                             +--| (50)
+|                                   |   |                                                             |  +--Aspefumi
+|                                   |   |                                                          +--| (43)
+|                                   |   |                                                          |  +--Pygsbifo
+|                                   |   |                                                       +--| (26)
+|                                   |   |                                                       |  |  +--Coralima
+|                                   |   |                                                       |  +--| (56)
+|                                   |   |                                                       |     +--Caeneleg
+|                                   |   |                                                    +--| (49)
+|                                   |   |                                                    |  +--Neobdesi
+|                                   |   |                                                 +--| (52)
+|                                   |   |                                                 |  +--CP_TRINITY_DN2017_c1_g1__CP_TRINITY_DN2017_c1_g1_i1__g.50841__m.50841_type_complete_len_120_gc_universal_CP_TRINITY_DN2017_c1_g1_i1_465-106_-_
+|                                   |   |                                              +--| (41)
+|                                   |   |                                              |  |  +--Hyphcate
+|                                   |   |                                              |  +--| (60)
+|                                   |   |                                              |     |  +--Fibrjapo
+|                                   |   |                                              |     +--| (94)
+|                                   |   |                                              |        +--Heteakas
+|                                   |   |                                           +--| (29)
+|                                   |   |                                           |  |     +--Eimebrun
+|                                   |   |                                           |  |  +--| (74)
+|                                   |   |                                           |  |  |  |  +--Plasfalc
+|                                   |   |                                           |  |  |  +--| (73)
+|                                   |   |                                           |  |  |     |          +--Picosali
+|                                   |   |                                           |  |  |     |       +--| (86)
+|                                   |   |                                           |  |  |     |       |  |     +--Chryrota
+|                                   |   |                                           |  |  |     |       |  |  +--| (69)
+|                                   |   |                                           |  |  |     |       |  |  |  |  +--Pavl2436
+|                                   |   |                                           |  |  |     |       |  |  |  +--| (90)
+|                                   |   |                                           |  |  |     |       |  |  |     +--Armalang
+|                                   |   |                                           |  |  |     |       |  +--| (72)
+|                                   |   |                                           |  |  |     |       |     |     +--Aurelagu
+|                                   |   |                                           |  |  |     |       |     |  +--| (96)
+|                                   |   |                                           |  |  |     |       |     |  |  +--Pelacalc
+|                                   |   |                                           |  |  |     |       |     +--| (61)
+|                                   |   |                                           |  |  |     |       |        +--Echibisp
+|                                   |   |                                           |  |  |     |    +--| (99)
+|                                   |   |                                           |  |  |     |    |  +--Malacali
+|                                   |   |                                           |  |  |     +----| (94)
+|                                   |   |                                           |  |  |          +--Pedi2098
+|                                   |   |                                           |  +--| (54)
+|                                   |   |                                           |     +--HemaVICK
+|                                   |   |                                        +--| (18)
+|                                   |   |                                        |  |     +--Platmacr
+|                                   |   |                                        |  |  +--| (49)
+|                                   |   |                                        |  |  |  +--Chlorept
+|                                   |   |                                        |  +--| (27)
+|                                   |   |                                        |     +---Colltric
+|                                   |   |                                  +-----| (91)
+|                                   |   |                                  |     +--Cuneruss
+|                                   |   |                               +--| (38)
+|                                   |   |                               |  |                                                          +--Bigenata
+|                                   |   |                               |  |                                                       +--| (75)
+|                                   |   |                               |  |                                                       |  +--MatazaD1
+|                                   |   |                               |  |                                                    +--| (82)
+|                                   |   |                               |  |                                                    |  |                  +--TeloneP1
+|                                   |   |                               |  |                                                    |  |               +--| (100)
+|                                   |   |                               |  |                                                    |  |               |  +--Tetrther
+|                                   |   |                               |  |                                                    |  |            +--| (61)
+|                                   |   |                               |  |                                                    |  |            |  |   +--Pelasubv
+|                                   |   |                               |  |                                                    |  |            |  +---| (99)
+|                                   |   |                               |  |                                                    |  |            |      +--Diphrota
+|                                   |   |                               |  |                                                    |  |         +--| (87)
+|                                   |   |                               |  |                                                    |  |         |  +--Oryzsati
+|                                   |   |                               |  |                                                    |  |     +---| (77)
+|                                   |   |                               |  |                                                    |  |     |   +--Goniavon
+|                                   |   |                               |  |                                                    |  |  +--| (56)
+|                                   |   |                               |  |                                                    |  |  |  +--Rigiramo
+|                                   |   |                               |  |                                                    |  +--| (66)
+|                                   |   |                               |  |                                                    |     |        +--Styllemn
+|                                   |   |                               |  |                                                    |     |     +--| (93)
+|                                   |   |                               |  |                                                    |     |     |  +--Dictdisc
+|                                   |   |                               |  |                                                    |     |  +--| (81)
+|                                   |   |                               |  |                                                    |     |  |  |  +--Paravest
+|                                   |   |                               |  |                                                    |     |  |  +--| (100)
+|                                   |   |                               |  |                                                    |     |  |     +--Mallmari
+|                                   |   |                               |  |                                                    |     +--| (87)
+|                                   |   |                               |  |                                                    |        +--Rozeallo
+|                                   |   |                               |  |                                                 +--| (76)
+|                                   |   |                               |  |                                                 |  +--Mesoviri
+|                                   |   |                               |  |                                              +--| (79)
+|                                   |   |                               |  |                                              |  +--Cochminu
+|                                   |   |                               |  |                                           +--| (75)
+|                                   |   |                               |  |                                           |  +--Arcevulg
+|                                   |   |                               |  |                                      +----| (98)
+|                                   |   |                               |  |                                      |    +--Dracjorm
+|                                   |   |                               |  |                                   +--| (84)
+|                                   |   |                               |  |                                   |  |     +**CP_TRINITY_DN8655_c0_g2__CP_TRINITY_DN8655_c0_g2_i2__g.28185__m.28185_type_complete_len_124_gc_universal_CP_TRINITY_DN8655_c0_g2_i2_3519-3148_-_
+|                                   |   |                               |  |                                   |  |  +--|
+|                                   |   |                               |  |                                   |  |  |  +**CP_TRINITY_DN8655_c0_g2__CP_TRINITY_DN8655_c0_g2_i4__g.28187__m.28187_type_complete_len_124_gc_universal_CP_TRINITY_DN8655_c0_g2_i4_747-376_-_
+|                                   |   |                               |  |                                   |  +--| (99)
+|                                   |   |                               |  |                                   |     +--CP_TRINITY_DN8655_c0_g2__CP_TRINITY_DN8655_c0_g2_i3__g.28186__m.28186_type_complete_len_124_gc_universal_CP_TRINITY_DN8655_c0_g2_i3_595-966___
+|                                   |   |                               |  |                                +--| (72)
+|                                   |   |                               |  |                                |  |  +--Gregniph
+|                                   |   |                               |  |                                |  +--| (89)
+|                                   |   |                               |  |                                |     +--Guttvulg
+|                                   |   |                               |  |                             +--| (57)
+|                                   |   |                               |  |                             |  |  +--Batrdend
+|                                   |   |                               |  |                             |  +--| (87)
+|                                   |   |                               |  |                             |     +--Rhizdele
+|                                   |   |                               |  |                          +--| (40)
+|                                   |   |                               |  |                          |  |        +--Arabthal
+|                                   |   |                               |  |                          |  |     +--| (50)
+|                                   |   |                               |  |                          |  |     |  +--Thalpseu
+|                                   |   |                               |  |                          |  |  +--| (75)
+|                                   |   |                               |  |                          |  |  |  +--Ostrtaur
+|                                   |   |                               |  |                          |  +--| (53)
+|                                   |   |                               |  |                          |     |  +--Diacluth
+|                                   |   |                               |  |                          |     +--| (52)
+|                                   |   |                               |  |                          |        |  +--Squajapo
+|                                   |   |                               |  |                          |        +--| (52)
+|                                   |   |                               |  |                          |           +--Brevanat
+|                                   |   |                               |  |                       +--| (65)
+|                                   |   |                               |  |                       |  +--TeloneP2
+|                                   |   |                               |  |                    +--| (96)
+|                                   |   |                               |  |                    |  +--Pela2097
+|                                   |   |                               |  |                 +--| (96)
+|                                   |   |                               |  |                 |  +--Naeggrub
+|                                   |   |                               |  |              +--| (96)
+|                                   |   |                               |  |              |  +--Monoexil
+|                                   |   |                               |  |           +--| (53)
+|                                   |   |                               |  |           |  |        +--Gemicryo
+|                                   |   |                               |  |           |  |     +--| (54)
+|                                   |   |                               |  |           |  |     |  |        +--Vitrbras
+|                                   |   |                               |  |           |  |     |  |     +--| (98)
+|                                   |   |                               |  |           |  |     |  |     |  +--Platviva
+|                                   |   |                               |  |           |  |     |  |  +--| (62)
+|                                   |   |                               |  |           |  |     |  |  |  |  +--Pirisoci
+|                                   |   |                               |  |           |  |     |  |  |  +--| (95)
+|                                   |   |                               |  |           |  |     |  |  |     +--Carpmemb
+|                                   |   |                               |  |           |  |     |  +--| (52)
+|                                   |   |                               |  |           |  |     |     |        +--Sphadest
+|                                   |   |                               |  |           |  |     |     |     +--| (97)
+|                                   |   |                               |  |           |  |     |     |     |  +--Filanola
+|                                   |   |                               |  |           |  |     |     |  +--| (93)
+|                                   |   |                               |  |           |  |     |     |  |  +--HeterBB2
+|                                   |   |                               |  |           |  |     |     +--| (69)
+|                                   |   |                               |  |           |  |     |        +--Deveeleg
+|                                   |   |                               |  |           |  |  +--| (55)
+|                                   |   |                               |  |           |  |  |  +--Cantmars
+|                                   |   |                               |  |           |  +--| (54)
+|                                   |   |                               |  |           |     +--Parapyri
+|                                   |   |                               |  |        +--| (51)
+|                                   |   |                               |  |        |  |       +--Phaeglob
+|                                   |   |                               |  |        |  |    +--| (62)
+|                                   |   |                               |  |        |  |    |  +--Gloewitr
+|                                   |   |                               |  |        |  +----| (75)
+|                                   |   |                               |  |        |       +--Idiovort
+|                                   |   |                               |  |     +--| (31)
+|                                   |   |                               |  |     |  +--Coprcine
+|                                   |   |                               |  |  +--| (54)
+|                                   |   |                               |  |  |  +--Spizpunc
+|                                   |   |                               |  +--| (49)
+|                                   |   |                               |     +--Gefiokel
+|                                   |   |                            +--| (61)
+|                                   |   |                            |  +--Rhizelon
+|                                   |   |                         +--| (27)
+|                                   |   |                         |  |  +--Dunasali
+|                                   |   |                         |  +--| (38)
+|                                   |   |                         |     |  +--Galdphle
+|                                   |   |                         |     +--| (30)
+|                                   |   |                         |        +--Fragcyli
+|                                   |   |                      +--| (56)
+|                                   |   |                      |  +--Perkmari
+|                                   |   |                   +--| (68)
+|                                   |   |                   |  +--Stencoer
+|                                   |   |                +--| (54)
+|                                   |   |                |  +--Tricvagi
+|                                   |   |             +--| (66)
+|                                   |   |             |  |   +--Paulchro
+|                                   |   |             |  +---| (95)
+|                                   |   |             |      +--Gocefonb
+|                                   |   |      +------| (94)
+|                                   |   |      |      +--Stensten
+|                                   |   +------| (65)
+|                                   |          |        +--Oxyrmari
+|                                   |          |     +--| (56)
+|                                   |          |     |  |     +--Physpoly
+|                                   |          |     |  |  +--| (53)
+|                                   |          |     |  |  |  |            +-----Syssmult
+|                                   |          |     |  |  |  |         +--| (86)
+|                                   |          |     |  |  |  |         |  +--Pedoelon
+|                                   |          |     |  |  |  |     +---| (86)
+|                                   |          |     |  |  |  |     |   +--ThecSK13
+|                                   |          |     |  |  |  |  +--| (80)
+|                                   |          |     |  |  |  |  |  +--Schimans
+|                                   |          |     |  |  |  +--| (68)
+|                                   |          |     |  |  |     +--Sphaarct
+|                                   |          |     |  +--| (50)
+|                                   |          |     |     |  +--Aplakerg
+|                                   |          |     |     +--| (97)
+|                                   |          |     |        +--ThraLLF1
+|                                   |          |  +--| (50)
+|                                   |          |  |  +--Mancberm
+|                                   |          +--| (28)
+|                                   |             |  +--Paraconf
+|                                   |             +--| (45)
+|                                   |                |  +--Leptpyrr
+|                                   |                +--| (52)
+|                                   |                   +--Leismajo
+|                                +--| (54)
+|                                |  +--Chlovari
+|                             +--| (56)
+|                             |  +--Porpaeru
+|                          +--| (52)
+|                          |  +--Blasbrit
+|                       +--| (52)
+|                       |  |        +--Galdsulp
+|                       |  |     +--| (97)
+|                       |  |     |  +--Pharkirb
+|                       |  |  +--| (63)
+|                       |  |  |  +--Echiexud
+|                       |  +--| (59)
+|                       |     +--Phalsoli
+|                    +--| (50)
+|                    |  |  +--PoterBG1
+|                    |  +--| (76)
+|                    |     +--Eutrgymn
+|                 +--| (42)
+|                 |  +--Micrpusl
+|              +--| (36)
+|              |  +--Prascaps
+|           +--| (26)
+|           |  |  +--Paratetr
+|           |  +--| (43)
+|           |     +--Rhiz1243
+|        +--| (90)
+|        |  |                 +--Charbrau
+|        |  |              +--| (99)
+|        |  |              |  |  +--Mantplas
+|        |  |              |  +--| (100)
+|        |  |              |     +--Aplycali
+|        |  |           +--| (78)
+|        |  |           |  +--Gephhuxl
+|        |  |        +--| (77)
+|        |  |        |  +--Aureanop
+|        |  |     +--| (48)
+|        |  |     |  |  +--Pseuelas
+|        |  |     |  +--| (66)
+|        |  |     |     +--Flor1587
+|        |  |  +--| (52)
+|        |  |  |  +--Syncpusi
+|        |  +--| (92)
+|        |     +---Cyanmero
+|     +--| (62)
+|     |  |  +--Noctscin
+|     |  +--| (91)
+|     |     +--Cryppara
+|  +--| (74)
+|  |  +--Mnemleid
++--| (78)
+|  |          +--SpirCILI
+|  |     +----| (96)
+|  |     |    |  +--Trimmari
+|  |     |    +--| (94)
+|  |     |       +--Rhizsaxo
+|  |  +--| (86)
+|  |  |  +--Reclamer
+|  +--| (53)
+|     |                   +-----Symbmicr
+|     |            +------| (96)
+|     |            |      |  +--Tribgaya
+|     |            |      +--| (84)
+|     |            |         +--Malajako
+|     |         +--| (74)
+|     |         |  +--Protfung
+|     |      +--| (76)
+|     |      |  +--Coprprot
+|     |   +--| (70)
+|     |   |  +--Colpangu
+|     +---| (74)
+|         +--Prympoly
+|
++--Vannfimi
+
+
+Consensus tree in newick format: 
+
+(Blasemer:5.6586273227,(((((((((((((((((((((((((Protlace:3.6462217783,(((Mitodaph:0.5253236651,Minivibr:0.5306690301)96:0.2526764096,(PlacCLAB:0.5328044465,Pellcata:0.2335213934)63:0.1734511762)59:0.3555264035,Sapppeda:0.0000020293)83:4.5207217199)82:1.9756687269,Raphhete:0.0000020989)94:4.1271127385,(((((Pyrapark:0.0000022402,Lapoguse:0.9800604929)98:7.7502658051,Taensoli:0.0914835099)50:0.4724849116,Salprose:0.4713979877)50:0.1286329194,((Creofrag:9.4308420026,Rhodemar:0.0908385091)77:0.1598131716,Schiaggr:0.2882531834)89:0.1760188424)50:0.3850836732,BlasS7SB:0.0000021222)78:3.0042153471)71:0.5440066846,((((((((Hemirufe:1.1677742373,Crypparv:0.0556151430)100:9.9999988932,Chatsubs:0.0000021921)81:0.6907416729,Parvatla:3.8926995732)57:0.5548636786,(Eugllong:0.6180188848,Cavoapop:0.0000023914)89:4.6962488035)88:1.0669956836,((((((((((Styginca:0.5480453732,Andagodo:0.2774534508)97:0.1432165246,Ovaldese:0.3432344819)83:0.0732502468,Fabotrop:0.1394979389)65:0.0301268705,Auralima:0.3521342956)63:0.0286512163,(Veximinu:0.2436036475,NolaAFSM:0.3270371724)98:0.0917611017)79:0.0584166967,((Gracchor:0.0275034864,Choncris:0.0643890096)100:0.1331259420,Plasbras:0.2378577231)58:0.0834823941)45:0.0256002182,Glauincr:0.0499397034)50:0.1084395107,Capsowcz:0.0325132920)63:2.2018361243,((Calclept:0.0000027481,(Rhodmacu:1.0048190694,Prymparv:0.3472859236)89:0.1352683642)81:3.5813722591,(Octaspec:0.0000022204,Brevmoto:0.6798189022)98:4.2287161538)91:2.8947223299)79:1.0865179655,(((Porpumbi:9.9999982759,PB58411a:8.0550450414)74:0.0000021092,Endozona:0.0000023233)78:0.3475821684,(Alexminu:0.5911847776,Amoepara:0.4102646452)92:0.0766579581)84:3.5925784131)87:0.5910173915)91:2.0257261144,((Gratturu:0.4089867637,Amoeprot:0.6628817149)86:0.9420132243,MicrA134:9.9999986830)82:2.2111116753)45:0.3681446745,(Wobbluna:0.0000022322,Thecoxon:1.3380645173)99:4.1526312471)85:1.6835054560,(Soliirre:0.2366927309,(Masteilh:0.6042309776,Allomacr:0.4912002213)54:0.0000029804)95:3.6098470313)55:0.1894392971)82:4.2398623155,(Homosapi:0.0159602413,Gallgall:0.0000022659)59:0.0000022168)39:0.0831953407,Chroveli:0.2543848100)60:0.0483980252,Nemavect:0.0392088367)36:0.0597551064,(((Telosubt:0.0293785473,((((Hemikukw:0.3402796865,Tripeleu:0.4103589987)55:0.0439009923,Roomtrun:0.3528988239)46:0.1666187725,Pigoviet:0.2511534379)44:0.1139698646,Flabcita:0.6919740901)42:0.2268631029)94:5.1014549695,Ancysigm:5.9122784057)77:6.7957489563,(((((((((((Chlarein:0.0000022659,Volvcart:0.0155944655)100:0.1132433604,(Tetrasti:0.0959818162,Paheparv:0.5042332629)79:0.0590434060)51:0.0452476390,((Sacccere:0.6870314903,((Apismell:0.1292744984,Drosmela:0.2096681673)96:0.1278731000,Branflor:0.1003746793)45:0.0271067939)28:0.1029478961,(((Flecnera:0.3853502301,Euglgrac:0.1344930246)97:0.0826628235,(((Palpbili:0.3407614740,Ustimayd:0.2162175720)53:0.0635542033,Ancytwis:0.2163870513)50:0.0235542719,Physpate:0.1931259481)49:0.0542366353)17:0.0110737938,(Phaetric:0.1912416930,Saprdecl:0.1458483757)92:0.0544887894)18:0.0366880193)16:0.0000022707)51:0.0534876522,(Prassing:0.1055339759,(((Dino2267:0.1801657927,Ochr2298:0.1084608720)86:0.2550600653,(Sapochin:0.7381933432,(Hetepall:0.3386260685,Fontalba:1.4739399693)79:0.1929926999)58:0.1042599554)30:0.0086200177,Tisolute:0.1912303155)37:0.0176664136)38:0.0334471445)68:0.6826772693,Sori0191:0.5436323324)40:0.0995219040,Mayocant:0.0000022670)40:0.4424158759,BicoCB20:9.9999984766)30:0.6513484694,((MAST004C:0.0000020158,Ergocypr:1.4870495943)98:9.9999981886,MAST004E:0.0265359537)93:4.3241395786)68:0.5289283714,Toxogond:7.2989342694)90:2.0277705865,(Monobrev:0.1980044728,Debahans:0.4308066717)64:0.0242799997)50:0.0537165616,Schizpom:0.2260997378)26:0.0000022370)35:0.0590494150)74:0.0149418626,Acancast:0.2368591776)74:0.0275585384,(((((Protadhe:0.5346013089,MAST04A1:0.1848735959)64:0.0581462366,Nutolong:0.2281243573)64:0.0282339666,(Stroincl:0.6951740928,(Diplambu:0.3484836947,Bodosalt:0.3543683980)90:0.0757156280)74:0.0776225492)68:0.0242555256,Rhodlimn:0.1809551528)66:0.0203066849,(Cyanpara:0.1521847391,Neurcras:0.5164100571)92:0.2687492495)53:0.0140416177)51:0.0000028052,((((Spirsalm:0.0000025648,Cerakond:2.1496841618)86:9.4933362388,((EctocSP7:0.0110360812,Agarclat:0.0481229510)85:0.0125606777,Fucucera:0.0000022687)86:0.1116118257)63:0.0000024522,Psuemult:0.2585502330)63:0.0485277602,(Haloseos:0.2597227092,Pythirre:0.1188547055)58:0.0285177224)56:0.0510483164)50:0.2443640661,(Guilthet:0.2914645161,((Ichtmult:0.8311849189,Amphquee:0.0728913669)85:0.1022983379,Aurisoli:0.3442597196)80:0.5728412260)42:0.0000023617)73:4.9968496938,(((((((((((((((((((((((((Thectrah:0.4757077407,Compcoer:0.3472156353)95:0.1104021511,Bafffrig:0.6645105402)95:0.0431889185,(Schivulg:0.0250289083,Tychacut:0.0629743913)98:0.2448769943)92:0.1830908257,Chrycart:0.0000028606)98:9.9999983084,(((Porppurp:0.8385964596,Karebrev:0.2024626051)74:0.1537607063,Nephpyri:0.4255742220)38:0.1390745578,((Stichzan:0.6021845013,Vermverm:0.4803144030)99:0.1227335933,Phytpara:0.2752719166)61:0.0000026424)59:3.1271040298)94:4.5492011211,Tsukglob:0.0746717997)35:0.0000020056,(Paralevi:1.2521092369,Adunpalu:0.1013385505)73:8.7578114350)49:0.1500846581,Aspefumi:0.5996404266)50:0.0518102880,Pygsbifo:0.3207923920)43:0.0503998168,(Coralima:0.2396584217,Caeneleg:0.3172799072)56:0.0919936752)26:0.0321733666,Neobdesi:0.5472404989)49:0.0558676893,CP_TRINITY_DN2017_c1_g1__CP_TRINITY_DN2017_c1_g1_i1__g.50841__m.50841_type_complete_len_120_gc_universal_CP_TRINITY_DN2017_c1_g1_i1_465-106_-_:0.1575330025)52:0.0644710616,(Hyphcate:0.0794332193,(Fibrjapo:0.1034579313,Heteakas:0.1459809025)94:0.0651888613)60:0.0444477456)41:0.0513847069,((Eimebrun:0.1904807510,(Plasfalc:0.0000028648,(((Picosali:0.2012045663,((Chryrota:0.1721077834,(Pavl2436:0.1210080922,Armalang:0.2809962700)90:0.0487260169)69:0.0503761675,((Aurelagu:0.2152177931,Pelacalc:0.1562564778)96:0.2233713485,Echibisp:0.2046815379)61:0.0401752360)72:0.0469392088)86:0.3203154690,Malacali:0.0896764339)99:4.8668494910,Pedi2098:3.4471479806)94:7.0224972819)73:0.2828894899)74:0.1473052036,HemaVICK:0.1278972878)54:0.0753256611)29:0.0276830090,((Platmacr:1.4899250500,Chlorept:0.2745898787)49:0.0974827562,Colltric:6.5342443235)27:0.0633179719)18:0.3941236163,Cuneruss:0.0000026343)91:9.3001383502,(((((((((((((((((((Bigenata:0.3269838436,MatazaD1:0.2267304842)75:0.0640529627,((((((TeloneP1:5.2993103389,Tetrther:0.0000024076)100:5.3411381026,(Pelasubv:0.8874230485,Diphrota:0.0000022867)99:6.3333097945)61:1.9963341867,Oryzsati:2.0659628470)87:4.1005984454,Goniavon:2.2673513510)77:6.7181086863,Rigiramo:0.0000020598)56:0.2140399692,(((Styllemn:0.7556591479,Dictdisc:0.3851166186)93:0.1952011921,(Paravest:0.1514207072,Mallmari:0.2122240932)100:0.1402280053)81:0.0412644892,Rozeallo:0.3895354675)87:0.0246732366)66:0.1212039024)82:0.0614197831,Mesoviri:0.2097628602)76:0.0679814981,Cochminu:0.2735500922)79:0.0614820881,Arcevulg:0.3955782022)75:0.0701000606,Dracjorm:0.0000026342)98:8.1442434458,((CP_TRINITY_DN8655_c0_g2__CP_TRINITY_DN8655_c0_g2_i2__g.28185__m.28185_type_complete_len_124_gc_universal_CP_TRINITY_DN8655_c0_g2_i2_3519-3148_-_:0.0000000000,CP_TRINITY_DN8655_c0_g2__CP_TRINITY_DN8655_c0_g2_i4__g.28187__m.28187_type_complete_len_124_gc_universal_CP_TRINITY_DN8655_c0_g2_i4_747-376_-_:0.0000000000):0.0000022659,CP_TRINITY_DN8655_c0_g2__CP_TRINITY_DN8655_c0_g2_i3__g.28186__m.28186_type_complete_len_124_gc_universal_CP_TRINITY_DN8655_c0_g2_i3_595-966___:0.0000022659)99:0.0000024269)84:0.5524470659,(Gregniph:1.1252037567,Guttvulg:1.0278862069)89:0.1802970019)72:0.1072257635,(Batrdend:0.2315599279,Rhizdele:0.1349830354)87:0.0742021403)57:0.0776688318,(((Arabthal:0.2765669696,Thalpseu:0.2618719891)50:0.0008361094,Ostrtaur:0.1300343176)75:0.0602440935,(Diacluth:0.2369763233,(Squajapo:0.2007004361,Brevanat:0.3538282562)52:0.0343338254)52:0.0335966358)53:0.0682337451)40:0.0425961115,TeloneP2:0.4061581955)65:0.0996626258,Pela2097:0.1740923883)96:0.4826928128,Naeggrub:0.7990481526)96:1.1464585463,Monoexil:0.0000022943)96:1.8792201198,(((Gemicryo:0.7438929748,(((Vitrbras:0.0304736479,Platviva:0.8078309005)98:0.1076119884,(Pirisoci:0.2655723858,Carpmemb:0.6871742286)95:0.0992168432)62:0.0702528418,(((Sphadest:0.2896980000,Filanola:0.1136209643)97:0.0329583360,HeterBB2:0.3114601847)93:0.0855968213,Deveeleg:0.3710446201)69:0.0430057465)52:0.3909129576)54:0.4063345985,Cantmars:1.2354080925)55:0.8378767787,Parapyri:0.0347041800)54:1.6157559210)53:1.9550089689,((Phaeglob:0.1895474166,Gloewitr:0.3483097941)62:0.3773599919,Idiovort:0.0000022377)75:7.7727510636)51:0.5824830638,Coprcine:0.2986268824)31:0.0099343888,Spizpunc:0.0209937586)54:0.0622233699,Gefiokel:0.3761973470)49:0.0480980211)38:0.0000022938,Rhizelon:0.4463743102)61:0.0979558937,(Dunasali:0.1583134204,(Galdphle:0.7599672850,Fragcyli:0.2839874130)30:0.0548055346)38:0.0467525799)27:0.0269312824,Perkmari:0.3570342625)56:0.2937391834,Stencoer:0.6175614305)68:0.5681549064,Tricvagi:0.2047603152)54:0.8826005436,(Paulchro:0.4101424937,Gocefonb:0.7241145087)95:6.3113874029)66:5.3662910929,Stensten:0.0000024989)94:9.9999981111,(((Oxyrmari:0.2723745034,((Physpoly:0.3133434853,((((Syssmult:8.8196748570,Pedoelon:0.3088248035)86:0.6928921363,ThecSK13:0.0000022691)86:6.7614955730,Schimans:0.3998807551)80:0.2572551762,Sphaarct:0.0880220523)68:0.0266683477)53:0.0350634510,(Aplakerg:0.1526626170,ThraLLF1:0.1618213314)97:0.1361739937)50:0.0407845824)56:0.0710656284,Mancberm:0.1291976298)50:0.5321508199,(Paraconf:0.1759387197,(Leptpyrr:0.0220847996,Leismajo:0.0096540925)52:0.2008691656)45:0.0000025336)28:2.6192536964)65:9.9999985651)91:5.6235022099,Chlovari:0.0000022919)54:0.1806386532,Porpaeru:0.3192188905)56:0.0537610312,Blasbrit:0.2734367309)52:0.0582810907,(((Galdsulp:0.6405998964,Pharkirb:0.3501504057)97:0.1696528903,Echiexud:0.1945253945)63:0.0874721934,Phalsoli:0.3077274656)59:0.0456232553)52:0.0348184425,(PoterBG1:0.3991599922,Eutrgymn:0.1982433090)76:0.0839757751)50:0.0448473038,Micrpusl:0.2300312692)42:0.0272899782,Prascaps:0.1280065998)36:0.3636699565,(Paratetr:1.3005724474,Rhiz1243:0.8272299516)43:0.0000022871)26:3.1467489977,((((((Charbrau:0.1359393260,(Mantplas:0.5941136962,Aplycali:0.1881890528)100:0.1269499759)99:0.0578891081,Gephhuxl:0.1279845444)78:0.0765100249,Aureanop:0.1909638532)77:0.0159862354,(Pseuelas:0.3081064552,Flor1587:0.1197261391)66:0.1134831828)48:0.5590037069,Syncpusi:0.0000020538)52:2.7791829319,Cyanmero:6.3103510294)92:2.6710219896)90:2.8834752634,(Noctscin:0.0000022698,Cryppara:1.1246205704)91:3.9506037999)62:0.9735978553,Mnemleid:4.2542343221)74:2.1805620457,(((SpirCILI:0.2455549434,(Trimmari:1.0534587209,Rhizsaxo:1.1031931672)94:0.4012773937)96:7.3303197523,Reclamer:1.0507151493)86:2.5101698654,(((((Symbmicr:9.7263054107,(Tribgaya:0.0000026219,Malajako:0.7837721473)84:0.7118758922)96:9.9999985385,Protfung:0.0000021243)74:0.2157818297,Coprprot:1.1451345015)76:0.0778055640,Colpangu:1.7767801258)70:0.1412603914,Prympoly:0.0000026063)74:6.1373711427)53:0.1086270309)78:1.8820017194,Vannfimi:3.0180090757);
+
+TIME STAMP
+----------
+
+Date and time: Tue Mar  5 00:38:04 2024
+Total CPU time used: 43760.94033 seconds (12h:9m:20s)
+Total wall-clock time used: 49254.64623 seconds (13h:40m:54s)
+

@@ -1,0 +1,1027 @@
+%!PS-Adobe-3.0
+%%DocumentNeededResources: font Helvetica
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Helvetica-BoldOblique
+%%+ font Symbol
+%%DocumentMedia: US 612 792 0 () ()
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%Orientation: Portrait
+%%BoundingBox: 18 18 594 774
+%%EndComments
+%%BeginProlog
+/bp  { gs sRGB gs } def
+% begin .ps.prolog
+/gs  { gsave } bind def
+/gr  { grestore } bind def
+/ep  { showpage gr gr } bind def
+/m   { moveto } bind def
+/l  { rlineto } bind def
+/np  { newpath } bind def
+/cp  { closepath } bind def
+/f   { fill } bind def
+/o   { stroke } bind def
+/c   { newpath 0 360 arc } bind def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } bind def
+/p1  { stroke } bind def
+/p2  { gsave bg fill grestore newpath } bind def
+/p3  { gsave bg fill grestore stroke } bind def
+/p6  { gsave bg eofill grestore newpath } bind def
+/p7  { gsave bg eofill grestore stroke } bind def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } bind def
+/ta  { 4 -2 roll moveto gsave rotate show } bind def
+/tb  { 2 -1 roll 0 rmoveto show } bind def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } bind def
+/rgb { setrgbcolor } bind def
+/s   { scalefont setfont } bind def
+% end   .ps.prolog
+/sRGB { [ /CIEBasedABC
+          << /DecodeLMN
+               [ { dup 0.03928 le
+                        {12.92321 div}
+                        {0.055 add 1.055 div 2.4 exp }
+                     ifelse
+                 } bind dup dup
+               ]
+             /MatrixLMN [0.412457 0.212673 0.019334
+                         0.357576 0.715152 0.119192
+                         0.180437 0.072175 0.950301]
+             /WhitePoint [0.9505 1.0 1.0890]
+           >>
+         ] setcolorspace } bind def
+/srgb { setcolor } bind def
+%%IncludeResource: font Helvetica
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Helvetica-Oblique
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Helvetica-BoldOblique
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+18.00 18.00 594.00 774.00 cl
+18.00 18.00 594.00 774.00 cl
+0 0 0 srgb
+0.75 setlinewidth
+[] 0 setdash
+1 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+299.80 409.24 m
+3.99 -0.29 l
+o
+np
+303.79 408.95 m
+4.08 -1.21 l
+o
+np
+307.87 407.74 m
+1.46 -0.74 l
+o
+np
+309.33 407.00 m
+1.20 -1.14 l
+o
+np
+310.53 405.86 m
+-0.76 -2.41 l
+o
+np
+309.77 403.45 m
+-1.39 -3.87 l
+o
+np
+308.38 399.58 m
+-3.61 -2.75 l
+o
+np
+304.77 396.83 m
+-0.85 -0.59 l
+o
+np
+303.92 396.24 m
+-3.50 -2.29 l
+o
+np
+300.42 393.95 m
+-3.77 -1.58 l
+o
+np
+296.65 392.37 m
+-3.77 -1.42 l
+o
+np
+292.88 390.95 m
+-3.16 -0.58 l
+o
+np
+289.72 390.37 m
+-1.72 -0.19 l
+o
+np
+288.00 390.18 m
+-8.71 -0.63 l
+o
+np
+279.29 389.55 m
+-36.07 -1.30 l
+o
+np
+279.29 389.55 m
+-35.29 -3.83 l
+o
+np
+288.00 390.18 m
+-26.13 -4.77 l
+o
+np
+289.72 390.37 m
+-13.03 -3.87 l
+o
+np
+276.69 386.50 m
+-11.79 -3.05 l
+o
+np
+276.69 386.50 m
+-11.36 -3.83 l
+o
+np
+292.88 390.95 m
+-5.92 -3.57 l
+o
+np
+286.96 387.38 m
+-9.71 -5.37 l
+o
+np
+277.25 382.01 m
+-10.58 -5.37 l
+o
+np
+266.67 376.64 m
+0 0 l
+o
+np
+266.67 376.64 m
+0 0 l
+o
+np
+266.67 376.64 m
+0 0 l
+o
+np
+266.67 376.64 m
+-0.47 -0.28 l
+o
+np
+277.25 382.01 m
+-4.78 -3.37 l
+o
+np
+286.96 387.38 m
+-14.99 -12.27 l
+o
+np
+296.65 392.37 m
+-14.24 -13.49 l
+o
+np
+300.42 393.95 m
+-1.55 -2.28 l
+o
+np
+298.87 391.67 m
+-1.87 -2.37 l
+o
+np
+297.00 389.30 m
+-10.07 -11.85 l
+o
+np
+286.93 377.45 m
+-10.67 -11.69 l
+o
+np
+286.93 377.45 m
+-7.25 -9.19 l
+o
+np
+297.00 389.30 m
+-11.48 -16.93 l
+o
+np
+298.87 391.67 m
+-1.73 -3.27 l
+o
+np
+297.14 388.40 m
+-14.74 -25.53 l
+o
+np
+297.14 388.40 m
+-5.14 -10.60 l
+o
+np
+303.92 396.24 m
+-9.20 -23.10 l
+o
+np
+304.77 396.83 m
+-10.39 -32.79 l
+o
+np
+308.38 399.58 m
+0.69 -2.18 l
+o
+np
+309.07 397.40 m
+0.32 -1.13 l
+o
+np
+309.39 396.27 m
+0.42 -2.54 l
+o
+np
+309.81 393.73 m
+0.20 -2.22 l
+o
+np
+310.01 391.51 m
+0.46 -8.50 l
+o
+np
+310.47 383.01 m
+0.06 -3.54 l
+o
+np
+310.53 379.47 m
+-0.03 -1.84 l
+o
+np
+310.50 377.63 m
+-0.19 -3.55 l
+o
+np
+310.31 374.08 m
+-0.52 -3.15 l
+o
+np
+309.79 370.93 m
+-2.52 -12.51 l
+o
+np
+307.27 358.42 m
+-0.30 -1.26 l
+o
+np
+307.27 358.42 m
+-0.31 -1.92 l
+o
+np
+309.79 370.93 m
+-1.09 -12.07 l
+o
+np
+310.31 374.08 m
+0.22 -4.08 l
+o
+np
+310.53 370.00 m
+0.29 -16.30 l
+o
+np
+310.82 353.70 m
+-0.38 -21.05 l
+o
+np
+310.82 353.70 m
+1.01 -18.67 l
+o
+np
+310.53 370.00 m
+2.50 -19.68 l
+o
+np
+310.50 377.63 m
+2.84 -14.12 l
+o
+np
+310.53 379.47 m
+5.53 -19.92 l
+o
+np
+310.47 383.01 m
+9.70 -27.16 l
+o
+np
+310.01 391.51 m
+22.16 -50.26 l
+o
+np
+309.81 393.73 m
+5.28 -9.16 l
+o
+np
+315.09 384.57 m
+15.47 -29.18 l
+o
+np
+315.09 384.57 m
+12.56 -20.05 l
+o
+np
+309.39 396.27 m
+3.48 -4.10 l
+o
+np
+312.87 392.17 m
+1.96 -2.49 l
+o
+np
+314.83 389.68 m
+11.19 -15.28 l
+o
+np
+314.83 389.68 m
+14.49 -17.05 l
+o
+np
+312.87 392.17 m
+15.13 -15.40 l
+o
+np
+309.07 397.40 m
+36.03 -31.74 l
+o
+np
+309.77 403.45 m
+39.02 -29.66 l
+o
+np
+310.53 405.86 m
+1.83 1.02 l
+o
+np
+312.36 406.88 m
+1.14 0.43 l
+o
+np
+313.50 407.31 m
+3.31 1.11 l
+o
+np
+316.81 408.42 m
+2.21 -0.24 l
+o
+np
+319.02 408.18 m
+1.61 -0.41 l
+o
+np
+320.63 407.77 m
+1.68 -0.64 l
+o
+np
+322.31 407.13 m
+5.33 -2.46 l
+o
+np
+327.64 404.67 m
+1.03 -0.53 l
+o
+np
+328.67 404.14 m
+0.82 -0.45 l
+o
+np
+329.49 403.69 m
+3.46 -2.09 l
+o
+np
+332.95 401.60 m
+2.82 -1.83 l
+o
+np
+332.95 401.60 m
+3.97 -2.19 l
+o
+np
+329.49 403.69 m
+8.26 -3.83 l
+o
+np
+328.67 404.14 m
+13.13 -4.96 l
+o
+np
+327.64 404.67 m
+20.71 -6.16 l
+o
+np
+322.31 407.13 m
+4.60 -0.84 l
+o
+np
+326.91 406.29 m
+8.12 -1.79 l
+o
+np
+326.91 406.29 m
+12.18 -1.77 l
+o
+np
+320.63 407.77 m
+4.63 0 l
+o
+np
+325.26 407.77 m
+3.05 -0.12 l
+o
+np
+328.31 407.65 m
+21.65 -1.56 l
+o
+np
+328.31 407.65 m
+12.44 0 l
+o
+np
+325.26 407.77 m
+20.15 1.45 l
+o
+np
+319.02 408.18 m
+3.92 1.01 l
+o
+np
+322.94 409.19 m
+1.52 0.34 l
+o
+np
+324.46 409.53 m
+3.64 0.66 l
+o
+np
+328.10 410.19 m
+18.23 2.65 l
+o
+np
+328.10 410.19 m
+19.62 4.32 l
+o
+np
+324.46 409.53 m
+16.64 4.94 l
+o
+np
+322.94 409.19 m
+20.74 7.84 l
+o
+np
+316.81 408.42 m
+0.65 0.71 l
+o
+np
+317.46 409.13 m
+1.42 1.35 l
+o
+np
+318.88 410.48 m
+3.55 2.70 l
+o
+np
+322.43 413.18 m
+5.73 3.73 l
+o
+np
+328.16 416.91 m
+2.81 1.56 l
+o
+np
+330.97 418.47 m
+3.87 1.96 l
+o
+np
+334.84 420.43 m
+33.94 15.71 l
+o
+np
+334.84 420.43 m
+24.00 13.29 l
+o
+np
+330.97 418.47 m
+36.23 23.62 l
+o
+np
+328.16 416.91 m
+14.65 12.00 l
+o
+np
+342.81 428.91 m
+18.10 13.76 l
+o
+np
+342.81 428.91 m
+8.83 7.78 l
+o
+np
+322.43 413.18 m
+2.15 2.35 l
+o
+np
+324.58 415.53 m
+21.06 21.45 l
+o
+np
+324.58 415.53 m
+14.36 16.91 l
+o
+np
+318.88 410.48 m
+1.78 2.85 l
+o
+np
+320.66 413.33 m
+6.42 9.46 l
+o
+np
+327.08 422.79 m
+17.79 24.31 l
+o
+np
+327.08 422.79 m
+11.94 19.06 l
+o
+np
+320.66 413.33 m
+14.87 28.04 l
+o
+np
+317.46 409.13 m
+3.27 8.21 l
+o
+np
+320.73 417.34 m
+15.85 35.94 l
+o
+np
+320.73 417.34 m
+9.49 26.58 l
+o
+np
+313.50 407.31 m
+7.64 27.54 l
+o
+np
+312.36 406.88 m
+0.18 1.96 l
+o
+np
+312.54 408.84 m
+0.27 1.64 l
+o
+np
+312.81 410.48 m
+5.90 29.34 l
+o
+np
+312.81 410.48 m
+2.88 22.65 l
+o
+np
+312.54 408.84 m
+0.13 7.18 l
+o
+np
+312.67 416.02 m
+0.72 13.35 l
+o
+np
+312.67 416.02 m
+-0.21 11.68 l
+o
+np
+309.33 407.00 m
+-2.01 5.65 l
+o
+np
+307.32 412.65 m
+-0.53 1.66 l
+o
+np
+306.79 414.31 m
+-0.45 1.90 l
+o
+np
+306.34 416.21 m
+-2.08 12.67 l
+o
+np
+304.26 428.88 m
+-2.20 17.27 l
+o
+np
+302.06 446.15 m
+-0.75 8.28 l
+o
+np
+302.06 446.15 m
+-1.64 10.02 l
+o
+np
+304.26 428.88 m
+-5.54 23.14 l
+o
+np
+306.34 416.21 m
+-1.94 5.40 l
+o
+np
+304.40 421.61 m
+-8.11 25.61 l
+o
+np
+304.40 421.61 m
+-5.79 14.54 l
+o
+np
+306.79 414.31 m
+-6.32 11.93 l
+o
+np
+300.47 426.24 m
+-10.90 22.48 l
+o
+np
+300.47 426.24 m
+-19.12 33.11 l
+o
+np
+307.32 412.65 m
+-25.45 37.52 l
+o
+np
+307.87 407.74 m
+-1.77 1.68 l
+o
+np
+306.10 409.42 m
+-9.21 10.08 l
+o
+np
+296.89 419.50 m
+-2.52 2.96 l
+o
+np
+294.37 422.46 m
+-8.39 10.63 l
+o
+np
+294.37 422.46 m
+-9.11 9.97 l
+o
+np
+296.89 419.50 m
+-13.03 12.33 l
+o
+np
+306.10 409.42 m
+-2.85 2.16 l
+o
+np
+303.25 411.58 m
+-20.14 16.49 l
+o
+np
+303.25 411.58 m
+-21.83 15.39 l
+o
+np
+303.79 408.95 m
+-10.30 3.89 l
+o
+np
+293.49 412.84 m
+-3.69 1.55 l
+o
+np
+289.80 414.39 m
+-2.28 1.05 l
+o
+np
+287.52 415.44 m
+-13.81 7.01 l
+o
+np
+273.71 422.45 m
+-8.51 4.71 l
+o
+np
+265.20 427.16 m
+-6.28 3.78 l
+o
+np
+265.20 427.16 m
+-16.66 8.45 l
+o
+np
+273.71 422.45 m
+-16.05 6.73 l
+o
+np
+287.52 415.44 m
+-28.20 9.51 l
+o
+np
+289.80 414.39 m
+-19.95 5.15 l
+o
+np
+293.49 412.84 m
+-33.81 6.17 l
+o
+np
+299.80 409.24 m
+-46.45 5.05 l
+o
+np
+299.80 409.24 m
+-24.29 0.88 l
+o
+/Font4 findfont 4 s
+237.50 414.60 (Pr) -6.21 ta
+-0.080 (otlace) tb gr
+281.05 449.61 (Naeggrub) 1 -55.86 t
+280.04 466.08 (Anda) -64.14 ta
+-0.040 (godo) tb gr
+280.45 458.83 (Styginca) 1 -60.00 t
+298.64 472.49 (Diplamb) -84.83 ta
+-0.080 (u) tb gr
+299.03 455.94 (Flecnera) 1 -80.69 t
+297.75 451.79 (Euglgrac) 1 -76.55 t
+294.93 446.79 (Pharkirb) 1 -72.41 t
+297.30 435.63 (HeterBB2) 1 -68.28 t
+325.20 373.80 (Pigo) -53.79 ta
+-0.080 (viet) tb gr
+328.51 371.94 (Capso) -49.66 ta
+-0.060 (wcz) tb gr
+327.25 376.03 (Syssm) -45.52 ta
+-0.080 (ult) tb gr
+307.98 356.92 (Homosapi) 1 -283.45 t
+307.98 356.33 (Gallgall) 1 -279.31 t
+310.12 358.73 (Branflor) 1 -275.17 t
+311.52 314.40 (Dr) -271.03 ta
+-0.080 (osmela) tb gr
+310.80 334.98 (Apismell) 0 -86.90 t
+312.01 350.19 (Apl) -82.76 ta
+-0.060 (ycali) tb gr
+311.96 363.23 (Nema) -78.62 ta
+-0.060 (vect) tb gr
+314.69 359.17 (T) -74.48 ta
+-0.320 (ricadha) tb gr
+319.21 355.51 (Amphquee) 0 -70.34 t
+330.88 340.68 (Monobre) -66.21 ta
+-0.060 (v) tb gr
+329.65 354.90 (Creofra) -62.07 ta
+-0.040 (g) tb gr
+326.79 363.98 (Amoepara) 0 -57.93 t
+344.15 364.59 (Coralima) 0 -41.38 t
+290.27 358.16 (P) -291.72 ta
+-0.120 (ar) tb
+0.040 (v) tb
+-0.080 (atla) tb gr
+243.27 386.82 (Sacccere) 1 -357.93 t
+244.15 384.32 (Debahans) 1 -353.79 t
+243.47 380.98 (Sc) -349.66 ta
+-0.040 (hizpom) tb gr
+248.47 377.75 (Neur) -345.52 ta
+-0.080 (cras) tb gr
+265.66 381.69 (Aspefumi) 1 -341.38 t
+258.91 367.79 (Copr) -324.83 ta
+-0.080 (cine) tb gr
+-31.44 250.46 (CP_TRINITY_DN13855_c0_g1__CP_TRINITY_DN13855_c0_g1_i2__g.38563__m.38563_type_complete_len_185_gc_univer) -337.24 ta
+-0.060 (sal_CP_TRINITY_DN13855_c0_g1_i2_748-194_-_) tb gr
+-21.56 229.27 (CP_TRINITY_DN13855_c0_g1__CP_TRINITY_DN13855_c0_g1_i3__g.38565__m.38565_type_complete_len_185_gc_univer) -333.10 ta
+-0.060 (sal_CP_TRINITY_DN13855_c0_g1_i3_748-194_-_) tb gr
+-15.21 205.83 (CP_TRINITY_DN13855_c0_g1__CP_TRINITY_DN13855_c0_g1_i4__g.38567__m.38567_type_3prime_par) -328.97 ta
+0.080 (tial_len_197_gc_univer) tb
+-0.060 (sal_CP_TRINITY_DN13855_c0_g1_i4_588-1_-_) tb gr
+258.69 362.91 (Ustima) -320.69 ta
+-0.080 (yd) tb gr
+283.39 377.85 (Rhizdele) 1 -316.55 t
+274.84 346.97 (Batr) -300.00 ta
+-0.080 (dend) tb gr
+292.95 377.34 (Spizpunc) 1 -295.86 t
+277.31 364.80 (Blasbrit) 1 -312.41 t
+280.79 367.39 (Allomacr) 1 -308.28 t
+110.21 111.95 (CP_TRINITY_DN2664_c1_g3__CP_TRINITY_DN2664_c1_g3_i3__g.60013__m.60013_type_internal_len_1614_gc_univer) -304.14 ta
+-0.060 (sal_CP_TRINITY_DN2664_c1_g3_i3_4839-1_-_) tb gr
+290.75 347.94 (Roz) -287.59 ta
+0.040 (eallo) tb gr
+348.15 372.94 (Carpmemb) 0 -37.24 t
+334.81 403.52 (Ph) -12.41 ta
+-0.080 (yspol) tb
+-0.060 (y) tb gr
+338.89 403.11 (Dictdisc) 0 -8.28 t
+348.06 397.53 (Pr) -16.55 ta
+-0.080 (otfung) tb gr
+341.29 397.84 (Soliirre) 0 -20.69 t
+335.19 398.88 (Ca) -33.10 ta
+-0.060 (v) tb
+-0.120 (oapop) tb gr
+336.42 398.50 (Sc) -28.97 ta
+-0.040 (hivulg) tb gr
+337.16 398.57 (Filanola) 0 -24.83 t
+349.89 405.03 (Sapppeda) 0 -4.14 t
+340.75 406.22 (Stensten) 0 -0.00 t
+345.51 407.79 (Cuneruss) 0 4.14 t
+341.50 413.12 (Acancast) 0 16.55 t
+346.48 411.83 (Dracjorm) 0 8.28 t
+347.94 413.51 (Luaphula) 0 12.41 t
+344.18 415.71 (Endozona) 0 20.69 t
+345.73 446.47 (Sapoc) 53.79 ta
+-0.040 (hin) tb gr
+339.87 441.31 (Armalang) 0 57.93 t
+336.80 440.70 (Coc) 62.07 ta
+-0.040 (hmin) tb
+-0.040 (u) tb gr
+346.65 435.99 (V) 45.52 ta
+-0.200 (ermverm) tb gr
+340.02 431.52 (Ec) 49.66 ta
+-0.040 (hie) tb
+-0.060 (xud) tb gr
+367.75 441.25 (Ar) 33.10 ta
+-0.080 (ce) tb
+-0.060 (vulg) tb gr
+369.38 434.85 (Flabcita) 0 24.83 t
+359.53 432.47 (Rhizsaxo) 0 28.97 t
+361.55 441.83 (Coprpr) 37.24 ta
+-0.080 (ot) tb gr
+352.32 435.92 (Amoepr) 41.38 ta
+-0.080 (ot) tb gr
+337.88 452.71 (Rhiz) 66.21 ta
+0.040 (elon) tb gr
+331.56 443.44 (Masteilh) 0 70.34 t
+322.50 434.47 (Thectrah) 0 74.48 t
+319.70 439.62 (Nutolong) 0 78.62 t
+317.11 432.95 (Gefiokel) 0 82.76 t
+314.43 429.32 (Diphr) 86.90 ta
+-0.080 (ota) tb gr
+311.44 427.68 (Rigiramo) 1 -88.97 t
+285.18 432.46 (Raphhete) 1 -51.72 t
+284.20 431.47 (ChoanoFB) 1 -47.59 t
+282.89 430.80 (Rainerin) 1 -43.45 t
+267.92 438.65 (Gonia) -39.31 ta
+-0.060 (v) tb
+-0.120 (on) tb gr
+280.61 425.82 (Rhodemar) 1 -35.17 t
+258.98 423.96 (Styllemn) 1 -18.62 t
+243.18 433.73 (P) -22.76 ta
+-0.120 (aratetr) tb gr
+245.25 437.52 (T) -31.03 ta
+-0.240 (etr) tb
+0.080 (ther) tb gr
+234.03 441.40 (Ic) -26.90 ta
+-0.040 (htm) tb
+-0.080 (ult) tb gr
+252.72 422.51 (Pr) -14.48 ta
+-0.080 (otadhe) tb gr
+259.43 417.60 (Stencoer) 1 -10.34 t
+258.59 409.71 (Leptv) -2.07 ta
+-0.120 (ora) tb gr
+303.79 406.08 (74.3/93) 1 0 t
+307.87 404.87 (93.4/84) 1 0 t
+309.33 404.12 (62.6/75) 1 0 t
+307.32 409.77 (99.8/100) 1 0 t
+306.79 411.44 (28.4/82) 1 0 t
+300.47 423.36 (99.8/100) 1 0 t
+306.34 413.33 (71/98) 1 0 t
+304.26 426.01 (100/100) 1 0 t
+302.06 443.28 (100/100) 1 0 t
+304.40 418.74 (99.4/100) 1 0 t
+310.53 402.99 (90.3/81) 1 0 t
+309.77 400.58 (84.3/74) 1 0 t
+308.38 396.71 (97.9/99) 1 0 t
+309.07 394.53 (93.5/98) 1 0 t
+309.39 393.40 (73.9/77) 1 0 t
+312.87 389.30 (99.9/99) 1 0 t
+314.83 386.81 (66.9/98) 1 0 t
+309.81 390.85 (92.2/96) 1 0 t
+310.01 388.64 (14/84) 1 0 t
+310.47 380.14 (100/100) 1 0 t
+310.53 376.60 (96/66) 1 0 t
+310.50 374.76 (29.7/63) 1 0 t
+310.31 371.21 (97.6/66) 1 0 t
+309.79 368.05 (99.4/100) 1 0 t
+307.27 355.55 (100/100) 1 0 t
+310.53 367.13 (99.1/67) 1 0 t
+310.82 350.83 (100/100) 1 0 t
+315.09 381.70 (99.5/100) 1 0 t
+304.77 393.96 (99.6/100) 1 0 t
+303.92 393.37 (47.2/93) 1 0 t
+300.42 391.08 (98.8/100) 1 0 t
+296.65 389.50 (99.7/100) 1 0 t
+292.88 388.08 (99.3/99) 1 0 t
+289.72 387.50 (94.5/94) 1 0 t
+288.00 387.31 (40.2/88) 1 0 t
+279.29 386.68 (99.5/100) 1 0 t
+276.69 383.63 (100/100) 1 0 t
+286.96 384.51 (100/100) 1 0 t
+277.25 379.14 (99.7/100) 1 0 t
+266.67 373.77 (99.9/100) 1 0 t
+266.67 373.77 (0/92) 1 0 t
+298.87 388.80 (96.8/98) 1 0 t
+297.14 385.52 (95.4/99) 1 0 t
+297.00 386.43 (93/97) 1 0 t
+286.93 374.58 (100/100) 1 0 t
+312.36 404.00 (96/72) 1 0 t
+313.50 404.43 (88.5/83) 1 0 t
+316.81 405.55 (99.9/96) 1 0 t
+319.02 405.31 (94.4/47) 1 0 t
+320.63 404.89 (84.3/90) 1 0 t
+322.31 404.26 (96.1/99) 1 0 t
+326.91 403.42 (100/100) 1 0 t
+327.64 401.79 (100/100) 1 0 t
+328.67 401.27 (20.9/87) 1 0 t
+329.49 400.82 (9.8/64) 1 0 t
+332.95 398.73 (100/100) 1 0 t
+325.26 404.89 (100/100) 1 0 t
+328.31 404.78 (81.6/99) 1 0 t
+322.94 406.32 (99.6/98) 1 0 t
+324.46 406.66 (71.4/99) 1 0 t
+328.10 407.32 (85/99) 1 0 t
+317.46 406.26 (15/32) 1 0 t
+318.88 407.61 (86.1/45) 1 0 t
+320.66 410.45 (86.9/48) 1 0 t
+327.08 419.92 (99.8/100) 1 0 t
+322.43 410.30 (99.5/100) 1 0 t
+324.58 412.66 (94.5/99) 1 0 t
+328.16 414.04 (99.6/100) 1 0 t
+330.97 415.60 (76.7/98) 1 0 t
+334.84 417.56 (80.3/99) 1 0 t
+342.81 426.04 (100/100) 1 0 t
+320.73 414.46 (99.8/100) 1 0 t
+312.54 405.97 (80.8/79) 1 0 t
+312.81 407.60 (39.8/77) 1 0 t
+312.67 413.15 (100/100) 1 0 t
+306.10 406.55 (91.6/97) 1 0 t
+296.89 416.62 (100/100) 1 0 t
+294.37 419.59 (25.7/55) 1 0 t
+303.25 408.71 (83.3/95) 1 0 t
+293.49 409.97 (100/100) 1 0 t
+289.80 411.52 (95.2/73) 1 0 t
+287.52 412.57 (52.2/72) 1 0 t
+273.71 419.58 (100/100) 1 0 t
+265.20 424.29 (100/100) 1 0 t
+np
+39.33 128.77 m
+20.62 0 l
+o
+/Font1 findfont 4 s
+62.01 127.33 (1) 0 0 t
+ep
+%%Trailer
+%%Pages: 1
+%%EOF

@@ -1,0 +1,420 @@
+IQ-TREE multicore version 1.6.11 for Linux 64-bit built Jun  6 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    92355f672ec4 (AVX2, FMA3, 125 GB RAM)
+Command: /usr/local/iqtree/bin/iqtree -s /tmp/IQTREE/IqMoNmeGIB/seqin.fst -st AA -pre /tmp/IQTREE/IqMoNmeGIB/iqt -m LG+R4+FO -wsr -bb 1000 -alrt 1000 -pers 0.5 -numstop 100 -nt 3
+Seed:    949227 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar  4 11:38:09 2024
+Kernel:  AVX+FMA - 3 threads (24 CPU cores detected)
+
+Reading alignment file /tmp/IQTREE/IqMoNmeGIB/seqin.fst ... Fasta format detected
+Alignment most likely contains protein sequences
+WARNING: 54 sites contain only gaps or ambiguous characters.
+Alignment has 260 sequences with 2431 columns, 1793 distinct patterns
+935 parsimony-informative, 489 singleton sites, 1007 constant sites
+WARNING: Some sequence names are changed as follows:
+CP@TRINITY_DN5814_c0_g1__CP@TRINITY_DN5814_c0_g1_i1__g.16377__m.16377_type_5prime_partial_len_374_gc_universal_CP@TRINITY_DN5814_c0_g1_i1_3-1124_+_ -> CP_TRINITY_DN5814_c0_g1__CP_TRINITY_DN5814_c0_g1_i1__g.16377__m.16377_type_5prime_partial_len_374_gc_universal_CP_TRINITY_DN5814_c0_g1_i1_3-1124___
+CP@TRINITY_DN9175_c0_g1__CP@TRINITY_DN9175_c0_g1_i1__g.30196__m.30196_type_3prime_partial_len_766_gc_universal_CP@TRINITY_DN9175_c0_g1_i1_2295-1_-_ -> CP_TRINITY_DN9175_c0_g1__CP_TRINITY_DN9175_c0_g1_i1__g.30196__m.30196_type_3prime_partial_len_766_gc_universal_CP_TRINITY_DN9175_c0_g1_i1_2295-1_-_
+CP@TRINITY_DN9175_c0_g1__CP@TRINITY_DN9175_c0_g1_i10__g.30201__m.30201_type_complete_len_787_gc_universal_CP@TRINITY_DN9175_c0_g1_i10_2540-180_-_ -> CP_TRINITY_DN9175_c0_g1__CP_TRINITY_DN9175_c0_g1_i10__g.30201__m.30201_type_complete_len_787_gc_universal_CP_TRINITY_DN9175_c0_g1_i10_2540-180_-_
+CP@TRINITY_DN9175_c0_g1__CP@TRINITY_DN9175_c0_g1_i6__g.30207__m.30207_type_complete_len_787_gc_universal_CP@TRINITY_DN9175_c0_g1_i6_2540-180_-_ -> CP_TRINITY_DN9175_c0_g1__CP_TRINITY_DN9175_c0_g1_i6__g.30207__m.30207_type_complete_len_787_gc_universal_CP_TRINITY_DN9175_c0_g1_i6_2540-180_-_
+CP@TRINITY_DN9175_c0_g1__CP@TRINITY_DN9175_c0_g1_i7__g.30214__m.30214_type_complete_len_787_gc_universal_CP@TRINITY_DN9175_c0_g1_i7_2540-180_-_ -> CP_TRINITY_DN9175_c0_g1__CP_TRINITY_DN9175_c0_g1_i7__g.30214__m.30214_type_complete_len_787_gc_universal_CP_TRINITY_DN9175_c0_g1_i7_2540-180_-_
+
+                                                                                                                                                     Gap/Ambiguity  Composition  p-value
+   1  Calltube                                                                                                                                              87.45%    passed     34.78%
+   2  Protlace                                                                                                                                              78.86%    passed     70.26%
+   3  Tricvagi                                                                                                                                              69.35%    failed      0.05%
+   4  Spirsalm                                                                                                                                              69.19%    failed      0.02%
+   5  Telosubt                                                                                                                                              68.24%    passed      5.12%
+   6  TeloneP2                                                                                                                                              82.06%    passed     68.22%
+   7  Aurisoli                                                                                                                                              68.20%    passed     54.58%
+   8  Abolprol                                                                                                                                              90.25%    passed     30.61%
+   9  Sori0191                                                                                                                                              70.05%    failed      0.00%
+  10  Retifilo                                                                                                                                              80.50%    failed      0.10%
+  11  Ammo1384                                                                                                                                              70.71%    failed      1.52%
+  12  Paulchro                                                                                                                                              69.31%    passed     79.50%
+  13  Bigenata                                                                                                                                              69.03%    passed     36.15%
+  14  Plasbras                                                                                                                                              67.71%    passed     35.12%
+  15  Leptvora                                                                                                                                              68.90%    passed     53.26%
+  16  Lapoguse                                                                                                                                              69.15%    passed     98.20%
+  17  SpirCILI                                                                                                                                              79.68%    passed     98.43%
+  18  BicoCB20                                                                                                                                              76.88%    failed      0.07%
+  19  Phytpara                                                                                                                                              64.58%    failed      0.00%
+  20  Thalpseu                                                                                                                                              68.86%    passed     38.60%
+  21  EctocSP7                                                                                                                                              67.79%    passed     58.55%
+  22  ChrysoH1                                                                                                                                              73.10%    passed     69.03%
+  23  MAST04A2                                                                                                                                              82.35%    passed     32.54%
+  24  MAST003A                                                                                                                                              73.63%    passed     36.66%
+  25  Stencoer                                                                                                                                              69.31%    failed      4.49%
+  26  Styllemn                                                                                                                                              68.98%    failed      2.09%
+  27  Protadhe                                                                                                                                              78.69%    passed     21.33%
+  28  Platmacr                                                                                                                                              73.10%    passed     17.12%
+  29  Paratetr                                                                                                                                              69.19%    failed      0.38%
+  30  Ichtmult                                                                                                                                              73.39%    failed      0.00%
+  31  Tetrther                                                                                                                                              69.15%    failed      0.00%
+  32  Oxyrmari                                                                                                                                              68.20%    passed     88.04%
+  33  Symbmicr                                                                                                                                              50.10%    failed      0.00%
+  34  Noctscin                                                                                                                                              68.33%    passed     99.73%
+  35  HemaVICK                                                                                                                                              68.24%    passed     89.57%
+  36  Vitrbras                                                                                                                                              68.90%    passed     99.61%
+  37  Colpangu                                                                                                                                              68.86%    passed     58.86%
+  38  Alphedax                                                                                                                                              88.73%    passed     12.52%
+  39  Gregniph                                                                                                                                              66.89%    failed      4.58%
+  40  Plasfalc                                                                                                                                              68.78%    failed      0.06%
+  41  Eimebrun                                                                                                                                              84.00%    passed      9.63%
+  42  AcanthFB                                                                                                                                              68.65%    passed     43.33%
+  43  Raphhete                                                                                                                                              68.94%    passed     97.07%
+  44  ChoanoFB                                                                                                                                              69.27%    passed     96.25%
+  45  Rainerin                                                                                                                                              69.44%    passed     91.71%
+  46  Calclept                                                                                                                                              68.74%    passed     93.56%
+  47  Gephhuxl                                                                                                                                              76.88%    passed     17.07%
+  48  Phaeglob                                                                                                                                              88.36%    passed      8.29%
+  49  Goniavon                                                                                                                                              68.57%    passed     96.18%
+  50  Hemirufe                                                                                                                                              69.35%    passed     99.95%
+  51  Guilthet                                                                                                                                              68.86%    passed     71.43%
+  52  Gemicryo                                                                                                                                              81.82%    passed     44.05%
+  53  Prassing                                                                                                                                              68.08%    failed      0.09%
+  54  Prascaps                                                                                                                                              68.70%    passed     74.58%
+  55  Pyrapark                                                                                                                                              68.70%    passed     12.10%
+  56  Nephpyri                                                                                                                                              67.96%    passed     13.66%
+  57  Chlovari                                                                                                                                              80.83%    passed      9.60%
+  58  Tetrasti                                                                                                                                              68.94%    passed     84.50%
+  59  Dunasali                                                                                                                                              68.65%    passed     53.34%
+  60  Chlarein                                                                                                                                              68.65%    passed     83.15%
+  61  Charbrau                                                                                                                                              67.75%    failed      4.07%
+  62  Arabthal                                                                                                                                              68.53%    passed     87.94%
+  63  Mesoviri                                                                                                                                              67.87%    passed      7.73%
+  64  Galdphle                                                                                                                                              68.16%    passed     99.19%
+  65  Porppurp                                                                                                                                              68.24%    passed     57.93%
+  66  Gracchor                                                                                                                                              68.65%    passed     79.36%
+  67  Sphadest                                                                                                                                              68.28%    passed     97.82%
+  68  Monobrev                                                                                                                                              68.24%    passed     66.84%
+  69  Pigoviet                                                                                                                                              78.90%    passed     64.88%
+  70  Capsowcz                                                                                                                                              67.96%    passed     53.44%
+  71  Homosapi                                                                                                                                              68.53%    passed     80.71%
+  72  Nemavect                                                                                                                                              68.37%    passed     94.61%
+  73  Creofrag                                                                                                                                              65.94%    passed     83.82%
+  74  Syssmult                                                                                                                                              68.16%    passed     99.01%
+  75  Coralima                                                                                                                                              62.28%    failed      0.00%
+  76  Parvatla                                                                                                                                              81.57%    passed     81.96%
+  77  Mitodaph                                                                                                                                              69.35%    failed      0.05%
+  78  Monoexil                                                                                                                                              68.45%    passed     41.42%
+  79  Parapyri                                                                                                                                              70.22%    passed     39.96%
+  80  Parasacc                                                                                                                                              68.86%    passed     98.31%
+  81  Rozeallo                                                                                                                                              75.61%    passed     48.34%
+  82  Sacccere                                                                                                                                              68.41%    failed      2.21%
+  83  Batrdend                                                                                                                                              68.82%    passed     99.99%
+  84  Paraconf                                                                                                                                              69.97%    passed      9.93%
+  85  Trypbruc                                                                                                                                              69.40%    passed     70.13%
+  86  Leptpyrr                                                                                                                                              65.65%    failed      0.11%
+  87  Leismajo                                                                                                                                              65.03%    failed      0.09%
+  88  Naeggrub                                                                                                                                              68.82%    passed     21.79%
+  89  Andagodo                                                                                                                                              67.54%    passed     10.45%
+  90  Styginca                                                                                                                                              68.70%    passed     57.42%
+  91  Thectrah                                                                                                                                              68.28%    passed      6.43%
+  92  Physpoly                                                                                                                                              68.24%    passed     70.82%
+  93  Dictdisc                                                                                                                                              69.27%    passed     43.58%
+  94  Protfung                                                                                                                                              68.98%    passed     26.32%
+  95  Acancast                                                                                                                                              69.97%    passed     72.01%
+  96  Idiovort                                                                                                                                              68.78%    passed     92.55%
+  97  Palpbili                                                                                                                                              69.03%    passed     61.31%
+  98  Picosali                                                                                                                                              64.95%    passed     70.38%
+  99  Micrpusl                                                                                                                                              66.72%    failed      1.14%
+ 100  Ostrtaur                                                                                                                                              67.26%    failed      4.70%
+ 101  Volvcart                                                                                                                                              68.57%    passed     33.70%
+ 102  Oryzsati                                                                                                                                              68.61%    passed     18.82%
+ 103  Physpate                                                                                                                                              67.96%    passed     57.34%
+ 104  Choncris                                                                                                                                              68.57%    passed     79.72%
+ 105  Cerakond                                                                                                                                              68.24%    passed     97.64%
+ 106  Gratturu                                                                                                                                              68.65%    passed     56.07%
+ 107  Porpumbi                                                                                                                                              64.09%    failed      0.01%
+ 108  Porpaeru                                                                                                                                              68.00%    passed     89.71%
+ 109  Rhodmacu                                                                                                                                              77.91%    passed     33.52%
+ 110  Rhodmari                                                                                                                                              69.68%    passed     65.03%
+ 111  Compcoer                                                                                                                                              68.16%    passed     95.27%
+ 112  Cyanmero                                                                                                                                              68.12%    passed     15.13%
+ 113  Galdsulp                                                                                                                                              68.41%    passed     93.59%
+ 114  Brevmoto                                                                                                                                              77.17%    passed     18.20%
+ 115  MatazaD1                                                                                                                                              67.67%    passed     90.62%
+ 116  Chlorept                                                                                                                                              69.07%    passed     90.58%
+ 117  PlacCLAB                                                                                                                                              68.98%    passed     20.34%
+ 118  Wobbluna                                                                                                                                              67.79%    failed      1.41%
+ 119  BlasS7SB                                                                                                                                              68.61%    passed     77.93%
+ 120  Cantmars                                                                                                                                              67.42%    passed     10.44%
+ 121  Caferoen                                                                                                                                              67.26%    failed      0.35%
+ 122  Haloseos                                                                                                                                              68.37%    passed     95.23%
+ 123  Paheparv                                                                                                                                              77.46%    passed     32.95%
+ 124  Syncpusi                                                                                                                                              78.03%    failed      1.44%
+ 125  Mallmari                                                                                                                                              70.30%    passed     98.79%
+ 126  Dino2267                                                                                                                                              73.39%    passed     43.81%
+ 127  Pedoelon                                                                                                                                              67.63%    passed     80.98%
+ 128  Ochr2298                                                                                                                                              68.37%    passed     51.07%
+ 129  Pedi2098                                                                                                                                              69.44%    passed     84.22%
+ 130  Pseuelas                                                                                                                                              68.49%    passed     83.71%
+ 131  Rhiz1243                                                                                                                                              62.94%    passed     35.73%
+ 132  Octaspec                                                                                                                                              67.87%    passed     95.95%
+ 133  Pela2097                                                                                                                                              68.00%    passed     44.66%
+ 134  Chryfrag                                                                                                                                              67.59%    passed     43.43%
+ 135  Aurelagu                                                                                                                                              67.30%    passed     39.39%
+ 136  Aureanop                                                                                                                                              68.20%    passed     81.27%
+ 137  Pelacalc                                                                                                                                              67.34%    passed     47.61%
+ 138  Pelasubv                                                                                                                                              65.86%    failed      0.00%
+ 139  Fibrjapo                                                                                                                                              78.57%    passed     27.46%
+ 140  Heteakas                                                                                                                                              78.53%    passed     17.36%
+ 141  Chatsubs                                                                                                                                              69.52%    passed     81.55%
+ 142  Vauclito                                                                                                                                              67.75%    passed     74.82%
+ 143  Fucucera                                                                                                                                              67.59%    passed     66.57%
+ 144  Agarclat                                                                                                                                              80.01%    passed     57.43%
+ 145  Fragcyli                                                                                                                                              67.26%    passed     93.75%
+ 146  Psuemult                                                                                                                                              66.52%    passed     26.28%
+ 147  Phaetric                                                                                                                                              68.78%    passed     43.71%
+ 148  Saprdecl                                                                                                                                              64.42%    failed      4.79%
+ 149  Albulaib                                                                                                                                              68.65%    passed     91.15%
+ 150  Pythirre                                                                                                                                              67.05%    passed     80.24%
+ 151  Deveeleg                                                                                                                                              63.64%    failed      0.01%
+ 152  ThraLLF1                                                                                                                                              60.26%    failed      0.00%
+ 153  Schiaggr                                                                                                                                              66.02%    failed      0.02%
+ 154  Auralima                                                                                                                                              64.17%    failed      0.00%
+ 155  Aplakerg                                                                                                                                              63.88%    failed      0.00%
+ 156  Toxogond                                                                                                                                              67.46%    passed     87.37%
+ 157  Crypparv                                                                                                                                              68.82%    passed     94.84%
+ 158  Pirisoci                                                                                                                                              67.01%    passed     40.85%
+ 159  Chroveli                                                                                                                                              82.97%    passed     44.14%
+ 160  Platviva                                                                                                                                              71.49%    passed     97.91%
+ 161  Karebrev                                                                                                                                              67.13%    passed     99.90%
+ 162  Perkmari                                                                                                                                              68.86%    passed     70.41%
+ 163  Diacluth                                                                                                                                              68.74%    passed      6.78%
+ 164  Pavl2436                                                                                                                                              76.84%    passed     19.16%
+ 165  Chrycart                                                                                                                                              67.05%    passed     92.60%
+ 166  Tisolute                                                                                                                                              68.16%    passed     99.21%
+ 167  Prymparv                                                                                                                                              68.28%    passed     98.38%
+ 168  Chryrota                                                                                                                                              64.54%    passed     11.07%
+ 169  Gloewitr                                                                                                                                              68.53%    passed     90.94%
+ 170  Cyanpara                                                                                                                                              65.98%    passed     42.52%
+ 171  Rhodemar                                                                                                                                              68.12%    passed     77.74%
+ 172  Rhodlimn                                                                                                                                              68.61%    passed     79.63%
+ 173  Ancytwis                                                                                                                                              69.23%    passed     97.43%
+ 174  Bafffrig                                                                                                                                              68.65%    passed     95.33%
+ 175  Rhodsali                                                                                                                                              67.09%    passed     87.33%
+ 176  Diplambu                                                                                                                                              67.54%    passed     46.08%
+ 177  Flecnera                                                                                                                                              68.28%    passed     99.61%
+ 178  Neobdesi                                                                                                                                              69.11%    passed      5.44%
+ 179  Trimmari                                                                                                                                              68.86%    passed     19.20%
+ 180  Lenilimo                                                                                                                                              82.27%    passed     75.45%
+ 181  Carpmemb                                                                                                                                              68.20%    passed     97.14%
+ 182  Giarlamb                                                                                                                                              64.58%    passed     81.57%
+ 183  Adunpalu                                                                                                                                              67.79%    passed      8.72%
+ 184  Vermverm                                                                                                                                              67.96%    passed     84.06%
+ 185  Echiexud                                                                                                                                              68.94%    passed     61.95%
+ 186  Arcevulg                                                                                                                                              68.61%    passed      5.29%
+ 187  NolaAFSM                                                                                                                                              69.31%    passed     34.89%
+ 188  Amoeprot                                                                                                                                              68.70%    passed      7.61%
+ 189  Coprprot                                                                                                                                              68.94%    passed     19.31%
+ 190  Rhizsaxo                                                                                                                                              69.19%    passed     13.70%
+ 191  Flabcita                                                                                                                                              69.03%    failed      0.26%
+ 192  Masteilh                                                                                                                                              67.71%    failed      1.89%
+ 193  Rhizelon                                                                                                                                              68.16%    passed     77.03%
+ 194  Sapochin                                                                                                                                              67.96%    passed     15.81%
+ 195  Armalang                                                                                                                                              69.35%    passed     43.47%
+ 196  Soliirre                                                                                                                                              67.79%    passed     97.34%
+ 197  Cavoapop                                                                                                                                              69.11%    passed     51.18%
+ 198  Schivulg                                                                                                                                              68.90%    passed     75.22%
+ 199  Phalsoli                                                                                                                                              83.50%    passed     82.75%
+ 200  Filanola                                                                                                                                              69.48%    passed     21.32%
+ 201  Hetepall                                                                                                                                              73.80%    passed     17.37%
+ 202  Pellcata                                                                                                                                              68.90%    passed     59.73%
+ 203  Gocefonb                                                                                                                                              69.35%    passed     73.98%
+ 204  Endozona                                                                                                                                              68.90%    failed      2.06%
+ 205  Luaphula                                                                                                                                              68.98%    passed     97.90%
+ 206  Dracjorm                                                                                                                                              68.28%    passed     29.70%
+ 207  Mayocant                                                                                                                                              81.12%    passed     42.88%
+ 208  Stensten                                                                                                                                              69.11%    passed     89.38%
+ 209  Sapppeda                                                                                                                                              69.48%    passed     54.08%
+ 210  Cochminu                                                                                                                                              67.30%    failed      0.00%
+ 211  Veximinu                                                                                                                                              78.86%    passed      5.83%
+ 212  Cuneruss                                                                                                                                              66.47%    passed     44.58%
+ 213  Mancberm                                                                                                                                              80.30%    passed     65.30%
+ 214  Pharkirb                                                                                                                                              68.16%    passed     83.60%
+ 215  HeterBB2                                                                                                                                              68.53%    passed     98.07%
+ 216  Eutrgymn                                                                                                                                              67.96%    passed     86.97%
+ 217  Euglgrac                                                                                                                                              68.16%    passed     98.44%
+ 218  Eugllong                                                                                                                                              67.75%    passed     98.63%
+ 219  Bodosalt                                                                                                                                              63.27%    failed      0.00%
+ 220  Pygsbifo                                                                                                                                              80.13%    passed     78.72%
+ 221  Mantplas                                                                                                                                              69.15%    passed      8.83%
+ 222  Fabotrop                                                                                                                                              63.72%    failed      0.00%
+ 223  Ancysigm                                                                                                                                              80.30%    passed     78.08%
+ 224  Nutolong                                                                                                                                              66.02%    failed      0.12%
+ 225  Gefiokel                                                                                                                                              68.37%    failed      2.93%
+ 226  Guttvulg                                                                                                                                              64.79%    passed     43.24%
+ 227  Rigiramo                                                                                                                                              68.86%    passed     73.29%
+ 228  Diphrota                                                                                                                                              68.82%    passed     94.95%
+ 229  Minivibr                                                                                                                                              67.71%    passed     98.82%
+ 230  Salprose                                                                                                                                              68.12%    passed     57.35%
+ 231  Amoepara                                                                                                                                              68.57%    passed     97.39%
+ 232  Sphaarct                                                                                                                                              70.46%    passed     88.68%
+ 233  Amphquee                                                                                                                                              71.29%    passed     82.16%
+ 234  Mnemleid                                                                                                                                              68.90%    passed     90.97%
+ 235  Tricadha                                                                                                                                              67.91%    passed     39.30%
+ 236  Gallgall                                                                                                                                              68.53%    passed     87.88%
+ 237  Branflor                                                                                                                                              67.83%    passed     16.10%
+ 238  Caeneleg                                                                                                                                              66.23%    passed     68.15%
+ 239  Drosmela                                                                                                                                              67.87%    passed     88.23%
+ 240  Apismell                                                                                                                                              68.12%    passed     72.59%
+ 241  Taensoli                                                                                                                                              67.75%    passed     70.88%
+ 242  Schimans                                                                                                                                              67.38%    passed     95.81%
+ 243  Aplycali                                                                                                                                              67.59%    passed     39.69%
+ 244  Debahans                                                                                                                                              69.31%    failed      0.00%
+ 245  Schizpom                                                                                                                                              68.78%    passed     74.60%
+ 246  Neurcras                                                                                                                                              68.12%    passed     99.32%
+ 247  Aspefumi                                                                                                                                              67.91%    passed     94.64%
+ 248  Rhizdele                                                                                                                                              68.78%    passed     99.67%
+ 249  Ustimayd                                                                                                                                              68.33%    passed     98.58%
+ 250  Coprcine                                                                                                                                              68.57%    passed     98.70%
+ 251  Spizpunc                                                                                                                                              68.45%    passed     89.91%
+ 252  Fontalba                                                                                                                                              68.24%    passed     30.65%
+ 253  Blasbrit                                                                                                                                              66.84%    failed      2.86%
+ 254  Allomacr                                                                                                                                              68.37%    passed     16.80%
+ 255  PoterBG1                                                                                                                                              74.33%    passed     90.15%
+ 256  CP_TRINITY_DN5814_c0_g1__CP_TRINITY_DN5814_c0_g1_i1__g.16377__m.16377_type_5prime_partial_len_374_gc_universal_CP_TRINITY_DN5814_c0_g1_i1_3-1124___   84.66%    passed     97.46%
+ 257  CP_TRINITY_DN9175_c0_g1__CP_TRINITY_DN9175_c0_g1_i1__g.30196__m.30196_type_3prime_partial_len_766_gc_universal_CP_TRINITY_DN9175_c0_g1_i1_2295-1_-_   68.53%    passed     77.26%
+ 258  CP_TRINITY_DN9175_c0_g1__CP_TRINITY_DN9175_c0_g1_i10__g.30201__m.30201_type_complete_len_787_gc_universal_CP_TRINITY_DN9175_c0_g1_i10_2540-180_-_     67.67%    passed     61.83%
+ 259  CP_TRINITY_DN9175_c0_g1__CP_TRINITY_DN9175_c0_g1_i6__g.30207__m.30207_type_complete_len_787_gc_universal_CP_TRINITY_DN9175_c0_g1_i6_2540-180_-_       67.67%    passed     61.83%
+ 260  CP_TRINITY_DN9175_c0_g1__CP_TRINITY_DN9175_c0_g1_i7__g.30214__m.30214_type_complete_len_787_gc_universal_CP_TRINITY_DN9175_c0_g1_i7_2540-180_-_       67.67%    passed     61.83%
+WARNING: 260 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                                 69.86%  45 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: CP_TRINITY_DN9175_c0_g1__CP_TRINITY_DN9175_c0_g1_i6__g.30207__m.30207_type_complete_len_787_gc_universal_CP_TRINITY_DN9175_c0_g1_i6_2540-180_-_ is identical to CP_TRINITY_DN9175_c0_g1__CP_TRINITY_DN9175_c0_g1_i10__g.30201__m.30201_type_complete_len_787_gc_universal_CP_TRINITY_DN9175_c0_g1_i10_2540-180_-_ but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: CP_TRINITY_DN9175_c0_g1__CP_TRINITY_DN9175_c0_g1_i7__g.30214__m.30214_type_complete_len_787_gc_universal_CP_TRINITY_DN9175_c0_g1_i7_2540-180_-_ (identical to CP_TRINITY_DN9175_c0_g1__CP_TRINITY_DN9175_c0_g1_i10__g.30201__m.30201_type_complete_len_787_gc_universal_CP_TRINITY_DN9175_c0_g1_i10_2540-180_-_) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to /tmp/IQTREE/IqMoNmeGIB/iqt.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.664 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 949227)...
+
+NOTE: 297 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -237246.904
+2. Current log-likelihood: -225028.361
+3. Current log-likelihood: -224724.009
+4. Current log-likelihood: -224690.670
+5. Current log-likelihood: -224689.555
+Optimal log-likelihood: -224689.460
+Site proportion and rates:  (0.144,0.110) (0.270,0.449) (0.299,0.988) (0.287,1.974)
+Parameters optimization took 5 rounds (779.990 sec)
+Computing ML distances based on estimated model parameters... 20.969 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.036 seconds
+Log-likelihood of BIONJ tree: -224544.472
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 54.443 second
+Computing log-likelihood of 98 initial trees ... 617.811 seconds
+Current best score: -224544.472
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -224054.451
+Iteration 10 / LogL: -224119.818 / Time: 0h:41m:10s
+Iteration 20 / LogL: -224090.673 / Time: 0h:55m:19s
+Finish initializing candidate tree set (20)
+Current best tree score: -224054.451 / CPU time: 2496.106
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -224053.128
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -224042.814
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -224036.885
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -224027.745
+Iteration 30 / LogL: -224027.745 / Time: 1h:23m:26s (4h:47m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -224024.427
+Iteration 40 / LogL: -224024.427 / Time: 1h:41m:24s (4h:20m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -224019.116
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -224013.116
+Iteration 50 / LogL: -224021.127 / Time: 2h:13m:19s (4h:15m:44s left)
+Log-likelihood cutoff on original alignment: -224180.527
+Iteration 60 / LogL: -224017.387 / Time: 2h:37m:1s (3h:43m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -224012.215
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -224010.224
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 70: -224004.516
+Iteration 70 / LogL: -224004.516 / Time: 3h:8m:10s (4h:32m:41s left)
+Iteration 80 / LogL: -224011.775 / Time: 3h:24m:39s (3h:53m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 83: -223999.119
+Iteration 90 / LogL: -224034.004 / Time: 3h:42m:48s (3h:52m:48s left)
+Iteration 100 / LogL: -224017.307 / Time: 3h:57m:33s (3h:19m:9s left)
+Log-likelihood cutoff on original alignment: -224162.048
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -224003.649 / Time: 4h:12m:30s (3h:28m:29s left)
+Iteration 120 / LogL: -224075.020 / Time: 4h:27m:22s (2h:59m:44s left)
+Iteration 130 / LogL: -224013.735 / Time: 4h:40m:22s (2h:32m:7s left)
+Iteration 140 / LogL: -224167.107 / Time: 4h:53m:52s (2h:6m:50s left)
+Iteration 150 / LogL: -224019.609 / Time: 5h:5m:6s (1h:42m:22s left)
+Log-likelihood cutoff on original alignment: -224162.048
+Iteration 160 / LogL: -224024.239 / Time: 5h:17m:8s (1h:19m:46s left)
+Iteration 170 / LogL: -224008.851 / Time: 5h:28m:24s (0h:58m:17s left)
+Iteration 180 / LogL: -224012.924 / Time: 5h:39m:12s (0h:37m:53s left)
+Iteration 190 / LogL: -224008.256 / Time: 5h:50m:13s (0h:18m:31s left)
+Iteration 200 / LogL: -224001.810 / Time: 6h:0m:56s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -224162.048
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 6h:1m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -223999.119
+Optimal log-likelihood: -223999.118
+Site proportion and rates:  (0.141,0.108) (0.264,0.445) (0.291,0.971) (0.303,1.929)
+Parameters optimization took 1 rounds (25.895 sec)
+BEST SCORE FOUND : -223999.118
+Empirical proportions for each category: 0.084 0.162 0.149 0.604
+Site rates printed to /tmp/IQTREE/IqMoNmeGIB/iqt.rate
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+40.878 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file /tmp/IQTREE/IqMoNmeGIB/iqt.splits.nex
+Total tree length: 127.188
+
+Total number of iterations: 200
+CPU time used for tree search: 12036.375 sec (3h:20m:36s)
+Wall-clock time used for tree search: 20836.818 sec (5h:47m:16s)
+Total CPU time used: 12858.261 sec (3h:34m:18s)
+Total wall-clock time used: 21729.257 sec (6h:2m:9s)
+
+Computing bootstrap consensus tree...
+Reading input file /tmp/IQTREE/IqMoNmeGIB/iqt.splits.nex...
+259 taxa and 1156 splits.
+Consensus tree written to /tmp/IQTREE/IqMoNmeGIB/iqt.contree
+Reading input trees file /tmp/IQTREE/IqMoNmeGIB/iqt.contree
+Log-likelihood of consensus tree: -223999.859
+
+Analysis results written to: 
+  IQ-TREE report:                /tmp/IQTREE/IqMoNmeGIB/iqt.iqtree
+  Maximum-likelihood tree:       /tmp/IQTREE/IqMoNmeGIB/iqt.treefile
+  Likelihood distances:          /tmp/IQTREE/IqMoNmeGIB/iqt.mldist
+  Site-specific rates:           /tmp/IQTREE/IqMoNmeGIB/iqt.rate
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /tmp/IQTREE/IqMoNmeGIB/iqt.splits.nex
+  Consensus tree:                /tmp/IQTREE/IqMoNmeGIB/iqt.contree
+  Screen log file:               /tmp/IQTREE/IqMoNmeGIB/iqt.log
+
+Date and Time: Mon Mar  4 17:40:53 2024
