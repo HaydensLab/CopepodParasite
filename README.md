@@ -1,19 +1,9 @@
 # CopepodParasite
+This is the repository for all complete files used in the final analysis steps. it does not contain all of the raw reads and raw data as that would total over 100GB of storage. 
 
-#Programs used
-
-#Phylofisher database
-
-#Transdecoder for orf extraction
-
-#blast+ local (blastp)
-
-#MAFFT
-
-#Trinity + RSEM packages
-
-#bioconda/conda
-
-#iqtree + iqtree webserver both Los Alamos and Austria
-
-#dendroscope + icytree or tree viewer of choice that can read newark tree files
+Contained here are:
+R code
+Bash scripts for the pipeline
+Supplemental Table 1 (contains all selected gene transcripts prior to filtering)
+The all taxa and opisthokont exclusive multigene tree files.
+All single gene tree files (some may be fragment fusion files/attempts)
