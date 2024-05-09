@@ -1,0 +1,408 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=306;
+	taxlabels
+	Abolprol[&!color=#000000]
+	Acancast[&!color=#000000]
+	AcanthFB[&!color=#000000]
+	Adunpalu[&!color=#000000]
+	Agarclat[&!color=#000000]
+	Albulaib[&!color=#000000]
+	Alexminu[&!color=#000000]
+	Allomacr[&!color=#000000,!name="Allomyces macrogynus"]
+	Alphedax[&!color=#000000]
+	Ammo1384[&!color=#000000]
+	AmoeALEX[&!color=#000000]
+	Amoepara[&!color=#000000]
+	Amoeprot[&!color=#000000]
+	Amphquee[&!color=#000000,!name="Amphimedon queenslandica"]
+	Ancysigm[&!color=#000000]
+	Ancytwis[&!color=#000000]
+	Andagodo[&!color=#000000]
+	Apismell[&!color=#000000,!name="Apis mellifera"]
+	Aplakerg[&!color=#000000]
+	Aplycali[&!color=#000000,!name="Aplysia californica"]
+	Arabthal[&!color=#000000]
+	Arcevulg[&!color=#000000]
+	Armalang[&!color=#000000]
+	Aspefumi[&!color=#000000,!name="Aspergillus fumigatus Af293"]
+	Auralima[&!color=#000000]
+	Aureanop[&!color=#000000]
+	Aurelagu[&!color=#000000]
+	Aurisoli[&!color=#000000]
+	Bafffrig[&!color=#000000]
+	Batrdend[&!color=#000000,!name="Batrachochytrium dendrobatidis"]
+	BicoCB20[&!color=#000000]
+	Bigenata[&!color=#000000]
+	BlasS7SB[&!color=#000000]
+	Blasbrit[&!color=#000000,!name="Blastocladiella britannica"]
+	Blasemer[&!color=#000000,!name="Blastocladiella emersonii"]
+	Bodosalt[&!color=#000000]
+	Branflor[&!color=#000000,!name="Branchiostoma floridae"]
+	Brevanat[&!color=#000000]
+	Brevmoto[&!color=#000000]
+	Caeneleg[&!color=#000000,!name="Caenorhabditis elegans"]
+	Caferoen[&!color=#000000]
+	Calclept[&!color=#000000]
+	Calltube[&!color=#000000]
+	Cantmars[&!color=#000000]
+	Capsowcz[&!color=#000000]
+	Carpmemb[&!color=#000000]
+	Cavoapop[&!color=#000000]
+	Cerakond[&!color=#000000]
+	Charbrau[&!color=#000000]
+	Chatsubs[&!color=#000000]
+	Chlarein[&!color=#000000]
+	Chlorept[&!color=#000000]
+	Chlovari[&!color=#000000]
+	ChoanoFB[&!color=#000000]
+	Choncris[&!color=#000000]
+	Chroveli[&!color=#000000]
+	Chrycart[&!color=#000000]
+	Chryfrag[&!color=#000000]
+	Chryrota[&!color=#000000]
+	ChrysoH1[&!color=#000000]
+	ChrysoH2[&!color=#000000]
+	Cochminu[&!color=#000000]
+	Colltric[&!color=#000000]
+	Colpangu[&!color=#000000]
+	Compcoer[&!color=#000000]
+	Coprcine[&!color=#000000,!name="Coprinus cinereus"]
+	Coprprot[&!color=#000000]
+	Coralima[&!color=#000000]
+	Creofrag[&!color=#000000]
+	Cryppara[&!color=#000000]
+	Crypparv[&!color=#000000]
+	Cuneruss[&!color=#000000]
+	Cyangloe[&!color=#000000]
+	Cyanmero[&!color=#000000]
+	Cyanpara[&!color=#000000]
+	Debahans[&!color=#000000,!name="Debaryomyces hansenii"]
+	Deveeleg[&!color=#000000]
+	Diacluth[&!color=#000000]
+	Dictdisc[&!color=#000000]
+	Dino2267[&!color=#000000]
+	Diphrota[&!color=#000000]
+	Diplambu[&!color=#000000]
+	Dracjorm[&!color=#000000]
+	Drosmela[&!color=#000000,!name="Drosophila melanogaster"]
+	Dunasali[&!color=#000000]
+	Echibisp[&!color=#000000]
+	Echiexud[&!color=#000000]
+	EctocSP7[&!color=#000000]
+	Eimebrun[&!color=#000000]
+	Endozona[&!color=#000000]
+	Ergocypr[&!color=#000000]
+	Euglgrac[&!color=#000000]
+	Eugllong[&!color=#000000]
+	Euglrotu[&!color=#000000]
+	Eutrgymn[&!color=#000000]
+	Fabotrop[&!color=#000000]
+	Fibrjapo[&!color=#000000]
+	Filanola[&!color=#000000]
+	Flabcita[&!color=#000000]
+	Flecnera[&!color=#000000]
+	Flor1587[&!color=#000000]
+	Fontalba[&!color=#000000,!name="Fonticula alba"]
+	Fragcyli[&!color=#000000]
+	Fucucera[&!color=#000000]
+	Galdphle[&!color=#000000]
+	Galdsulp[&!color=#000000]
+	Gallgall[&!color=#000000,!name="Gallus gallus"]
+	Gefiokel[&!color=#000000]
+	Gemicryo[&!color=#000000]
+	Gephhuxl[&!color=#000000]
+	Giarlamb[&!color=#000000]
+	Glauincr[&!color=#000000]
+	Gloewitr[&!color=#000000]
+	Gocefonb[&!color=#000000]
+	Goniavon[&!color=#000000]
+	Gracchor[&!color=#000000]
+	Gratturu[&!color=#000000]
+	Gregniph[&!color=#000000]
+	Gromspha[&!color=#000000]
+	Guilthet[&!color=#000000]
+	Guttvulg[&!color=#000000]
+	Gymn2014[&!color=#000000]
+	Haloseos[&!color=#000000]
+	HemaVICK[&!color=#000000]
+	Hemikukw[&!color=#000000]
+	Hemirufe[&!color=#000000]
+	Heteakas[&!color=#000000]
+	Hetepall[&!color=#000000]
+	HeterBB2[&!color=#000000]
+	Homosapi[&!color=#000000,!name="Homo sapiens"]
+	Hyphcate[&!color=#000000]
+	Ichtmult[&!color=#000000]
+	Idiovort[&!color=#000000]
+	Jakolibe[&!color=#000000]
+	Karebrev[&!color=#000000]
+	Kipfbial[&!color=#000000]
+	Lapoguse[&!color=#000000]
+	Leismajo[&!color=#000000]
+	Lenilimo[&!color=#000000]
+	Leptpyrr[&!color=#000000]
+	Leptvora[&!color=#000000]
+	Luaphula[&!color=#000000]
+	MAST003A[&!color=#000000]
+	MAST003F[&!color=#000000]
+	MAST004C[&!color=#000000]
+	MAST004E[&!color=#000000]
+	MAST04A1[&!color=#000000]
+	MAST04A2[&!color=#000000]
+	Malacali[&!color=#000000]
+	Malajako[&!color=#000000]
+	Mallmari[&!color=#000000]
+	Mancberm[&!color=#000000]
+	Mantplas[&!color=#000000]
+	Masteilh[&!color=#000000]
+	MatazaD1[&!color=#000000]
+	Mayocant[&!color=#000000]
+	Mesoviri[&!color=#000000]
+	MicrA134[&!color=#000000]
+	Micrgadi[&!color=#000000]
+	Micrpusl[&!color=#000000]
+	Minivibr[&!color=#000000]
+	Mitodaph[&!color=#000000,!name="Mitosporidium daphniae"]
+	Mnemleid[&!color=#000000,!name="Mnemiopsis leidyi"]
+	Monobrev[&!color=#000000,!name="Monosiga brevicollis"]
+	Monoexil[&!color=#000000]
+	Multmedi[&!color=#000000]
+	Naeggrub[&!color=#000000]
+	Nemavect[&!color=#000000,!name="Nematostella vectensis"]
+	Neobdesi[&!color=#000000]
+	Nephpyri[&!color=#000000]
+	Neurcras[&!color=#000000,!name="Neurospora crassa OR74A"]
+	Noctscin[&!color=#000000]
+	NolaAFSM[&!color=#000000]
+	Nutohowe[&!color=#000000]
+	Nutolong[&!color=#000000]
+	Ochr2298[&!color=#000000]
+	Octaspec[&!color=#000000]
+	Oryzsati[&!color=#000000]
+	Ostrtaur[&!color=#000000]
+	Ovaldese[&!color=#000000]
+	Oxyrmari[&!color=#000000]
+	PB58411a[&!color=#000000]
+	Paheparv[&!color=#000000]
+	Palpbili[&!color=#000000]
+	Paraconf[&!color=#000000]
+	Paralevi[&!color=#000000]
+	Parapyri[&!color=#000000]
+	Parasacc[&!color=#000000,!name="Paramicrosporidium saccamoebae"]
+	Paratetr[&!color=#000000]
+	Paravest[&!color=#000000]
+	Parvatla[&!color=#000000,!name="Parvularia atlantis"]
+	Paulchro[&!color=#000000]
+	Pavl2436[&!color=#000000]
+	Pedi2098[&!color=#000000]
+	Pedoelon[&!color=#000000]
+	Pela2097[&!color=#000000]
+	Pelacalc[&!color=#000000]
+	Pelasubv[&!color=#000000]
+	Pellcata[&!color=#000000]
+	Perkmari[&!color=#000000]
+	Phaeglob[&!color=#000000]
+	Phaetric[&!color=#000000]
+	Phalsoli[&!color=#000000]
+	Pharkirb[&!color=#000000]
+	Physpate[&!color=#000000]
+	Physpoly[&!color=#000000]
+	Phytpara[&!color=#000000]
+	Picosali[&!color=#000000]
+	Pigoviet[&!color=#000000]
+	Pingpyre[&!color=#000000]
+	Pirisoci[&!color=#000000]
+	PlacCLAB[&!color=#000000]
+	Plasbras[&!color=#000000]
+	Plasfalc[&!color=#000000]
+	Platmacr[&!color=#000000]
+	Platviva[&!color=#000000]
+	Porpaeru[&!color=#000000]
+	Porppurp[&!color=#000000]
+	Porpumbi[&!color=#000000]
+	PoterBG1[&!color=#000000]
+	Prascaps[&!color=#000000]
+	Prassing[&!color=#000000]
+	ProbableCopepod[&!color=#000000,!name="ProbableCopepod (Calanus finmarchicus)"]
+	ProbableParasite[&!color=#000000]
+	Protadhe[&!color=#000000]
+	Protfung[&!color=#000000]
+	Protlace[&!color=#000000]
+	Prymparv[&!color=#000000]
+	Prympoly[&!color=#000000]
+	Pseuelas[&!color=#000000]
+	Psuemult[&!color=#000000]
+	Pygsbifo[&!color=#000000]
+	Pyrapark[&!color=#000000]
+	Pyroyezo[&!color=#000000]
+	Pythirre[&!color=#000000]
+	Rainerin[&!color=#000000]
+	Raphhete[&!color=#000000]
+	Reclamer[&!color=#000000]
+	Retifilo[&!color=#000000]
+	Rhiz1243[&!color=#000000]
+	Rhizdele[&!color=#000000,!name="Rhizopus delemar"]
+	Rhizelon[&!color=#000000]
+	Rhizsaxo[&!color=#000000]
+	Rhodemar[&!color=#000000]
+	Rhodlimn[&!color=#000000]
+	Rhodmacu[&!color=#000000]
+	Rhodmari[&!color=#000000]
+	Rhodsali[&!color=#000000]
+	Rigiramo[&!color=#000000]
+	Roomtrun[&!color=#000000]
+	Rozeallo[&!color=#000000,!name="Rozella allomycis"]
+	Sacccere[&!color=#000000,!name="Saccharomyces cerevisiae"]
+	Salprose[&!color=#000000,!name="Salpingoeca rosetta"]
+	Sapochin[&!color=#000000]
+	Sapppeda[&!color=#000000]
+	Saprdecl[&!color=#000000]
+	Schiaggr[&!color=#000000]
+	Schimans[&!color=#000000,!name="Schistoma mansoni"]
+	Schivulg[&!color=#000000]
+	Schizpom[&!color=#000000,!name="Schizosaccharomyces pombe"]
+	Soliirre[&!color=#000000]
+	Sori0191[&!color=#000000]
+	Sphaarct[&!color=#000000]
+	Sphadest[&!color=#000000]
+	SpirCILI[&!color=#000000]
+	Spirsalm[&!color=#000000]
+	Spizpunc[&!color=#000000,!name="Spizellomyces punctatus"]
+	Squajapo[&!color=#000000]
+	Stencoer[&!color=#000000]
+	Stensten[&!color=#000000]
+	Stichzan[&!color=#000000]
+	Stroincl[&!color=#000000]
+	Styginca[&!color=#000000]
+	Styllemn[&!color=#000000]
+	Symbmicr[&!color=#000000]
+	Syncpusi[&!color=#000000]
+	Syssmult[&!color=#000000]
+	Taensoli[&!color=#000000,!name="Taenia solium"]
+	TeloneP1[&!color=#000000]
+	TeloneP2[&!color=#000000]
+	Telosubt[&!color=#000000]
+	Tetrasti[&!color=#000000]
+	Tetrther[&!color=#000000]
+	Thalpseu[&!color=#000000]
+	ThecSK13[&!color=#000000]
+	Thecoxon[&!color=#000000]
+	Thectrah[&!color=#000000]
+	ThraLLF1[&!color=#000000]
+	Tisolute[&!color=#000000]
+	Toxogond[&!color=#000000]
+	Tribgaya[&!color=#000000]
+	Tricadha[&!color=#000000,!name="Trichoplax adhaerens"]
+	Tricvagi[&!color=#000000]
+	Trimmari[&!color=#000000]
+	Tripeleu[&!color=#000000]
+	Trypbruc[&!color=#000000]
+	Tsukglob[&!color=#000000]
+	Tychacut[&!color=#000000]
+	Ustimayd[&!color=#000000,!name="Ustilago maydis"]
+	Vannfimi[&!color=#000000]
+	Vauclito[&!color=#000000]
+	Vermverm[&!color=#000000]
+	Veximinu[&!color=#000000]
+	Vitrbras[&!color=#000000]
+	Volvcart[&!color=#000000]
+	Wobbluna[&!color=#000000]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Blasemer[&!rotate=false,!color=#000000]:0.058584,((((((((((((((((((((Calltube[&!rotate=false,!color=#999999]:0.171524,(((Gracchor[&!rotate=false,!color=#999999]:0.090692,Gratturu[&!rotate=false,!color=#999999]:0.067756)[&Supports="81.6/1/82",!rotate=false,!color=#999999]:0.013697,Choncris[&!rotate=false,!color=#999999]:0.077614)[&Supports="95.1/1/95",!rotate=false,!color=#999999]:0.016744,Cerakond[&!rotate=false,!color=#999999]:0.084628)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.038309)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.08154,(Porpumbi[&!rotate=false,!color=#999999]:0.018596,Pyroyezo[&!rotate=false,!color=#999999]:0.025584)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.173383)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.039557,(Rhodmari[&!rotate=false,!color=#999999]:0.223076,Rhodmacu[&!rotate=false,!color=#999999]:0.246693)[&Supports="82.3/1/86",!rotate=false,!color=#999999]:0.023571)[&Supports="75.3/1/71",!rotate=false,!color=#999999]:0.017071,((Porppurp[&!rotate=false,!color=#999999]:0.145859,Porpaeru[&!rotate=false,!color=#999999]:0.108195)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.100227,Compcoer[&!rotate=false,!color=#999999]:0.183557)[&Supports="90.5/1/87",!rotate=false,!color=#999999]:0.025051)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.05073,((Galdphle[&!rotate=false,!color=#999999]:0.080814,Galdsulp[&!rotate=false,!color=#999999]:0.060845)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.168217,Cyanmero[&!rotate=false,!color=#999999]:0.364457)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.041897)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.112111,(Rhodlimn[&!rotate=false,!color=#999999]:0.130847,Rhodemar[&!rotate=false,!color=#999999]:0.156326)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.1462)[&Supports="100/1/80",!rotate=false,!color=#999999]:0.02994,(((Cyangloe[&!rotate=false,!color=#999999]:0.161775,Cyanpara[&!rotate=false,!color=#999999]:0.088746)[&Supports="96.7/1/89",!rotate=false,!color=#999999]:0.056297,(Gloewitr[&!rotate=false,!color=#999999]:0.111441,Glauincr[&!rotate=false,!color=#999999]:0.076917)[&Supports="92.7/1/87",!rotate=false,!color=#999999]:0.025993)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.094107,(((Charbrau[&!rotate=false,!color=#999999]:0.118507,(Physpate[&!rotate=false,!color=#999999]:0.088061,(Oryzsati[&!rotate=false,!color=#999999]:0.07643,Arabthal[&!rotate=false,!color=#999999]:0.080715)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.066817)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.035143)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.04423,Mesoviri[&!rotate=false,!color=#999999]:0.164504)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.026803,(((Pyrapark[&!rotate=false,!color=#999999]:0.162915,(Micrpusl[&!rotate=false,!color=#999999]:0.11397,Ostrtaur[&!rotate=false,!color=#999999]:0.143868)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.120991)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.038719,(((((Dunasali[&!rotate=false,!color=#999999]:0.13335,(Chlarein[&!rotate=false,!color=#999999]:0.050778,Volvcart[&!rotate=false,!color=#999999]:0.034946)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.086803)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.070537,Chlovari[&!rotate=false,!color=#999999]:0.163118)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.026958,Tetrasti[&!rotate=false,!color=#999999]:0.164187)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.045029,Picosali[&!rotate=false,!color=#999999]:0.205292)[&Supports="45.1/1/61",!rotate=false,!color=#999999]:0.015697,Nephpyri[&!rotate=false,!color=#999999]:0.160576)[&Supports="97.8/1/96",!rotate=false,!color=#999999]:0.018659)[&Supports="98.2/1/97",!rotate=false,!color=#999999]:0.020042,(Prascaps[&!rotate=false,!color=#999999]:0.15977,Prassing[&!rotate=false,!color=#999999]:0.223216)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.059957)[&Supports="99.2/1/99",!rotate=false,!color=#999999]:0.019014)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.100258)[&Supports="98.4/1/90",!rotate=false,!color=#999999]:0.021273)[&Supports="65.3/1/47",!rotate=false,!color=#999999]:0.013653,(((((Phaeglob[&!rotate=false,!color=#999999]:0.11194,(((Calclept[&!rotate=false,!color=#999999]:0.060215,Chrycart[&!rotate=false,!color=#999999]:0.059088)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.040056,(Gephhuxl[&!rotate=false,!color=#999999]:0.084009,Tisolute[&!rotate=false,!color=#999999]:0.047138)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.066534)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.039182,(Chryrota[&!rotate=false,!color=#999999]:0.117654,(Prymparv[&!rotate=false,!color=#999999]:0.036143,Prympoly[&!rotate=false,!color=#999999]:0.045182)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.063615)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.031606)[&Supports="11.9/0.854/61",!rotate=false,!color=#999999]:0.014765)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.088932,(Diacluth[&!rotate=false,!color=#999999]:0.067044,Pavl2436[&!rotate=false,!color=#999999]:0.065746)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.181933)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.105037,((TeloneP1[&!rotate=false,!color=#999999]:0.097566,Telosubt[&!rotate=false,!color=#999999]:0.053897)[&Supports="24.8/0.894/76",!rotate=false,!color=#999999]:0.01808,TeloneP2[&!rotate=false,!color=#999999]:0.065093)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.363103)[&Supports="95.7/1/90",!rotate=false,!color=#999999]:0.016741,PB58411a[&!rotate=false,!color=#999999]:0.561658)[&Supports="0/0.0311/2",!rotate=false,!color=#999999]:0.012662,(((Goniavon[&!rotate=false,!color=#999999]:0.205296,((((Gemicryo[&!rotate=false,!color=#999999]:0.095324,Guilthet[&!rotate=false,!color=#999999]:0.073517)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.023971,(Rhodsali[&!rotate=false,!color=#999999]:0.083453,Bafffrig[&!rotate=false,!color=#999999]:0.100276)[&Supports="91.1/1/86",!rotate=false,!color=#999999]:0.012612)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.022325,Hemirufe[&!rotate=false,!color=#999999]:0.110569)[&Supports="99.9/1/99",!rotate=false,!color=#999999]:0.023485,Cryppara[&!rotate=false,!color=#999999]:0.105654)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.163626)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.056906,Roomtrun[&!rotate=false,!color=#999999]:0.232611)[&Supports="99.4/1/99",!rotate=false,!color=#999999]:0.029612,Palpbili[&!rotate=false,!color=#999999]:0.327564)[&Supports="100/1/99",!rotate=false,!color=#999999]:0.030866)[&Supports="77.7/1/35",!rotate=false,!color=#999999]:0.016234)[&Supports="97.6/1/63",!rotate=false,!color=#999999]:0.014752,((((((((Protlace[&!rotate=false,!color=#999999]:0.363845,BlasS7SB[&!rotate=false,!color=#999999]:0.378546)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.065315,Cantmars[&!rotate=false,!color=#999999]:0.45925)[&Supports="100/1/80",!rotate=false,!color=#999999]:0.054163,((MAST003A[&!rotate=false,!color=#999999]:0.223302,MAST003F[&!rotate=false,!color=#999999]:0.252332)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.109315,(PlacCLAB[&!rotate=false,!color=#999999]:0.150898,Wobbluna[&!rotate=false,!color=#999999]:0.217165)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.112635)[&Supports="48.4/0.999/53",!rotate=false,!color=#999999]:0.023031)[&Supports="56.4/1/57",!rotate=false,!color=#999999]:0.018812,(BicoCB20[&!rotate=false,!color=#999999]:0.237752,(Haloseos[&!rotate=false,!color=#999999]:0.240307,Caferoen[&!rotate=false,!color=#999999]:0.364929)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.067125)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.069365)[&Supports="77.8/1/73",!rotate=false,!color=#999999]:0.018078,(((MAST004C[&!rotate=false,!color=#999999]:0.027563,(MAST04A2[&!rotate=false,!color=#999999]:0.001476,MAST04A1[&!rotate=false,!color=#999999]:0.045655)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.029987)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.072266,MAST004E[&!rotate=false,!color=#999999]:0.189602)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.196235,(Aplakerg[&!rotate=false,!color=#999999]:0.171225,(Auralima[&!rotate=false,!color=#999999]:0.141077,(ThraLLF1[&!rotate=false,!color=#999999]:0.105082,Schiaggr[&!rotate=false,!color=#999999]:0.082145)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.051353)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.079347)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.109483)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.035322)[&Supports="85.4/1/90",!rotate=false,!color=#999999]:0.020748,((((((((ChrysoH2[&!rotate=false,!color=#999999]:0.080532,ChrysoH1[&!rotate=false,!color=#999999]:0.054239)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.15891,(PoterBG1[&!rotate=false,!color=#999999]:0.116011,((Ochr2298[&!rotate=false,!color=#999999]:0.08107,Pedoelon[&!rotate=false,!color=#999999]:0.064132)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.046649,Dino2267[&!rotate=false,!color=#999999]:0.085809)[&Supports="89.6/1/89",!rotate=false,!color=#999999]:0.019251)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.032008)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.029096,(Mallmari[&!rotate=false,!color=#999999]:0.113111,Paravest[&!rotate=false,!color=#999999]:0.14587)[&Supports="61.7/1/78",!rotate=false,!color=#999999]:0.017483)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.076257,Syncpusi[&!rotate=false,!color=#999999]:0.243144)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.051772,Micrgadi[&!rotate=false,!color=#999999]:0.251807)[&Supports="13.8/0.614/79",!rotate=false,!color=#999999]:0.009142,((((EctocSP7[&!rotate=false,!color=#999999]:0.036806,Agarclat[&!rotate=false,!color=#999999]:0.023605)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.014925,Fucucera[&!rotate=false,!color=#999999]:0.038234)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.107274,(Tribgaya[&!rotate=false,!color=#999999]:0.068949,Vauclito[&!rotate=false,!color=#999999]:0.124633)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.077836)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.06196,(Fibrjapo[&!rotate=false,!color=#999999]:0.119557,(Chatsubs[&!rotate=false,!color=#999999]:0.067859,Heteakas[&!rotate=false,!color=#999999]:0.087769)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.078072)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.057331)[&Supports="100/1/99",!rotate=false,!color=#999999]:0.025167)[&Supports="83.3/1/83",!rotate=false,!color=#999999]:0.014869,((((Thalpseu[&!rotate=false,!color=#999999]:0.092861,(Phaetric[&!rotate=false,!color=#999999]:0.081291,(Psuemult[&!rotate=false,!color=#999999]:0.039633,Fragcyli[&!rotate=false,!color=#999999]:0.045404)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.074552)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.049494)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.088289,Tripeleu[&!rotate=false,!color=#999999]:0.216347)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.0955,(Paheparv[&!rotate=false,!color=#999999]:0.0495,Pingpyre[&!rotate=false,!color=#999999]:0.069943)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.22547)[&Supports="99.7/1/100",!rotate=false,!color=#999999]:0.025271,(((Octaspec[&!rotate=false,!color=#999999]:0.101604,Flor1587[&!rotate=false,!color=#999999]:0.099766)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.028501,((Pseuelas[&!rotate=false,!color=#999999]:0.07969,Pedi2098[&!rotate=false,!color=#999999]:0.089465)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.063714,Rhiz1243[&!rotate=false,!color=#999999]:0.113581)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.036972)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.080663,((((Pelasubv[&!rotate=false,!color=#999999]:0.054466,Pelacalc[&!rotate=false,!color=#999999]:0.068601)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.03625,Aureanop[&!rotate=false,!color=#999999]:0.056868)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.058963,(Aurelagu[&!rotate=false,!color=#999999]:0.139004,Chryfrag[&!rotate=false,!color=#999999]:0.122069)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.044532)[&Supports="98.9/1/97",!rotate=false,!color=#999999]:0.02333,Pela2097[&!rotate=false,!color=#999999]:0.108866)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.134892)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.039622)[&Supports="93.7/1/91",!rotate=false,!color=#999999]:0.015621)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.057887,(((((Phytpara[&!rotate=false,!color=#999999]:0.048252,Pythirre[&!rotate=false,!color=#999999]:0.041577)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.022491,Albulaib[&!rotate=false,!color=#999999]:0.106773)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.03835,Saprdecl[&!rotate=false,!color=#999999]:0.105974)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.079427,Hyphcate[&!rotate=false,!color=#999999]:0.116845)[&Supports="99.7/1/100",!rotate=false,!color=#999999]:0.044223,Deveeleg[&!rotate=false,!color=#999999]:0.254274)[&Supports="99.4/1/99",!rotate=false,!color=#999999]:0.028165)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.048393)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.062346,((((((Colpangu[&!rotate=false,!color=#999999]:0.441384,Chroveli[&!rotate=false,!color=#999999]:0.190418)[&Supports="54/1/88",!rotate=false,!color=#999999]:0.035755,Alphedax[&!rotate=false,!color=#999999]:0.170845)[&Supports="99.9/1/100",!rotate=false,!color=#999999]:0.031429,(Pirisoci[&!rotate=false,!color=#999999]:0.204037,Vitrbras[&!rotate=false,!color=#999999]:0.1151)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.080482)[&Supports="98.8/1/93",!rotate=false,!color=#999999]:0.022417,(((Plasfalc[&!rotate=false,!color=#999999]:0.413024,(Toxogond[&!rotate=false,!color=#999999]:0.134864,Eimebrun[&!rotate=false,!color=#999999]:0.355849)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.113007)[&Supports="65.5/1/85",!rotate=false,!color=#999999]:0.037876,(Gregniph[&!rotate=false,!color=#999999]:0.582343,Crypparv[&!rotate=false,!color=#999999]:0.319858)[&Supports="99.7/1/97",!rotate=false,!color=#999999]:0.05609)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.03651,Platviva[&!rotate=false,!color=#999999]:0.359471)[&Supports="32.4/0.988/75",!rotate=false,!color=#999999]:0.022084)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.043916,((Oxyrmari[&!rotate=false,!color=#999999]:0.283424,((HemaVICK[&!rotate=false,!color=#999999]:0.208994,AmoeALEX[&!rotate=false,!color=#999999]:0.289031)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.060086,(Noctscin[&!rotate=false,!color=#999999]:0.161471,(Alexminu[&!rotate=false,!color=#999999]:0.127721,(Karebrev[&!rotate=false,!color=#999999]:0.128224,Symbmicr[&!rotate=false,!color=#999999]:0.202753)[&Supports="68.2/1/85",!rotate=false,!color=#999999]:0.020717)[&Supports="99.9/1/100",!rotate=false,!color=#999999]:0.033394)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.102463)[&Supports="98.5/1/97",!rotate=false,!color=#999999]:0.036403)[&Supports="99.8/1/99",!rotate=false,!color=#999999]:0.032124,Perkmari[&!rotate=false,!color=#999999]:0.292757)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.060131)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.115977,(Stencoer[&!rotate=false,!color=#999999]:0.38627,(((Styllemn[&!rotate=false,!color=#999999]:0.159134,Stroincl[&!rotate=false,!color=#999999]:0.24867)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.23911,(Platmacr[&!rotate=false,!color=#999999]:0.283838,(Paratetr[&!rotate=false,!color=#999999]:0.31556,(Ichtmult[&!rotate=false,!color=#999999]:0.149441,Tetrther[&!rotate=false,!color=#999999]:0.11622)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.180876)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.084717)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.11697)[&Supports="99.9/1/100",!rotate=false,!color=#999999]:0.039998,Protadhe[&!rotate=false,!color=#999999]:0.288919)[&Supports="98.6/1/99",!rotate=false,!color=#999999]:0.034603)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.098371)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.065643)[&Supports="55.1/1/76",!rotate=false,!color=#999999]:0.019904,(((Lapoguse[&!rotate=false,!color=#999999]:0.231647,((Plasbras[&!rotate=false,!color=#999999]:0.248214,Leptvora[&!rotate=false,!color=#999999]:0.251498)[&Supports="98.7/1/100",!rotate=false,!color=#999999]:0.036628,Gromspha[&!rotate=false,!color=#999999]:0.307038)[&Supports="71.4/0.999/99",!rotate=false,!color=#999999]:0.023383)[&Supports="100/1/96",!rotate=false,!color=#999999]:0.028994,((((Aurisoli[&!rotate=false,!color=#999999]:0.20306,Brevmoto[&!rotate=false,!color=#999999]:0.280717)[&Supports="89.1/1/90",!rotate=false,!color=#999999]:0.034109,(Paulchro[&!rotate=false,!color=#999999]:0.257785,Euglrotu[&!rotate=false,!color=#999999]:0.209598)[&Supports="99.9/1/98",!rotate=false,!color=#999999]:0.046489)[&Supports="65.3/1/52",!rotate=false,!color=#999999]:0.019612,((MatazaD1[&!rotate=false,!color=#999999]:0.177156,Abolprol[&!rotate=false,!color=#999999]:0.30421)[&Supports="99.8/1/100",!rotate=false,!color=#999999]:0.04953,Guttvulg[&!rotate=false,!color=#999999]:0.622575)[&Supports="80.8/1/55",!rotate=false,!color=#999999]:0.025174)[&Supports="100/1/85",!rotate=false,!color=#999999]:0.028937,((Bigenata[&!rotate=false,!color=#999999]:0.068858,Chlorept[&!rotate=false,!color=#999999]:0.071174)[&Supports="98.7/1/100",!rotate=false,!color=#999999]:0.032591,Gymn2014[&!rotate=false,!color=#999999]:0.103993)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.234884)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.044523)[&Supports="81.1/1/90",!rotate=false,!color=#999999]:0.020915,((Retifilo[&!rotate=false,!color=#999999]:0.255178,(Sori0191[&!rotate=false,!color=#999999]:0.215435,Ammo1384[&!rotate=false,!color=#999999]:0.151525)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.068864)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.182698,Stichzan[&!rotate=false,!color=#999999]:0.445445)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.142729)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.054809)[&Supports="100/1/98",!rotate=false,!color=#999999]:0.036312)[&Supports="92.1/1/83",!rotate=false,!color=#999999]:0.012772,(((((Raphhete[&!rotate=false,!color=#999999]:0.162146,Rainerin[&!rotate=false,!color=#999999]:0.14308)[&Supports="98/1/94",!rotate=false,!color=#999999]:0.023824,ChoanoFB[&!rotate=false,!color=#999999]:0.163759)[&Supports="91.7/1/90",!rotate=false,!color=#999999]:0.022998,AcanthFB[&!rotate=false,!color=#999999]:0.164613)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.191149,(Hemikukw[&!rotate=false,!color=#999999]:0.161396,SpirCILI[&!rotate=false,!color=#999999]:0.216976)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.162012)[&Supports="98/1/83",!rotate=false,!color=#999999]:0.028872,(Ancytwis[&!rotate=false,!color=#999999]:0.249098,(Fabotrop[&!rotate=false,!color=#999999]:0.237295,(Ancysigm[&!rotate=false,!color=#999999]:0.302156,(Nutolong[&!rotate=false,!color=#999999]:0.084711,Nutohowe[&!rotate=false,!color=#999999]:0.213079)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.124974)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.135715)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.058706)[&Supports="98.6/1/86",!rotate=false,!color=#999999]:0.024076)[&Supports="88/1/83",!rotate=false,!color=#999999]:0.014552)[&Supports="96.9/1/86",!rotate=false,!color=#999999]:0.011601,(((((Parapyri[&!rotate=false,!color=#999999]:0.281223,Monoexil[&!rotate=false,!color=#999999]:0.47156)[&Supports="82.6/1/88",!rotate=false,!color=#999999]:0.05394,Trimmari[&!rotate=false,!color=#999999]:0.294587)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.117625,(Tricvagi[&!rotate=false,!color=#999999]:0.806078,(((((Spirsalm[&!rotate=false,!color=#999999]:0.673683,Giarlamb[&!rotate=false,!color=#999999]:0.446351)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.274356,Kipfbial[&!rotate=false,!color=#999999]:0.424684)[&Supports="98.7/1/100",!rotate=false,!color=#999999]:0.142117,Adunpalu[&!rotate=false,!color=#999999]:0.590837)[&Supports="63.5/1/77",!rotate=false,!color=#999999]:0.04744,Ergocypr[&!rotate=false,!color=#999999]:0.480453)[&Supports="78.1/1/89",!rotate=false,!color=#999999]:0.070202,Carpmemb[&!rotate=false,!color=#999999]:0.564925)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.112114)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.091156)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.056577,(Gefiokel[&!rotate=false,!color=#999999]:0.171601,(Malajako[&!rotate=false,!color=#999999]:0.157752,Malacali[&!rotate=false,!color=#999999]:0.156086)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.061428)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.15402)[&Supports="62.2/1/72",!rotate=false,!color=#999999]:0.027821,((((((((Paraconf[&!rotate=false,!color=#999999]:0.131883,((Leptpyrr[&!rotate=false,!color=#999999]:0.046931,Leismajo[&!rotate=false,!color=#999999]:0.044945)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.121471,Trypbruc[&!rotate=false,!color=#999999]:0.147436)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.038997)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.060226,Bodosalt[&!rotate=false,!color=#999999]:0.142579)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.092883,Neobdesi[&!rotate=false,!color=#999999]:0.27258)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.22508,(Diplambu[&!rotate=false,!color=#999999]:0.113878,Flecnera[&!rotate=false,!color=#999999]:0.151312)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.253125)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.063441,(Eutrgymn[&!rotate=false,!color=#999999]:0.090407,(Eugllong[&!rotate=false,!color=#999999]:0.021624,Euglgrac[&!rotate=false,!color=#999999]:0.021472)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.074752)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.213508)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.137441,((Naeggrub[&!rotate=false,!color=#999999]:0.357437,Pharkirb[&!rotate=false,!color=#999999]:0.277175)[&Supports="30.1/0.997/56",!rotate=false,!color=#999999]:0.035529,HeterBB2[&!rotate=false,!color=#999999]:0.187944)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.039882)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.038343,((Styginca[&!rotate=false,!color=#999999]:0.338527,Andagodo[&!rotate=false,!color=#999999]:0.321375)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.080965,Tsukglob[&!rotate=false,!color=#999999]:0.302786)[&Supports="99.9/1/86",!rotate=false,!color=#999999]:0.028168)[&Supports="54.6/0.993/68",!rotate=false,!color=#999999]:0.012568,(Reclamer[&!rotate=false,!color=#999999]:0.22462,Jakolibe[&!rotate=false,!color=#999999]:0.244025)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.204732)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.032745)[&Supports="99.5/1/93",!rotate=false,!color=#999999]:0.018307)[&Supports="99.9/1/96",!rotate=false,!color=#999999]:0.015336,(((((((Physpoly[&!rotate=false,!color=#999999]:0.12015,Echibisp[&!rotate=false,!color=#999999]:0.135429)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.075078,(Dictdisc[&!rotate=false,!color=#999999]:0.111535,Hetepall[&!rotate=false,!color=#999999]:0.102184)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.152273)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.045648,(Masteilh[&!rotate=false,!color=#999999]:0.221939,Rhizelon[&!rotate=false,!color=#999999]:0.331856)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.136524)[&Supports="84.6/1/96",!rotate=false,!color=#999999]:0.020813,(Idiovort[&!rotate=false,!color=#999999]:0.237895,(Sapochin[&!rotate=false,!color=#999999]:0.371457,(Armalang[&!rotate=false,!color=#999999]:0.165499,Squajapo[&!rotate=false,!color=#999999]:0.190172)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.098319)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.100259)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.045669)[&Supports="88.5/1/88",!rotate=false,!color=#999999]:0.015239,(((Protfung[&!rotate=false,!color=#999999]:0.192524,Filanola[&!rotate=false,!color=#999999]:0.135589)[&Supports="100/1/89",!rotate=false,!color=#999999]:0.029344,((Tychacut[&!rotate=false,!color=#999999]:0.133634,(Cavoapop[&!rotate=false,!color=#999999]:0.093203,Schivulg[&!rotate=false,!color=#999999]:0.086825)[&Supports="75.5/1/94",!rotate=false,!color=#999999]:0.021688)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.061672,Soliirre[&!rotate=false,!color=#999999]:0.193145)[&Supports="20.8/0.975/39",!rotate=false,!color=#999999]:0.01454)[&Supports="97.3/1/78",!rotate=false,!color=#999999]:0.020012,Phalsoli[&!rotate=false,!color=#999999]:0.174363)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.06215)[&Supports="99/1/54",!rotate=false,!color=#999999]:0.014532,((((((Acancast[&!rotate=false,!color=#999999]:0.169614,(Dracjorm[&!rotate=false,!color=#999999]:0.187516,Luaphula[&!rotate=false,!color=#999999]:0.168233)[&Supports="99.4/1/99",!rotate=false,!color=#999999]:0.027573)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.027909,((Endozona[&!rotate=false,!color=#999999]:0.206284,Gocefonb[&!rotate=false,!color=#999999]:0.125967)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.039485,Pellcata[&!rotate=false,!color=#999999]:0.213664)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.064799)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.057905,(Cochminu[&!rotate=false,!color=#999999]:0.339118,Ovaldese[&!rotate=false,!color=#999999]:0.244905)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.080732)[&Supports="98.7/1/98",!rotate=false,!color=#999999]:0.022355,(Vannfimi[&!rotate=false,!color=#999999]:0.299649,(Cuneruss[&!rotate=false,!color=#999999]:0.273346,Veximinu[&!rotate=false,!color=#999999]:0.280925)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.065123)[&Supports="99.6/1/82",!rotate=false,!color=#999999]:0.026574)[&Supports="50.9/1/33",!rotate=false,!color=#999999]:0.012718,((Stensten[&!rotate=false,!color=#999999]:0.172001,(Sapppeda[&!rotate=false,!color=#999999]:0.216915,ThecSK13[&!rotate=false,!color=#999999]:0.190072)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.046428)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.044882,(Paralevi[&!rotate=false,!color=#999999]:0.203768,Mayocant[&!rotate=false,!color=#999999]:0.247448)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.04226)[&Supports="99.6/1/84",!rotate=false,!color=#999999]:0.021403)[&Supports="91.1/1/85",!rotate=false,!color=#999999]:0.011909,(((Flabcita[&!rotate=false,!color=#999999]:0.291505,Rhizsaxo[&!rotate=false,!color=#999999]:0.25381)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.079569,((Arcevulg[&!rotate=false,!color=#999999]:0.253848,(Amoeprot[&!rotate=false,!color=#999999]:0.131295,Coprprot[&!rotate=false,!color=#999999]:0.117497)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.128005)[&Supports="26.8/0.995/62",!rotate=false,!color=#999999]:0.02493,NolaAFSM[&!rotate=false,!color=#999999]:0.275444)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.042783)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.074108,((Echiexud[&!rotate=false,!color=#999999]:0.174516,MicrA134[&!rotate=false,!color=#999999]:0.225477)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.065297,Vermverm[&!rotate=false,!color=#999999]:0.219308)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.038514)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.081927)[&Supports="38.2/0.999/30",!rotate=false,!color=#999999]:0.011431)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.036939,(Mantplas[&!rotate=false,!color=#999999]:0.364154,(Rigiramo[&!rotate=false,!color=#999999]:0.226448,(Diphrota[&!rotate=false,!color=#999999]:0.062963,Colltric[&!rotate=false,!color=#999999]:0.097687)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.155779)[&Supports="100/1/100",!rotate=false,!color=#999999]:0.069774)[&Supports="100/1/81",!rotate=false,!color=#999999]:0.026302)[&Supports="50.1/1/51",!rotate=false,!color=#999999]:0.012946)[&Supports="100/1/81",!rotate=false,!color=#666666,!collapse={"collapsed",0.0},!name="Outgroup (SAR etc)"]:0.023551,(((Thectrah[&!rotate=false,!color=#666666]:0.237661,Mancberm[&!rotate=false,!color=#666666]:0.216753)[&Supports="100/1/100",!rotate=false,!color=#666666]:0.079956,(Thecoxon[&!rotate=false,!color=#666666]:0.232239,Multmedi[&!rotate=false,!color=#666666]:0.607268)[&Supports="99.4/1/91",!rotate=false,!color=#666666]:0.065191)[&Supports="100/1/97",!rotate=false,!color=#666666,!name="Apusomonadida",!cartoon={4,0.7533620000000003},!collapse={"collapsed",0.7533620000000003}]:0.101229,((Pygsbifo[&!rotate=false,!color=#000000]:0.193603,Brevanat[&!rotate=false,!color=#000000]:0.342682)[&Supports="59/0.998/74",!rotate=false,!color=#000000]:0.038204,Lenilimo[&!rotate=false,!color=#000000]:0.37469)[&Supports="100/1/100",!rotate=false,!color=#000000,!collapse={"collapsed",1.0562000000000002},!name="Breviatea"]:0.089964)[&Supports="90.2/1/80",!rotate=false,!color=#000000]:0.02561)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.040499,(((Coralima[&!rotate=false,!color=#000000]:0.285857,Syssmult[&!rotate=false,!color=#000000]:0.149826)[&Supports="100/1/100",!rotate=false,!color=#000000,!collapse={"collapsed",1.2972500000000002},!name="Pluriformea"]:0.043956,((Pigoviet[&!rotate=false,!color=#000000]:0.147774,(Capsowcz[&!rotate=false,!color=#000000]:0.178998,Minivibr[&!rotate=false,!color=#000000]:0.262814)[&Supports="98.7/1/97",!rotate=false,!color=#000000]:0.029647)[&Supports="100/1/100",!rotate=false,!color=#000000,!collapse={"collapsed",1.3067000000000004},!name="Filasterea"]:0.029798,(Sphadest[&!rotate=false,!color=#000000]:0.206463,((Creofrag[&!rotate=false,!color=#000000]:0.043161,Sphaarct[&!rotate=false,!color=#000000]:0.066102)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.154459,Amoepara[&!rotate=false,!color=#000000]:0.123147)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.084045)[&Supports="100/1/100",!rotate=false,!color=#000000,!name="Ichthyosporea",!collapse={"collapsed",1.2909910000000004}]:0.033362)[&Supports="54.3/1/72",!rotate=false,!color=#000000]:0.014543)[&Supports="99/1/87",!rotate=false,!color=#000000]:0.016439,(((((Nemavect[&!rotate=false,!color=#000000]:0.122422,Tricadha[&!rotate=false,!color=#000000]:0.198294)[&Supports="26.1/0.99/72",!rotate=false,!color=#000000]:0.016954,Amphquee[&!rotate=false,!color=#000000]:0.213454)[&Supports="41.4/1/52",!rotate=false,!color=#000000]:0.018098,(((Homosapi[&!rotate=false,!color=#000000]:0.029235,Gallgall[&!rotate=false,!color=#000000]:0.026478)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.103745,Branflor[&!rotate=false,!color=#000000]:0.123051)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.02474,((Aplycali[&!rotate=false,!color=#000000]:0.143415,(Caeneleg[&!rotate=false,!color=#000000]:0.313142,(Schimans[&!rotate=false,!color=#000000]:0.132256,Taensoli[&!rotate=false,!color=#000000]:0.166113)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.169572)[&Supports="73.1/1/70",!rotate=false,!color=#000000]:0.032821)[&Supports="87.1/1/65",!rotate=false,!color=#000000]:0.018001,((Apismell[&!rotate=false,!color=#000000]:0.100012,Drosmela[&!rotate=false,!color=#000000]:0.120988)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.03861,ProbableCopepod[&!rotate=false,!color=#000000]:0.193022)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.051789)[&Supports="99.8/1/99",!rotate=false,!color=#000000]:0.017652)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.030891)[&Supports="100/1/59",!rotate=false,!color=#000000]:0.026968,Mnemleid[&!rotate=false,!color=#000000]:0.29369)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.041838,(Monobrev[&!rotate=false,!color=#000000]:0.166836,Salprose[&!rotate=false,!color=#000000]:0.189559)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.154771)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.033716)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.050343)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.037528,(Parvatla[&!rotate=false,!color=#000000]:0.179933,Fontalba[&!rotate=false,!color=#000000]:0.374402)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.075098)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.035164,((Parasacc[&!rotate=false,!color=#000000]:0.271471,Mitodaph[&!rotate=false,!color=#000000]:0.405)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.05892,Rozeallo[&!rotate=false,!color=#000000]:0.259646)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.05527)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.033293,(((((Sacccere[&!rotate=false,!color=#000000]:0.16288,Debahans[&!rotate=false,!color=#000000]:0.146576)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.152155,(Aspefumi[&!rotate=false,!color=#000000]:0.121645,Neurcras[&!rotate=false,!color=#000000]:0.129965)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.108015)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.042625,Schizpom[&!rotate=false,!color=#000000]:0.2428)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.056089,(Ustimayd[&!rotate=false,!color=#000000]:0.187198,Coprcine[&!rotate=false,!color=#000000]:0.175418)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.07633)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.038552,Rhizdele[&!rotate=false,!color=#000000]:0.177122)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.033257)[&Supports="69/1/74",!rotate=false,!color=#000000]:0.017514,(Batrdend[&!rotate=false,!color=#000000]:0.152022,Spizpunc[&!rotate=false,!color=#000000]:0.099057)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.070312)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.033785,ProbableParasite[&!rotate=false,!color=#000000]:0.30502)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.114476,Allomacr[&!rotate=false,!color=#000000]:0.078195)[&Supports="100/1/100",!rotate=false,!color=#000000]:0.035955,Blasbrit[&!rotate=false,!color=#000000]:0.097825);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Supports";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=true;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=106;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="Supports";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Supports";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=6505;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=0.25;
+	set scaleAxis.minorTicks=0.05;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=18;
+	set tipLabels.fontStyle=2;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="equal";
+end;
+

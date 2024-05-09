@@ -1,0 +1,14 @@
+Task\ label=Multigene phylogeny, shALRT, UFboot2,...
+Task\ ID=3067571
+Tool=IQTREE_XSEDE
+created\ on=2024-03-28 11:44:25.0
+JobHandle=NGBW-JOB-IQTREE_XSEDE-AE5633849873418B9F3321141FED3E8F
+RunNumber=1
+resource=expanse
+User\ ID=165819
+User\ Name=hl2024silico
+email=hl8n21@soton.ac.uk
+Output=(results,*,UNKNOWN,UNKNOWN,UNKNOWN)
+ChargeFactor=1.000000
+cores=48
+JOBID=29553380

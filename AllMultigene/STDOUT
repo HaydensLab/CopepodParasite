@@ -1,0 +1,528 @@
+OMP_NUM_THREADS=48
+iqtree2 -nt 48 -bnni -s infile.txt -st AA -m MFP -alrt 1000 -abayes --sprrad 6 -B 1000 --prefix output
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Oct 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    exp-1-24 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree2 -nt 48 -bnni -s infile.txt -st AA -m MFP -alrt 1000 -abayes --sprrad 6 -B 1000 --prefix output
+Seed:    168813 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Mar 28 12:45:30 2024
+Kernel:  AVX+FMA - 48 threads (48 CPU cores detected)
+
+Reading alignment file infile.txt ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 306 sequences with 13091 columns, 13049 distinct patterns
+11700 parsimony-informative, 834 singleton sites, 557 constant sites
+                  Gap/Ambiguity  Composition  p-value
+   1  Blasemer           62.55%    failed      0.51%
+   2  Calltube           67.28%    passed      8.26%
+   3  Protlace           48.33%    failed      0.00%
+   4  Lapoguse            9.42%    passed     68.15%
+   5  Raphhete            6.68%    passed     42.21%
+   6  Rainerin           12.96%    passed     57.53%
+   7  ChoanoFB           17.40%    passed     30.48%
+   8  AcanthFB           32.60%    failed      1.21%
+   9  Phaeglob           35.33%    passed     37.83%
+  10  Calclept           18.00%    passed     36.30%
+  11  Gephhuxl           16.31%    failed      0.00%
+  12  Sacccere            5.50%    failed      0.00%
+  13  Batrdend            0.47%    failed      4.82%
+  14  Parasacc           20.32%    passed     27.81%
+  15  Mitodaph           21.48%    failed      0.00%
+  16  ChrysoH2           67.43%    passed     21.02%
+  17  ChrysoH1           43.63%    passed     15.06%
+  18  Thalpseu           13.12%    failed      1.68%
+  19  EctocSP7            9.74%    failed      0.15%
+  20  Phytpara            2.80%    passed     85.42%
+  21  BicoCB20           11.43%    failed      0.00%
+  22  MAST004C           54.43%    passed     64.52%
+  23  MAST003A           61.46%    passed     24.71%
+  24  MAST003F           63.09%    passed     56.07%
+  25  Coralima            0.13%    passed     16.93%
+  26  Pigoviet           53.72%    passed     11.24%
+  27  Syssmult            0.50%    passed     86.51%
+  28  Capsowcz            1.23%    passed     62.20%
+  29  Sphadest            4.19%    failed      0.08%
+  30  Nemavect            5.91%    passed     15.47%
+  31  Homosapi            0.08%    passed     27.77%
+  32  Creofrag            1.01%    passed     26.95%
+  33  Monobrev            5.30%    passed     67.78%
+  34  Galdphle           10.53%    failed      0.83%
+  35  Porppurp            6.97%    failed      0.01%
+  36  Gracchor           10.14%    passed     15.72%
+  37  Parapyri           26.84%    passed      7.88%
+  38  Monoexil           24.74%    failed      0.04%
+  39  Hemikukw           32.67%    passed     34.58%
+  40  SpirCILI           30.88%    failed      0.83%
+  41  Retifilo           24.74%    failed      0.25%
+  42  Sori0191           31.71%    failed      0.00%
+  43  Ammo1384           20.92%    failed      0.00%
+  44  Colpangu           12.85%    passed     26.83%
+  45  Thectrah            3.95%    failed      0.00%
+  46  Tricvagi           26.22%    failed      0.00%
+  47  Cyangloe           91.31%    passed     39.20%
+  48  Spirsalm           37.29%    failed      0.00%
+  49  Stencoer           10.36%    failed      0.00%
+  50  Styllemn           14.32%    failed      0.00%
+  51  Stroincl           41.40%    failed      0.00%
+  52  Platmacr           28.24%    failed      0.00%
+  53  Paratetr            8.30%    failed      0.00%
+  54  Ichtmult           15.47%    failed      0.00%
+  55  Tetrther            5.32%    failed      0.00%
+  56  Aurisoli           24.08%    passed     32.29%
+  57  Bigenata            2.78%    failed      1.12%
+  58  Paulchro            6.87%    passed     45.24%
+  59  Plasbras            2.59%    failed      1.58%
+  60  Leptvora           11.27%    passed     56.91%
+  61  Goniavon           12.03%    passed     13.92%
+  62  Gemicryo           13.83%    failed      0.25%
+  63  Guilthet            4.04%    passed     29.86%
+  64  Hemirufe           11.68%    passed     23.88%
+  65  Paraconf            9.41%    failed      0.01%
+  66  Leptpyrr            4.55%    failed      0.00%
+  67  Trypbruc            5.61%    failed      0.00%
+  68  Styginca           11.42%    failed      0.02%
+  69  Andagodo            4.77%    failed      0.27%
+  70  Rozeallo            8.30%    failed      0.00%
+  71  Naeggrub            2.34%    failed      0.00%
+  72  Protadhe           23.28%    failed      0.00%
+  73  Oxyrmari            9.88%    failed      3.13%
+  74  HemaVICK           16.84%    passed     65.14%
+  75  Noctscin           18.69%    passed     41.45%
+  76  Plasfalc           12.51%    failed      0.00%
+  77  Gregniph           20.09%    failed      0.01%
+  78  Alphedax           49.75%    passed     32.62%
+  79  TeloneP1           68.76%    passed     25.65%
+  80  TeloneP2           30.27%    failed      3.86%
+  81  Telosubt           23.92%    failed      2.85%
+  82  Charbrau           16.75%    passed     43.74%
+  83  Pyrapark           17.70%    passed     18.56%
+  84  Dunasali           15.82%    passed     21.63%
+  85  Tetrasti            8.36%    passed     27.49%
+  86  Prascaps            8.86%    passed     22.75%
+  87  Prassing           27.46%    failed      0.00%
+  88  Nephpyri            8.56%    passed     18.12%
+  89  Chlovari           25.84%    failed      0.00%
+  90  Chlarein           15.70%    failed      0.30%
+  91  Mesoviri            6.44%    passed      7.56%
+  92  Parvatla           13.68%    passed     84.86%
+  93  Physpoly            5.79%    passed      9.21%
+  94  Dictdisc            0.54%    failed      0.00%
+  95  Protfung            1.96%    failed      0.06%
+  96  Acancast           22.47%    passed     83.02%
+  97  Aplakerg            5.74%    passed     77.17%
+  98  Auralima            6.16%    passed     72.14%
+  99  ThraLLF1            8.88%    passed     72.59%
+ 100  Schiaggr            5.92%    passed     16.01%
+ 101  Cantmars           14.42%    failed      4.87%
+ 102  PlacCLAB           10.92%    failed      0.00%
+ 103  Wobbluna            7.51%    failed      0.00%
+ 104  Haloseos           15.97%    passed     56.90%
+ 105  Caferoen           35.62%    failed      0.00%
+ 106  Palpbili           40.92%    failed      3.57%
+ 107  BlasS7SB           25.32%    failed      0.19%
+ 108  MatazaD1            9.45%    passed      5.49%
+ 109  Chlorept           14.10%    failed      0.33%
+ 110  Brevmoto           31.77%    passed     17.19%
+ 111  Roomtrun           62.10%    failed      2.84%
+ 112  Gloewitr            8.30%    passed     85.52%
+ 113  Vannfimi           32.08%    failed      0.08%
+ 114  Idiovort           12.17%    passed     69.78%
+ 115  Physpate            5.17%    passed     91.75%
+ 116  Oryzsati           11.05%    passed     74.12%
+ 117  Micrpusl            9.32%    failed      1.24%
+ 118  Ostrtaur           11.89%    failed      0.38%
+ 119  Picosali           15.63%    passed      8.30%
+ 120  Volvcart            7.97%    failed      0.03%
+ 121  Cryppara           19.72%    passed     49.21%
+ 122  Rhodsali           11.55%    failed      3.66%
+ 123  Bafffrig           16.94%    failed      0.25%
+ 124  Porpaeru           26.31%    passed     97.02%
+ 125  Compcoer           21.15%    failed      0.49%
+ 126  Rhodmari           16.99%    passed     25.36%
+ 127  Porpumbi           31.40%    failed      0.00%
+ 128  Gratturu           17.58%    passed      8.41%
+ 129  Cerakond           14.79%    failed      0.10%
+ 130  Choncris           15.19%    passed      7.67%
+ 131  Galdsulp           14.50%    failed      1.98%
+ 132  Cyanmero           14.12%    failed      0.00%
+ 133  Neobdesi           14.65%    failed      0.00%
+ 134  Diplambu            6.55%    failed      0.25%
+ 135  Flecnera            8.85%    failed      1.09%
+ 136  Rhodlimn           16.26%    passed     85.26%
+ 137  Rhodemar            1.27%    passed     19.32%
+ 138  Chryrota           24.66%    passed     28.81%
+ 139  Tisolute           30.29%    passed     10.99%
+ 140  Chrycart           14.83%    failed      4.86%
+ 141  Prymparv           11.53%    passed      7.67%
+ 142  Diacluth           35.18%    failed      0.00%
+ 143  Pavl2436           22.88%    failed      0.70%
+ 144  Saprdecl            3.11%    passed     93.87%
+ 145  Albulaib            9.00%    passed     43.39%
+ 146  Pythirre            4.12%    passed     98.92%
+ 147  Deveeleg           12.92%    failed      0.00%
+ 148  Paheparv           24.73%    passed     29.98%
+ 149  Pingpyre           27.19%    passed     27.40%
+ 150  Agarclat           23.29%    passed      6.71%
+ 151  Fucucera           16.86%    passed     13.35%
+ 152  Tribgaya           23.79%    failed      2.07%
+ 153  Vauclito           24.46%    failed      1.94%
+ 154  Syncpusi           19.27%    failed      0.00%
+ 155  Mallmari           26.65%    passed     56.18%
+ 156  PoterBG1           21.72%    passed     46.80%
+ 157  Ochr2298            6.06%    passed     80.91%
+ 158  Pedoelon            7.61%    passed     96.31%
+ 159  Dino2267           18.39%    passed     95.26%
+ 160  Fibrjapo           37.58%    passed      9.13%
+ 161  Chatsubs           15.19%    passed     99.43%
+ 162  Heteakas           11.82%    failed      0.00%
+ 163  Octaspec           23.99%    passed     33.31%
+ 164  Pseuelas           18.20%    failed      1.28%
+ 165  Pedi2098           34.01%    passed      8.66%
+ 166  Rhiz1243           21.72%    passed     76.25%
+ 167  Flor1587           32.33%    passed     48.36%
+ 168  Tripeleu           28.63%    failed      1.57%
+ 169  Phaetric           12.97%    failed      4.43%
+ 170  Psuemult            8.88%    passed     12.53%
+ 171  Fragcyli            9.50%    passed     10.23%
+ 172  Pelasubv           19.81%    failed      0.00%
+ 173  Aureanop           20.29%    failed      0.00%
+ 174  Pelacalc           19.83%    failed      0.00%
+ 175  Aurelagu           26.08%    failed      0.00%
+ 176  Pela2097           16.68%    failed      0.00%
+ 177  Chryfrag           36.94%    failed      0.00%
+ 178  Ancytwis           18.40%    passed     21.87%
+ 179  Pirisoci           29.75%    passed     19.61%
+ 180  Chroveli           21.40%    passed      5.71%
+ 181  Crypparv           23.34%    failed      0.00%
+ 182  Toxogond           13.08%    failed      0.00%
+ 183  Perkmari           20.01%    failed      1.70%
+ 184  Alexminu           77.51%    passed      5.24%
+ 185  Arabthal            5.69%    passed     79.74%
+ 186  Flabcita            5.92%    failed      0.00%
+ 187  Rhizsaxo            5.18%    failed      0.00%
+ 188  Mancberm           35.53%    failed      4.53%
+ 189  Giarlamb           32.90%    failed      0.00%
+ 190  Adunpalu           37.98%    failed      0.00%
+ 191  Ergocypr           62.19%    failed      0.00%
+ 192  Guttvulg           14.75%    failed      0.00%
+ 193  Carpmemb           23.67%    failed      0.90%
+ 194  Mantplas           20.01%    passed     21.32%
+ 195  Gefiokel            5.00%    passed     41.78%
+ 196  Trimmari           20.88%    failed      0.23%
+ 197  Cochminu            7.52%    failed      0.00%
+ 198  Bodosalt            8.71%    failed      3.95%
+ 199  Eutrgymn           21.27%    failed      0.05%
+ 200  Eugllong           11.40%    failed      0.02%
+ 201  Euglgrac            7.88%    failed      0.11%
+ 202  HeterBB2           12.56%    failed      0.60%
+ 203  Pharkirb            9.52%    passed     29.66%
+ 204  Stensten            8.52%    failed      0.05%
+ 205  Sapppeda            9.17%    failed      0.04%
+ 206  ThecSK13           66.73%    failed      0.00%
+ 207  Rigiramo           14.74%    passed     59.88%
+ 208  Diphrota            8.32%    passed     74.68%
+ 209  Pygsbifo           52.70%    failed      1.12%
+ 210  Echibisp           57.47%    failed      0.00%
+ 211  Hetepall            5.91%    failed      0.00%
+ 212  Sapochin           12.37%    failed      0.00%
+ 213  Armalang           11.32%    failed      0.97%
+ 214  Cuneruss            6.72%    failed      2.34%
+ 215  Veximinu           21.85%    failed      0.21%
+ 216  Echiexud            0.67%    passed     59.17%
+ 217  MicrA134           52.36%    passed     74.71%
+ 218  Vermverm            0.40%    passed     17.65%
+ 219  Arcevulg            2.88%    failed      3.35%
+ 220  Amoeprot           11.49%    failed      0.70%
+ 221  Coprprot            0.92%    passed     18.92%
+ 222  NolaAFSM            6.95%    passed      7.41%
+ 223  Dracjorm            8.37%    failed      4.60%
+ 224  Luaphula            4.41%    passed     95.21%
+ 225  Endozona            4.41%    failed      0.71%
+ 226  Gocefonb           31.05%    failed      0.89%
+ 227  Masteilh            8.78%    passed     10.95%
+ 228  Rhizelon           19.17%    passed     11.43%
+ 229  Paralevi           37.64%    passed      9.19%
+ 230  Mayocant           41.40%    failed      0.14%
+ 231  Filanola           15.35%    failed      0.11%
+ 232  Tychacut           73.42%    failed      0.00%
+ 233  Cavoapop            1.79%    failed      0.73%
+ 234  Schivulg            2.49%    failed      0.07%
+ 235  Soliirre            1.99%    passed     13.81%
+ 236  Phalsoli           15.58%    passed     38.80%
+ 237  Tricadha            2.39%    failed      0.00%
+ 238  Amphquee            5.96%    passed     10.80%
+ 239  Aplycali            0.11%    passed     24.97%
+ 240  Apismell            0.60%    failed      0.02%
+ 241  Drosmela            0.02%    passed     16.38%
+ 242  Gallgall           12.05%    passed     15.71%
+ 243  Mnemleid           10.47%    failed      0.54%
+ 244  Sphaarct           16.84%    failed      3.02%
+ 245  Caeneleg            3.08%    passed     51.60%
+ 246  Salprose            4.98%    passed     84.78%
+ 247  Amoepara            2.47%    passed     81.76%
+ 248  Schimans            7.79%    failed      0.01%
+ 249  Taensoli            7.63%    passed     28.25%
+ 250  Minivibr           31.30%    passed     58.25%
+ 251  Fabotrop           17.89%    passed     84.78%
+ 252  Ancysigm           17.20%    failed      0.00%
+ 253  Nutolong            7.20%    passed     23.18%
+ 254  Fontalba            5.40%    failed      0.00%
+ 255  Tsukglob           67.78%    failed      1.79%
+ 256  Rhizdele            6.27%    passed     15.68%
+ 257  Schizpom            1.83%    failed      0.74%
+ 258  Debahans            2.30%    failed      0.00%
+ 259  Aspefumi            2.22%    failed      0.21%
+ 260  Neurcras            7.67%    failed      1.66%
+ 261  Ustimayd            5.02%    passed      8.79%
+ 262  Coprcine            8.25%    failed      0.37%
+ 263  Spizpunc            2.44%    passed     32.87%
+ 264  Blasbrit            2.65%    failed      0.00%
+ 265  Allomacr            2.07%    failed      0.03%
+ 266  Karebrev           21.38%    passed     12.09%
+ 267  ProbableParasite   29.89%    failed      0.40%
+ 268  Gymn2014           71.64%    failed      1.81%
+ 269  MAST04A2           36.18%    passed     57.01%
+ 270  MAST004E           60.42%    passed     22.64%
+ 271  Vitrbras            8.62%    passed     95.77%
+ 272  Symbmicr           28.49%    failed      0.06%
+ 273  Pyroyezo           92.18%    failed      0.00%
+ 274  Rhodmacu           32.88%    failed      0.11%
+ 275  Paravest           59.97%    passed     22.28%
+ 276  Cyanpara           21.45%    passed     40.12%
+ 277  Lenilimo           58.35%    failed      0.49%
+ 278  Ovaldese           54.26%    failed      2.08%
+ 279  Pellcata           24.18%    passed     18.12%
+ 280  Branflor           10.59%    failed      1.66%
+ 281  Kipfbial           91.96%    failed      0.00%
+ 282  Leismajo            7.20%    failed      0.00%
+ 283  MAST04A1           58.52%    passed     22.08%
+ 284  Platviva           51.60%    failed      4.55%
+ 285  PB58411a           91.58%    failed      4.41%
+ 286  Prympoly           66.53%    failed      0.00%
+ 287  Glauincr           84.26%    failed      0.00%
+ 288  Malajako           74.14%    failed      0.00%
+ 289  Malacali           85.63%    failed      0.00%
+ 290  Eimebrun           55.15%    failed      0.00%
+ 291  AmoeALEX           82.97%    passed      9.77%
+ 292  Stichzan           72.92%    failed      0.84%
+ 293  ProbableCopepod    68.06%    failed      1.01%
+ 294  Squajapo           68.80%    failed      0.74%
+ 295  Reclamer           72.82%    failed      0.32%
+ 296  Abolprol           82.74%    failed      0.00%
+ 297  Hyphcate           95.11%    passed     76.33%
+ 298  Thecoxon           91.92%    failed      3.01%
+ 299  Jakolibe           83.90%    failed      0.24%
+ 300  Nutohowe           94.93%    failed      0.15%
+ 301  Multmedi           97.30%    passed     20.24%
+ 302  Colltric           89.92%    failed      0.00%
+ 303  Brevanat           74.25%    failed      0.02%
+ 304  Gromspha           90.83%    failed      0.09%
+ 305  Euglrotu           90.73%    failed      2.78%
+ 306  Micrgadi           92.85%    passed     55.41%
+WARNING: 49 sequences contain more than 50% gaps/ambiguity
+****  TOTAL              24.29%  170 sequences failed composition chi2 test (p-value<5%; df=19)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 2.694 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -2633794.576
+Optimal log-likelihood: -2633793.578
+Proportion of invariable sites: 0.041
+Gamma shape alpha: 0.939
+Parameters optimization took 1 rounds (0.778 sec)
+Time for fast ML tree search: 9.990 seconds
+
+NOTE: ModelFinder requires 6229 MB RAM!
+ModelFinder will test up to 546 protein models (sample size: 13091) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            2829965.515  609 5661149.031  5661208.560  5665704.156
+  2  LG+I          2809640.193  610 5620500.387  5620560.116  5625062.991
+  3  LG+G4         2635675.767  610 5272571.533  5272631.262  5277134.138
+  4  LG+I+G4       2633793.461  611 5268808.923  5268868.853  5273379.008
+  5  LG+R2         2682170.575  611 5365563.149  5365623.079  5370133.234
+  6  LG+R3         2646615.179  613 5294456.359  5294516.691  5299041.402
+  7  LG+R4         2633481.328  615 5268192.656  5268253.392  5272792.659
+  8  LG+R5         2628290.281  617 5257814.563  5257875.704  5262429.525
+  9  LG+R6         2625801.430  619 5252840.861  5252902.409  5257470.783
+ 10  LG+R7         2624556.424  621 5250354.847  5250416.803  5254999.729
+ 11  LG+R8         2623945.284  623 5249136.568  5249198.933  5253796.409
+ 12  LG+R9         2623557.323  625 5248364.647  5248427.422  5253039.447
+ 13  LG+R10        2623427.654  627 5248109.307  5248172.495  5252799.067
+ 26  LG+F+R10      2620586.897  646 5242465.794  5242532.969  5247297.667
+ 39  WAG+R10       2655655.075  627 5312564.149  5312627.337  5317253.909
+ 52  WAG+F+R10     2652191.722  646 5305675.445  5305742.620  5310507.318
+ 65  JTT+R10       2677390.591  627 5356035.182  5356098.370  5360724.942
+ 78  JTT+F+R10     2674110.787  646 5349513.575  5349580.749  5354345.448
+ 91  JTTDCMut+R10  2676316.818  627 5353887.637  5353950.825  5358577.396
+104  JTTDCMut+F+R10 2672950.971  646 5347193.942  5347261.117  5352025.816
+117  DCMut+R10     2687960.848  627 5377175.696  5377238.884  5381865.456
+130  DCMut+F+R10   2680065.771  646 5361423.543  5361490.718  5366255.416
+143  VT+R10        2667596.923  627 5336447.845  5336511.033  5341137.605
+156  VT+F+R10      2663348.294  646 5327988.588  5328055.763  5332820.462
+169  PMB+R10       2678903.231  627 5359060.462  5359123.650  5363750.222
+182  PMB+F+R10     2682962.974  646 5367217.948  5367285.123  5372049.821
+195  Blosum62+R10  2673155.475  627 5347564.950  5347628.138  5352254.710
+208  Blosum62+F+R10 2676372.323  646 5354036.646  5354103.821  5358868.519
+221  Dayhoff+R10   2687684.190  627 5376622.380  5376685.568  5381312.139
+234  Dayhoff+F+R10 2679844.704  646 5360981.409  5361048.583  5365813.282
+247  mtREV+R10     2797300.841  627 5595855.682  5595918.870  5600545.442
+260  mtREV+F+R10   2714507.318  646 5430306.636  5430373.811  5435138.510
+273  mtART+R10     2765645.708  627 5532545.417  5532608.605  5537235.176
+286  mtART+F+R10   2695887.052  646 5393066.104  5393133.279  5397897.977
+299  mtZOA+R10     2704532.436  627 5410318.872  5410382.060  5415008.632
+312  mtZOA+F+R10   2664903.325  646 5331098.649  5331165.824  5335930.523
+325  mtMet+R10     2777202.223  627 5555658.446  5555721.634  5560348.205
+338  mtMet+F+R10   2707034.304  646 5415360.608  5415427.783  5420192.481
+351  mtVer+R10     2839362.059  627 5679978.118  5680041.306  5684667.877
+364  mtVer+F+R10   2776221.408  646 5553734.816  5553801.990  5558566.689
+377  mtInv+R10     2766035.975  627 5533325.951  5533389.139  5538015.710
+390  mtInv+F+R10   2672592.369  646 5346476.738  5346543.913  5351308.611
+403  mtMAM+R10     2879166.251  627 5759586.501  5759649.689  5764276.261
+416  mtMAM+F+R10   2805535.056  646 5612362.112  5612429.287  5617193.985
+429  HIVb+R10      2780080.128  627 5561414.256  5561477.444  5566104.016
+442  HIVb+F+R10    2771012.838  646 5543317.675  5543384.850  5548149.549
+455  HIVw+R10      2946921.520  627 5895097.040  5895160.228  5899786.800
+468  HIVw+F+R10    2904274.226  646 5809840.452  5809907.627  5814672.325
+481  FLU+R10       2757332.149  627 5515918.297  5515981.485  5520608.057
+494  FLU+F+R10     2748420.246  646 5498132.492  5498199.667  5502964.365
+507  rtREV+R10     2653016.901  627 5307287.802  5307350.990  5311977.561
+520  rtREV+F+R10   2632570.054  646 5266432.107  5266499.282  5271263.981
+533  cpREV+R10     2681142.392  627 5363538.784  5363601.972  5368228.543
+546  cpREV+F+R10   2675783.636  646 5352859.272  5352926.447  5357691.146
+Akaike Information Criterion:           LG+F+R10
+Corrected Akaike Information Criterion: LG+F+R10
+Bayesian Information Criterion:         LG+F+R10
+Best-fit model: LG+F+R10 chosen according to BIC
+
+All model information printed to output.model.gz
+CPU time for ModelFinder: 224052.909 seconds (62h:14m:12s)
+Wall-clock time for ModelFinder: 4791.873 seconds (1h:19m:51s)
+Generating 1000 samples for ultrafast bootstrap (seed: 168813)...
+
+NOTE: 6229 MB RAM (6 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -2620586.897
+2. Current log-likelihood: -2620586.721
+Optimal log-likelihood: -2620586.545
+Site proportion and rates:  (0.106,0.022) (0.099,0.107) (0.115,0.263) (0.127,0.479) (0.133,0.762) (0.147,1.119) (0.115,1.581) (0.084,2.220) (0.055,3.124) (0.019,4.600)
+Parameters optimization took 2 rounds (11.236 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.530461 sec (of wall-clock time) 25.109364 sec(of CPU time)
+Computing RapidNJ tree took 0.116333 sec (of wall-clock time) 0.994031 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -2633311.241
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 289.132 second
+Computing log-likelihood of 98 initial trees ... 65.865 seconds
+Current best score: -2620586.545
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2620529.643
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -2620343.202
+Iteration 10 / LogL: -2620550.396 / Time: 0h:11m:36s
+Iteration 20 / LogL: -2620574.164 / Time: 0h:13m:34s
+Finish initializing candidate tree set (20)
+Current best tree score: -2620343.202 / CPU time: 774.339
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -2620321.735
+Iteration 30 / LogL: -2620336.931 / Time: 0h:16m:54s (0h:55m:23s left)
+Iteration 40 / LogL: -2620350.222 / Time: 0h:19m:6s (0h:41m:38s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -2620294.082
+Iteration 50 / LogL: -2620519.078 / Time: 0h:21m:28s (0h:39m:52s left)
+Iteration 60 / LogL: -2620303.142 / Time: 0h:23m:37s (0h:32m:25s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 62: -2620270.027
+Iteration 70 / LogL: -2620318.148 / Time: 0h:26m:3s (0h:34m:45s left)
+Iteration 80 / LogL: -2620325.825 / Time: 0h:28m:13s (0h:29m:18s left)
+Iteration 90 / LogL: -2620290.440 / Time: 0h:30m:27s (0h:24m:38s left)
+Iteration 100 / LogL: -2620353.734 / Time: 0h:32m:39s (0h:20m:27s left)
+Iteration 110 / LogL: -2620283.904 / Time: 0h:34m:50s (0h:16m:37s left)
+Iteration 120 / LogL: -2620638.159 / Time: 0h:36m:55s (0h:13m:1s left)
+Iteration 130 / LogL: -2620320.005 / Time: 0h:39m:6s (0h:9m:42s left)
+Iteration 140 / LogL: -2620283.696 / Time: 0h:41m:13s (0h:6m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 147: -2620265.268
+Iteration 150 / LogL: -2620296.199 / Time: 0h:43m:40s (0h:28m:25s left)
+Iteration 160 / LogL: -2620277.105 / Time: 0h:45m:44s (0h:25m:1s left)
+Iteration 170 / LogL: -2620338.988 / Time: 0h:47m:54s (0h:21m:49s left)
+Iteration 180 / LogL: -2620633.802 / Time: 0h:50m:6s (0h:18m:45s left)
+Iteration 190 / LogL: -2620341.069 / Time: 0h:52m:18s (0h:15m:46s left)
+Iteration 200 / LogL: -2620460.038 / Time: 0h:54m:31s (0h:12m:52s left)
+Iteration 210 / LogL: -2620281.157 / Time: 0h:56m:42s (0h:10m:2s left)
+Iteration 220 / LogL: -2620303.578 / Time: 0h:58m:56s (0h:7m:16s left)
+Iteration 230 / LogL: -2620289.449 / Time: 1h:1m:2s (0h:4m:31s left)
+Iteration 240 / LogL: -2620279.840 / Time: 1h:3m:9s (0h:1m:50s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 1000 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 248 ITERATIONS / Time: 1h:50m:6s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2620265.268
+2. Current log-likelihood: -2620265.229
+3. Current log-likelihood: -2620265.207
+Optimal log-likelihood: -2620265.193
+Site proportion and rates:  (0.107,0.022) (0.101,0.110) (0.118,0.271) (0.131,0.495) (0.138,0.794) (0.149,1.168) (0.113,1.668) (0.078,2.349) (0.048,3.282) (0.016,4.769)
+Parameters optimization took 3 rounds (8.674 sec)
+BEST SCORE FOUND : -2620265.193
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+Testing tree branches by aBayes parametric test...
+Alternative NNI shows better log-likelihood -2620261.753 > -2620265.193
+4.643 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file output.splits.nex
+Total tree length: 75.838
+
+Total number of iterations: 248
+CPU time used for tree search: 294244.469 sec (81h:44m:4s)
+Wall-clock time used for tree search: 6565.600 sec (1h:49m:25s)
+Total CPU time used: 296769.385 sec (82h:26m:9s)
+Total wall-clock time used: 6620.327 sec (1h:50m:20s)
+UFBoot trees printed to output.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file output.splits.nex...
+306 taxa and 1062 splits.
+Consensus tree written to output.contree
+Reading input trees file output.contree
+Log-likelihood of consensus tree: -2620277.083
+
+Analysis results written to: 
+  IQ-TREE report:                output.iqtree
+  Maximum-likelihood tree:       output.treefile
+  Likelihood distances:          output.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          output.splits.nex
+  Consensus tree:                output.contree
+  UFBoot trees:                  output.ufboot
+  Screen log file:               output.log
+
+Date and Time: Thu Mar 28 15:56:16 2024
